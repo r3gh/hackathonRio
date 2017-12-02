@@ -5,7 +5,7 @@ from flasgger import Swagger
 from flask import Flask
 from flask_cors import CORS
 from flask_debugtoolbar import DebugToolbarExtension
-from api.src.blueprints.color.api import color_blueprint
+from api.src.blueprints.violence.api import violence_blueprint
 from os import path
 
 
@@ -16,7 +16,7 @@ def create_app():
                 instance_relative_config=True)
     app.config.from_object('api.src.config.default_settings')
     app.config.from_pyfile('config.cfg')
-    app.register_blueprint(color_blueprint)
+    app.register_blueprint(violence_blueprint)
     DebugToolbarExtension(app)
     CORS(app, supports_credentials=True)
     Swagger(app)

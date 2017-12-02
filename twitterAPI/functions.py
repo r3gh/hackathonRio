@@ -1,3 +1,4 @@
+import tweepy
 import numpy as np
 import pickle
 import nltk
@@ -10,7 +11,24 @@ from unicodedata import normalize
 import urllib3
 from xml.etree import ElementTree
 
-locality_ds = {}
+'''
+    Variables
+'''
+twitterTrackings = ['AlertaAssaltoRJ','alertario24hrs','UNIDOSPORJPA','RJ_OTT','CaosNoRio','InformeRJO','OperacoesRio','AndeSeguroApp']
+
+def readLocality(locality_path = "../dataset/locality_ds.json" ):
+    with open(locality_path, encoding='utf-8') as json_file:
+        text = json_file.read()
+        locality_map = json.loads(text)
+
+    return locality_map
+
+def comparelocality(locality,text):
+    if(locality in text):
+        return True
+    else:
+        return False
+
 
 def getLatLong(address):
     try:
@@ -44,6 +62,7 @@ def clean_str(s):
     return s
 
 def readNeighborhoods(locality_path = "../dataset/localidades.csv" ):
+    locality_ds = {}
     file = io.open(locality_path, "r")
     localitys = file.readlines()
     for locality in localitys:
@@ -54,7 +73,9 @@ def readNeighborhoods(locality_path = "../dataset/localidades.csv" ):
             locality_ds[key]["latlong"] = getLatLong(locality.strip())
             locality_ds[key]["name"] = locality.strip()
 
-def readStreets(locality_path="../dataset/LinkedGeoData.csv"):
+    return locality_ds
+
+def readStreets(locality_ds,locality_path="../dataset/LinkedGeoData.csv"):
     file = io.open(locality_path, "r")
     lines = file.readlines()
     for line in lines:
@@ -83,10 +104,64 @@ def readStreets(locality_path="../dataset/LinkedGeoData.csv"):
             else:
                 locality_ds[key]["latlong"] = getLatLong(row[2].strip())
 
+def stemmingArray_keep_original(words):
+    stemmer = nltk.stem.RSLPStemmer()
+    stemWords = {}
+
+    for word in words:
+        word = norm(word.replace("\n","").lower())
+
+        try:
+            if(word != ""):
+                stemWords[stemmer.stem(word)] = word
+        except:
+            print("Error in word = %s"%(word))
+
+    return stemWords
+
+def stemmingArray(words):
+    stemmer = nltk.stem.RSLPStemmer()
+    stemWords = []
+
+    for word in words:
+        word = norm(word.replace("\n","").lower())
+
+        try:
+            if(word != ""):
+                stemWords.append(stemmer.stem(word))
+        except:
+            print("Error in word = %s"%(word))
+
+    return stemWords
 
 
-if __name__ == "__main__":
-    readNeighborhoods()
-    readStreets()
-    with open('../dataset/locality_ds.json', 'w+') as f:
-        f.write(json.dumps(locality_ds,indent=2))
+class StreamTwitter(tweepy.StreamListener):
+
+    def on_status(self, tweet):
+        print(tweet.text)
+        stealKeywords= stemmingArray(['Roubo', 'Assalto'])
+        words = stemmingArray(tweet.text.split(' '))
+        for word in words:
+            if(word in stealKeywords):
+                #print("%s = %s"%(word,stealKeywords))
+                #print(tweet.text)
+                for locality in localitys:
+
+                    if(comparelocality(locality, tweet.text)):
+                        try:
+                            results[locality]
+                        except:
+                            results[locality] = {}
+                        try:
+                            results[locality]["size"] = results[locality]["size"] + 1
+                        except:
+                            results[locality]["size"]  = 1
+
+                        try:
+                            results[locality]["tweet"].append({"date":tweet.created_at,"text":tweet.text})
+                        except:
+                            results[locality]["tweet"] = []
+
+
+                        break
+                break
