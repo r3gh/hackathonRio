@@ -1,3 +1,4 @@
+import tweepy
 import numpy as np
 import pickle
 import nltk
@@ -10,7 +11,12 @@ from unicodedata import normalize
 import urllib3
 from xml.etree import ElementTree
 
-locality_ds = {}
+'''
+    Variables
+'''
+twitterTrackings = ['AlertaAssaltoRJ','alertario24hrs','UNIDOSPORJPA']
+
+
 
 def getLatLong(address):
     try:
@@ -44,6 +50,7 @@ def clean_str(s):
     return s
 
 def readNeighborhoods(locality_path = "../dataset/localidades.csv" ):
+    locality_ds = {}
     file = io.open(locality_path, "r")
     localitys = file.readlines()
     for locality in localitys:
@@ -53,8 +60,10 @@ def readNeighborhoods(locality_path = "../dataset/localidades.csv" ):
             locality_ds[key]["type"] = "neighborhood"
             locality_ds[key]["latlong"] = getLatLong(locality.strip())
             locality_ds[key]["name"] = locality.strip()
+    
+    return locality_ds
 
-def readStreets(locality_path="../dataset/LinkedGeoData.csv"):
+def readStreets(locality_ds,locality_path="../dataset/LinkedGeoData.csv"):
     file = io.open(locality_path, "r")
     lines = file.readlines()
     for line in lines:
@@ -85,8 +94,34 @@ def readStreets(locality_path="../dataset/LinkedGeoData.csv"):
 
 
 
-if __name__ == "__main__":
-    readNeighborhoods()
-    readStreets()
-    with open('../dataset/locality_ds.json', 'w+') as f:
-        f.write(json.dumps(locality_ds,indent=2))
+
+class StreamTwitter(tweepy.StreamListener):
+
+    def on_status(self, tweet):
+        print(tweet.text)
+        stealKeywords= stemmingArray(['Roubo', 'Assalto'])
+        words = stemmingArray(tweet.text.split(' '))
+        for word in words:
+            if(word in stealKeywords):
+                #print("%s = %s"%(word,stealKeywords))
+                #print(tweet.text)
+                for locality in localitys:
+                    
+                    if(comparelocality(locality, tweet.text)):
+                        try:
+                            results[locality]
+                        except:
+                            results[locality] = {}                                
+                        try:                                    
+                            results[locality]["size"] = results[locality]["size"] + 1
+                        except:
+                            results[locality]["size"]  = 1
+                       
+                        try:                                    
+                            results[locality]["tweet"].append({"date":tweet.created_at,"text":tweet.text}) 
+                        except:
+                            results[locality]["tweet"] = []
+                            
+                                                       
+                        break
+                break

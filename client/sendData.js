@@ -37,17 +37,3 @@ function enviaDados() {
     });           
 }
 
-function enviaDadosPython(dados){
-    
-    $.ajax({                 
-        type: 'POST',                                  
-        url: 'source.php',                 
-        async: true,                 
-        data: dados+"&tipoProcessamento=python",
-        success: function(response) {
-            $("#pdfs").attr('value',response);
-            
-            //carregaPontosMapa();
-        }             
-    });  
-}

@@ -35,17 +35,14 @@ def comparelocality(locality,text):
 
 if __name__ == "__main__":
 
-    '''
-        Variables
-    '''
-    filesToRead = ['AlertaAssaltoRJ','alertario24hrs','UNIDOSPORJPA']
+    
     stealKeywords= stemmingArray(['Roubo', 'Assalto'])
 
     locality_map = readLocality()
 
     results = {}
 
-    for fname in filesToRead:
+    for fname in twitterTrackings:
         with open(fname,'rb') as f:
             tweets = pickle.load(f)
             localitys = readLocality()
