@@ -1,0 +1,5654 @@
+{
+  "rua_placido_ferreira": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8522028, 
+      -43.3364592
+    ], 
+    "type": "street", 
+    "name": "Rua Pl\u00e1cido Ferreira"
+  }, 
+  "rua_toneleros": {
+    "neighborhood": null, 
+    "latlong": [
+      -21.1904648, 
+      -50.4269462
+    ], 
+    "type": "street", 
+    "name": "Rua Toneleros"
+  }, 
+  "rua_do_passeio": {
+    "neighborhood": "Centro", 
+    "latlong": [
+      -22.9126, 
+      -43.1771
+    ], 
+    "type": "street", 
+    "name": "Rua do Passeio"
+  }, 
+  "rocha_miranda": {
+    "latlong": [
+      -22.8503472, 
+      -43.3463053
+    ], 
+    "type": "neighborhood", 
+    "name": "Rocha Miranda"
+  }, 
+  "rua_maxwell": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9181952, 
+      -43.2398172
+    ], 
+    "type": "street", 
+    "name": "Rua Maxwell"
+  }, 
+  "tomas_coelho": {
+    "latlong": [
+      -22.8676979, 
+      -43.3060881
+    ], 
+    "type": "neighborhood", 
+    "name": "Tom\u00e1s Coelho"
+  }, 
+  "pavuna": {
+    "latlong": [
+      -22.8121927, 
+      -43.3592811
+    ], 
+    "type": "neighborhood", 
+    "name": "Pavuna"
+  }, 
+  "rua_carlos_gois": {
+    "neighborhood": "Leblon", 
+    "latlong": [
+      -22.9842, 
+      -43.2195
+    ], 
+    "type": "street", 
+    "name": "Rua Carlos Gois"
+  }, 
+  "rua_annes_dias": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.4784321, 
+      -46.6318744
+    ], 
+    "type": "street", 
+    "name": "Rua Annes Dias"
+  }, 
+  "rua_ramon_franco": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9518302, 
+      -43.167843
+    ], 
+    "type": "street", 
+    "name": "Rua Ramon Franco"
+  }, 
+  "praca_da_bandeira": {
+    "latlong": [
+      -22.9112162, 
+      -43.2131983
+    ], 
+    "type": "neighborhood", 
+    "name": "Pra\u00e7a da Bandeira"
+  }, 
+  "avenida_niemeyer": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9990323, 
+      -43.2500073
+    ], 
+    "type": "street", 
+    "name": "Avenida Niemeyer"
+  }, 
+  "rua_miguel_lemos": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9778117, 
+      -43.1912518
+    ], 
+    "type": "street", 
+    "name": "Rua Miguel Lemos"
+  }, 
+  "praca_seca": {
+    "latlong": [
+      -22.8992621, 
+      -43.3527794
+    ], 
+    "type": "neighborhood", 
+    "name": "Pra\u00e7a Seca"
+  }, 
+  "galeao": {
+    "latlong": [
+      -22.8075065, 
+      -43.2355215
+    ], 
+    "type": "neighborhood", 
+    "name": "Gale\u00e3o"
+  }, 
+  "freguesia_jacarepagua": {
+    "latlong": [
+      -22.9408899, 
+      -43.3422564
+    ], 
+    "type": "neighborhood", 
+    "name": "Freguesia (Jacarepagu\u00e1)"
+  }, 
+  "rua_clarimundo_de_melo": {
+    "neighborhood": "Encantado", 
+    "latlong": [
+      -22.8958, 
+      -43.3081
+    ], 
+    "type": "street", 
+    "name": "Rua Clarimundo de Melo"
+  }, 
+  "rua_jardim_botanico": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9623154, 
+      -43.215635
+    ], 
+    "type": "street", 
+    "name": "Rua Jardim Bot\u00e2nico"
+  }, 
+  "cachambi_": {
+    "latlong": [
+      -22.8897634, 
+      -43.2744953
+    ], 
+    "type": "neighborhood", 
+    "name": "Cachambi"
+  }, 
+  "avenida_presidente_joao_goulart": {
+    "neighborhood": "Vidigal", 
+    "latlong": [
+      -22.9945, 
+      -43.2376
+    ], 
+    "type": "street", 
+    "name": "Avenida Presidente Jo\u00e3o Goulart"
+  }, 
+  "praca_eugenio_franco": {
+    "neighborhood": null, 
+    "latlong": null, 
+    "type": "street", 
+    "name": "Pra\u00e7a Eug\u00eanio Franco"
+  }, 
+  "rua_prefeito_olimpio_de_melo": {
+    "neighborhood": "Benfica", 
+    "latlong": [
+      -22.8902, 
+      -43.2345
+    ], 
+    "type": "street", 
+    "name": "Rua Prefeito Ol\u00edmpio de Melo"
+  }, 
+  "praca_dom_romualdo": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.91980805, 
+      -43.684867816349
+    ], 
+    "type": "street", 
+    "name": "Pra\u00e7a Dom Romualdo"
+  }, 
+  "rua_marambaia": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9842306, 
+      -43.6945723
+    ], 
+    "type": "street", 
+    "name": "Rua Marambaia"
+  }, 
+  "estrada_roberto_burle_marx": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.0667706, 
+      -43.5679596
+    ], 
+    "type": "street", 
+    "name": "Estrada Roberto Burle Marx"
+  }, 
+  "rua_silva_jardim": {
+    "neighborhood": null, 
+    "latlong": [
+      -8.1386523, 
+      -34.928847
+    ], 
+    "type": "street", 
+    "name": "Rua Silva Jardim"
+  }, 
+  "praca_carlos_toledo": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.55980145, 
+      -46.6942268377391
+    ], 
+    "type": "street", 
+    "name": "Pra\u00e7a Carlos Toledo"
+  }, 
+  "rua_doutor_walter_guimaraes_de_moraes": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.0158295, 
+      -43.4739471
+    ], 
+    "type": "street", 
+    "name": "Rua Doutor Walter Guimar\u00e3es de Moraes"
+  }, 
+  "rua_ronald_de_carvalho": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9653055, 
+      -43.1766738
+    ], 
+    "type": "street", 
+    "name": "Rua Ronald de Carvalho"
+  }, 
+  "rua_felipe_cardoso": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9225766, 
+      -43.679597
+    ], 
+    "type": "street", 
+    "name": "Rua Felipe Cardoso"
+  }, 
+  "cosme_velho": {
+    "latlong": [
+      -22.9415143, 
+      -43.2006244
+    ], 
+    "type": "neighborhood", 
+    "name": "Cosme Velho"
+  }, 
+  "rua_da_capela": {
+    "neighborhood": "Piedade", 
+    "latlong": [
+      -22.8927, 
+      -43.3099
+    ], 
+    "type": "street", 
+    "name": "Rua da Capela"
+  }, 
+  "jardim_carioca": {
+    "latlong": [
+      -22.8052493, 
+      -43.1931949
+    ], 
+    "type": "neighborhood", 
+    "name": "Jardim Carioca"
+  }, 
+  "avenida_nossa_senhora_de_copacabana": {
+    "neighborhood": "Copacabana", 
+    "latlong": [
+      -22.9707, 
+      -43.1868
+    ], 
+    "type": "street", 
+    "name": "Avenida Nossa Senhora de Copacabana"
+  }, 
+  "sao_francisco_xavier": {
+    "latlong": [
+      22.1261498, 
+      113.567661712868
+    ], 
+    "type": "neighborhood", 
+    "name": "S\u00e3o Francisco Xavier"
+  }, 
+  "rua_angai": {
+    "neighborhood": "Vila Kosmos", 
+    "latlong": [
+      -22.8518, 
+      -43.3114
+    ], 
+    "type": "street", 
+    "name": "Rua Anga\u00ed"
+  }, 
+  "saude": {
+    "latlong": [
+      43.1980269, 
+      -92.1612814
+    ], 
+    "type": "neighborhood", 
+    "name": "Sa\u00fade"
+  }, 
+  "estrada_marechal_miguel_salazar_mendes_de_morais": {
+    "neighborhood": "Cidade de Deus", 
+    "latlong": [
+      -22.9453, 
+      -43.364
+    ], 
+    "type": "street", 
+    "name": "Estrada Marechal Miguel Salazar Mendes de Morais"
+  }, 
+  "estrada_dom_joaquim_mamede": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.938174, 
+      -43.212843
+    ], 
+    "type": "street", 
+    "name": "Estrada Dom Joaquim Mamede"
+  }, 
+  "rua_ferreira_borges": {
+    "neighborhood": "Campo Grande", 
+    "latlong": [
+      -22.9019, 
+      -43.5566
+    ], 
+    "type": "street", 
+    "name": "Rua Ferreira Borges"
+  }, 
+  "rua_visconde_de_piraja": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9758972, 
+      -47.1377794
+    ], 
+    "type": "street", 
+    "name": "Rua Visconde de Piraj\u00e1"
+  }, 
+  "abolicao": {
+    "latlong": [
+      -22.8861614, 
+      -43.2998457
+    ], 
+    "type": "neighborhood", 
+    "name": "Aboli\u00e7\u00e3o"
+  }, 
+  "flamengo": {
+    "latlong": [
+      -22.9339841, 
+      -43.1745744
+    ], 
+    "type": "neighborhood", 
+    "name": "Flamengo"
+  }, 
+  "rua_gastao_penalva": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9260259, 
+      -43.2541955
+    ], 
+    "type": "street", 
+    "name": "Rua Gast\u00e3o Penalva"
+  }, 
+  "estrada_das_capoeiras": {
+    "neighborhood": "Campo Grande", 
+    "latlong": [
+      -22.8902, 
+      -43.5594
+    ], 
+    "type": "street", 
+    "name": "Estrada das Capoeiras"
+  }, 
+  "rua_ministro_viveiros_de_castro": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9642979, 
+      -43.1771955
+    ], 
+    "type": "street", 
+    "name": "Rua Ministro Viveiros de Castro"
+  }, 
+  "ladeira_ary_barroso": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9608076, 
+      -43.1699741
+    ], 
+    "type": "street", 
+    "name": "Ladeira Ary Barroso"
+  }, 
+  "praca_maua": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8962758, 
+      -43.1809422839938
+    ], 
+    "type": "street", 
+    "name": "Pra\u00e7a Mau\u00e1"
+  }, 
+  "rua_teofilo_guimaraes": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8897332, 
+      -43.3906301
+    ], 
+    "type": "street", 
+    "name": "Rua Te\u00f3filo Guimar\u00e3es"
+  }, 
+  "rua_silva_cardoso": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8816291, 
+      -43.4636105
+    ], 
+    "type": "street", 
+    "name": "Rua Silva Cardoso"
+  }, 
+  "avenida_ataulfo_de_paiva": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9836604, 
+      -43.2154752
+    ], 
+    "type": "street", 
+    "name": "Avenida Ataulfo de Paiva"
+  }, 
+  "av_das_americas": {
+    "neighborhood": "Barra da Tijuca", 
+    "latlong": [
+      -22.9995, 
+      -43.379
+    ], 
+    "type": "street", 
+    "name": "Av das Am\u00e9ricas"
+  }, 
+  "rua_siqueira_campos": {
+    "neighborhood": null, 
+    "latlong": [
+      -12.9657809, 
+      -38.502519
+    ], 
+    "type": "street", 
+    "name": "Rua Siqueira Campos"
+  }, 
+  "rua_lucaia": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9171171, 
+      -43.3863013
+    ], 
+    "type": "street", 
+    "name": "Rua Lucaia"
+  }, 
+  "avenida_cesario_de_melo": {
+    "neighborhood": "Campo Grande", 
+    "latlong": [
+      -22.9078, 
+      -43.5626
+    ], 
+    "type": "street", 
+    "name": "Avenida Ces\u00e1rio de Melo"
+  }, 
+  "rua_paissandu": {
+    "neighborhood": null, 
+    "latlong": [
+      -5.0896494, 
+      -42.8074218
+    ], 
+    "type": "street", 
+    "name": "Rua Paissandu"
+  }, 
+  "rua_adolfo_caminha": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.6048615, 
+      -46.6086668
+    ], 
+    "type": "street", 
+    "name": "Rua Adolfo Caminha"
+  }, 
+  "bento_ribeiro": {
+    "latlong": [
+      -22.8666607, 
+      -43.3608367
+    ], 
+    "type": "neighborhood", 
+    "name": "Bento Ribeiro"
+  }, 
+  "maracana": {
+    "latlong": [
+      -7.99776, 
+      -71.3728183
+    ], 
+    "type": "neighborhood", 
+    "name": "Maracan\u00e3"
+  }, 
+  "jacarepagua_": {
+    "latlong": [
+      -22.9665038, 
+      -43.3713193
+    ], 
+    "type": "neighborhood", 
+    "name": "Jacarepagu\u00e1"
+  }, 
+  "riachuelo": {
+    "latlong": [
+      -27.5136925, 
+      -58.5946999
+    ], 
+    "type": "neighborhood", 
+    "name": "Riachuelo"
+  }, 
+  "oswaldo_cruz": {
+    "latlong": [
+      -22.8691928, 
+      -43.3501396
+    ], 
+    "type": "neighborhood", 
+    "name": "Oswaldo Cruz"
+  }, 
+  "rua_marechal_niemeyer": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9463239, 
+      -43.1857695
+    ], 
+    "type": "street", 
+    "name": "Rua Marechal Niemeyer"
+  }, 
+  "rua_bacairis": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9216364, 
+      -43.371293
+    ], 
+    "type": "street", 
+    "name": "Rua Bacairis"
+  }, 
+  "avenida_mem_de_sa": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9118562, 
+      -43.1887899
+    ], 
+    "type": "street", 
+    "name": "Avenida Mem de S\u00e1"
+  }, 
+  "pedra_de_guaratiba": {
+    "latlong": [
+      -22.9983546, 
+      -43.6388666
+    ], 
+    "type": "neighborhood", 
+    "name": "Pedra de Guaratiba"
+  }, 
+  "rua_tirol": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9390053, 
+      -43.3276955
+    ], 
+    "type": "street", 
+    "name": "Rua Tirol"
+  }, 
+  "rua_sidonio_paes": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.877214, 
+      -43.3254447
+    ], 
+    "type": "street", 
+    "name": "Rua Sid\u00f4nio Paes"
+  }, 
+  "santissimo": {
+    "latlong": [
+      44.0122102, 
+      11.9410835
+    ], 
+    "type": "neighborhood", 
+    "name": "Sant\u00edssimo"
+  }, 
+  "bangu": {
+    "latlong": [
+      11.6423598, 
+      4.64906472499114
+    ], 
+    "type": "neighborhood", 
+    "name": "Bangu"
+  }, 
+  "rua_itambaraca": {
+    "neighborhood": "Cosmos", 
+    "latlong": [
+      -22.889, 
+      -43.6016
+    ], 
+    "type": "street", 
+    "name": "Rua Itambara\u00e7\u00e1"
+  }, 
+  "rua_real_grandeza": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9601627, 
+      -43.1906302
+    ], 
+    "type": "street", 
+    "name": "Rua Real Grandeza"
+  }, 
+  "rua_barao_do_bom_retiro": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9202222, 
+      -43.2600251
+    ], 
+    "type": "street", 
+    "name": "Rua Bar\u00e3o do Bom Retiro"
+  }, 
+  "rua_das_laranjeiras": {
+    "neighborhood": null, 
+    "latlong": [
+      -30.1362016, 
+      -51.2283486
+    ], 
+    "type": "street", 
+    "name": "Rua das Laranjeiras"
+  }, 
+  "estrada_dos_bandeirantes": {
+    "neighborhood": "Vargem Grande", 
+    "latlong": [
+      -22.9769, 
+      -43.4985
+    ], 
+    "type": "street", 
+    "name": "Estrada dos Bandeirantes"
+  }, 
+  "rua_doutor_satamini": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9207621, 
+      -43.222878
+    ], 
+    "type": "street", 
+    "name": "Rua Doutor Satamini"
+  }, 
+  "praca_soldado_cosme_dos_santos": {
+    "neighborhood": null, 
+    "latlong": null, 
+    "type": "street", 
+    "name": "Pra\u00e7a Soldado Cosme dos Santos"
+  }, 
+  "rua_padre_telemaco": {
+    "neighborhood": "Cascadura", 
+    "latlong": [
+      -22.8841, 
+      -43.3319
+    ], 
+    "type": "street", 
+    "name": "Rua Padre Tel\u00eamaco"
+  }, 
+  "alto_da_boa_vista": {
+    "latlong": [
+      -22.9621126, 
+      -43.2535816
+    ], 
+    "type": "neighborhood", 
+    "name": "Alto da Boa Vista"
+  }, 
+  "rua_das_flores": {
+    "neighborhood": null, 
+    "latlong": [
+      -8.1318105, 
+      -34.9346078
+    ], 
+    "type": "street", 
+    "name": "Rua das Flores"
+  }, 
+  "rua_ministro_aliomar_baleeiro": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.0193056, 
+      -43.480878
+    ], 
+    "type": "street", 
+    "name": "Rua Ministro Aliomar Baleeiro"
+  }, 
+  "santa_cruz": {
+    "latlong": [
+      36.974201, 
+      -122.0297182
+    ], 
+    "type": "neighborhood", 
+    "name": "Santa Cruz"
+  }, 
+  "ricardo_de_albuquerque": {
+    "latlong": [
+      -22.8380924, 
+      -43.3963439
+    ], 
+    "type": "neighborhood", 
+    "name": "Ricardo de Albuquerque"
+  }, 
+  "praia_do_flamengo": {
+    "neighborhood": "Flamengo", 
+    "latlong": [
+      -22.9348, 
+      -43.1746
+    ], 
+    "type": "street", 
+    "name": "Praia do Flamengo"
+  }, 
+  "rua_joana_angelica": {
+    "neighborhood": null, 
+    "latlong": [
+      -13.861301, 
+      -40.0835484
+    ], 
+    "type": "street", 
+    "name": "Rua Joana Ang\u00e9lica"
+  }, 
+  "rua_almirante_joao_candido_brasil": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9168526, 
+      -43.2371364
+    ], 
+    "type": "street", 
+    "name": "Rua Almirante Jo\u00e3o C\u00e2ndido Brasil"
+  }, 
+  "rua_italia_fausta": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9882296, 
+      -43.2996445
+    ], 
+    "type": "street", 
+    "name": "Rua It\u00e1lia Fausta"
+  }, 
+  "sampaio": {
+    "latlong": [
+      -5.354233, 
+      -47.878184
+    ], 
+    "type": "neighborhood", 
+    "name": "Sampaio"
+  }, 
+  "engenho_de_dentro": {
+    "latlong": [
+      -22.9026591, 
+      -43.2967757
+    ], 
+    "type": "neighborhood", 
+    "name": "Engenho de Dentro"
+  }, 
+  "marechal_hermes": {
+    "latlong": [
+      -22.8599658, 
+      -43.3704561
+    ], 
+    "type": "neighborhood", 
+    "name": "Marechal Hermes"
+  }, 
+  "praca_floriano_peixoto": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.91080275, 
+      -43.1757963382715
+    ], 
+    "type": "street", 
+    "name": "Pra\u00e7a Floriano Peixoto"
+  }, 
+  "rua_marques_de_pombal": {
+    "neighborhood": "Cidade Nova", 
+    "latlong": [
+      -22.9111, 
+      -43.1936
+    ], 
+    "type": "street", 
+    "name": "Rua Marqu\u00eas de Pombal"
+  }, 
+  "rua_sao_francisco_xavier": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.908972, 
+      -43.2382037
+    ], 
+    "type": "street", 
+    "name": "Rua S\u00e3o Francisco Xavier"
+  }, 
+  "rua_coronel_tamarindo": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8748315, 
+      -43.4497082
+    ], 
+    "type": "street", 
+    "name": "Rua Coronel Tamarindo"
+  }, 
+  "rua_paula_freitas": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9672354, 
+      -43.1835746
+    ], 
+    "type": "street", 
+    "name": "Rua Paula Freitas"
+  }, 
+  "praia_de_botafogo": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9454241, 
+      -43.1807909964042
+    ], 
+    "type": "street", 
+    "name": "Praia de Botafogo"
+  }, 
+  "estrada_do_cafunda": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.918268, 
+      -43.3665703
+    ], 
+    "type": "street", 
+    "name": "Estrada do Cafund\u00e1"
+  }, 
+  "avenida_erico_verissimo": {
+    "neighborhood": "Barra da Tijuca", 
+    "latlong": [
+      -23.0103, 
+      -43.3073
+    ], 
+    "type": "street", 
+    "name": "Avenida \u00c9rico Ver\u00edssimo"
+  }, 
+  "rua_pedro_americo": {
+    "neighborhood": null, 
+    "latlong": [
+      -5.7572931, 
+      -35.2964649
+    ], 
+    "type": "street", 
+    "name": "Rua Pedro Am\u00e9rico"
+  }, 
+  "benfica": {
+    "latlong": [
+      38.73802695, 
+      -9.19529860462688
+    ], 
+    "type": "neighborhood", 
+    "name": "Benfica"
+  }, 
+  "rua_santa_luzia": {
+    "neighborhood": null, 
+    "latlong": [
+      -16.6301483, 
+      -49.189424
+    ], 
+    "type": "street", 
+    "name": "Rua Santa Luzia"
+  }, 
+  "rua_aroazes": {
+    "neighborhood": "Jacarepagu\u00e1", 
+    "latlong": [
+      -22.9711, 
+      -43.3895
+    ], 
+    "type": "street", 
+    "name": "Rua Aroazes"
+  }, 
+  "cacuia": {
+    "latlong": [
+      -22.8217028, 
+      -43.1837917
+    ], 
+    "type": "neighborhood", 
+    "name": "Cacuia"
+  }, 
+  "rua_tonelero": {
+    "neighborhood": "Copacabana", 
+    "latlong": [
+      -22.9674, 
+      -43.1863
+    ], 
+    "type": "street", 
+    "name": "Rua Tonelero"
+  }, 
+  "rua_professor_manoel_ferreira": {
+    "neighborhood": "G\u00e1vea", 
+    "latlong": [
+      -22.9765, 
+      -43.2289
+    ], 
+    "type": "street", 
+    "name": "Rua Professor Manoel Ferreira"
+  }, 
+  "rua_ipadu": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9251165, 
+      -43.391353
+    ], 
+    "type": "street", 
+    "name": "Rua Ipadu"
+  }, 
+  "rua_capitao_barbosa": {
+    "neighborhood": "Ilha do Governador", 
+    "latlong": [
+      -22.8064, 
+      -43.1819
+    ], 
+    "type": "street", 
+    "name": "Rua Capit\u00e3o Barbosa"
+  }, 
+  "praca_da_republica": {
+    "neighborhood": null, 
+    "latlong": [
+      -21.13538505, 
+      -48.972665218952
+    ], 
+    "type": "street", 
+    "name": "Pra\u00e7a da Rep\u00fablica"
+  }, 
+  "praca_calcuta": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.79354765, 
+      -43.1702442224467
+    ], 
+    "type": "street", 
+    "name": "Pra\u00e7a Calcut\u00e1"
+  }, 
+  "rua_manuel_correia": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8756789, 
+      -43.30757
+    ], 
+    "type": "street", 
+    "name": "Rua Manuel Correia"
+  }, 
+  "rua_godofredo_viana": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9124388, 
+      -43.3614426
+    ], 
+    "type": "street", 
+    "name": "Rua Godofredo Viana"
+  }, 
+  "taua": {
+    "latlong": [
+      -3.6150075, 
+      -49.6247969
+    ], 
+    "type": "neighborhood", 
+    "name": "Tau\u00e1"
+  }, 
+  "gavea_": {
+    "latlong": [
+      -34.8824758, 
+      -56.0451952
+    ], 
+    "type": "neighborhood", 
+    "name": "G\u00e1vea"
+  }, 
+  "terminal_alvorada": {
+    "neighborhood": "Barra da Tijuca", 
+    "latlong": [
+      -23.0011, 
+      -43.3666
+    ], 
+    "type": "street", 
+    "name": "Terminal Alvorada"
+  }, 
+  "ilha_do_governador_": {
+    "latlong": [
+      -22.8049732, 
+      -43.219866107721
+    ], 
+    "type": "neighborhood", 
+    "name": "Ilha do Governador"
+  }, 
+  "estrada_da_paz": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9668887, 
+      -43.2951387
+    ], 
+    "type": "street", 
+    "name": "Estrada da Paz"
+  }, 
+  "rua_joaquim_palhares": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9130385, 
+      -43.2089982
+    ], 
+    "type": "street", 
+    "name": "Rua Joaquim Palhares"
+  }, 
+  "rua_floresta_da_paz": {
+    "neighborhood": null, 
+    "latlong": null, 
+    "type": "street", 
+    "name": "Rua Floresta da Paz"
+  }, 
+  "rua_macedo_sobrinho": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9576856, 
+      -43.1990927
+    ], 
+    "type": "street", 
+    "name": "Rua Macedo Sobrinho"
+  }, 
+  "avenida_dom_helder_camara": {
+    "neighborhood": null, 
+    "latlong": [
+      -8.1360896, 
+      -34.9696203
+    ], 
+    "type": "street", 
+    "name": "Avenida Dom H\u00e9lder C\u00e2mara"
+  }, 
+  "gloria": {
+    "latlong": [
+      18.3287951, 
+      -66.0060230387886
+    ], 
+    "type": "neighborhood", 
+    "name": "Gl\u00f3ria"
+  }, 
+  "praca_frederico_durval": {
+    "neighborhood": null, 
+    "latlong": null, 
+    "type": "street", 
+    "name": "Pra\u00e7a Frederico Durval"
+  }, 
+  "leme": {
+    "latlong": [
+      -22.185833, 
+      -47.39
+    ], 
+    "type": "neighborhood", 
+    "name": "Leme"
+  }, 
+  "taquara": {
+    "latlong": [
+      -29.6455892, 
+      -50.7810725
+    ], 
+    "type": "neighborhood", 
+    "name": "Taquara"
+  }, 
+  "praca_almirante_julio_de_noronha": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9621126, 
+      -43.164898994487
+    ], 
+    "type": "street", 
+    "name": "Pra\u00e7a Almirante J\u00falio de Noronha"
+  }, 
+  "rua_lima_barreto": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8871273, 
+      -43.3124638
+    ], 
+    "type": "street", 
+    "name": "Rua Lima Barreto"
+  }, 
+  "rua_solimoes": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8810562, 
+      -43.3056818
+    ], 
+    "type": "street", 
+    "name": "Rua Solim\u00f5es"
+  }, 
+  "avenida_menezes_cortes": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9228819, 
+      -43.296832
+    ], 
+    "type": "street", 
+    "name": "Avenida Menezes Cortes"
+  }, 
+  "paqueta_": {
+    "latlong": [
+      -34.8770249, 
+      -55.1139167
+    ], 
+    "type": "neighborhood", 
+    "name": "Paquet\u00e1"
+  }, 
+  "rua_almirante_alexandrino": {
+    "neighborhood": "Santa Teresa", 
+    "latlong": [
+      -22.9344, 
+      -43.1995
+    ], 
+    "type": "street", 
+    "name": "Rua Almirante Alexandrino"
+  }, 
+  "acari": {
+    "latlong": [
+      -22.8221528, 
+      -43.3406743
+    ], 
+    "type": "neighborhood", 
+    "name": "Acari"
+  }, 
+  "barra_de_guaratiba": {
+    "latlong": [
+      -23.0360036, 
+      -43.5521395
+    ], 
+    "type": "neighborhood", 
+    "name": "Barra de Guaratiba"
+  }, 
+  "praca_jauru": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.91641055, 
+      -43.3776852
+    ], 
+    "type": "street", 
+    "name": "Pra\u00e7a Jauru"
+  }, 
+  "cascadura": {
+    "latlong": [
+      -22.8841816, 
+      -43.3283969
+    ], 
+    "type": "neighborhood", 
+    "name": "Cascadura"
+  }, 
+  "avenida_venezuela": {
+    "neighborhood": null, 
+    "latlong": [
+      10.2106263, 
+      -67.5557236
+    ], 
+    "type": "street", 
+    "name": "Avenida Venezuela"
+  }, 
+  "rua_severiano_das_chagas": {
+    "neighborhood": "Santa Cruz", 
+    "latlong": [
+      -22.9162, 
+      -43.6798
+    ], 
+    "type": "street", 
+    "name": "Rua Severiano das Chagas"
+  }, 
+  "estrada_do_joa": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.0027814, 
+      -43.2774613
+    ], 
+    "type": "street", 
+    "name": "Estrada do Jo\u00e1"
+  }, 
+  "rua_buarque_de_macedo": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9283812, 
+      -43.1770011
+    ], 
+    "type": "street", 
+    "name": "Rua Buarque de Macedo"
+  }, 
+  "avenida_olegario_maciel": {
+    "neighborhood": null, 
+    "latlong": [
+      -21.1209733, 
+      -42.9159394
+    ], 
+    "type": "street", 
+    "name": "Avenida Oleg\u00e1rio Maciel"
+  }, 
+  "curicica": {
+    "latlong": [
+      -22.9519909, 
+      -43.3872901
+    ], 
+    "type": "neighborhood", 
+    "name": "Curicica"
+  }, 
+  "olaria": {
+    "latlong": [
+      -21.8607194, 
+      -43.9370942
+    ], 
+    "type": "neighborhood", 
+    "name": "Olaria"
+  }, 
+  "rua_purus": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8825606, 
+      -43.3063195
+    ], 
+    "type": "street", 
+    "name": "Rua Purus"
+  }, 
+  "rua_barao_de_sao_felix": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.4565058, 
+      -46.6002363
+    ], 
+    "type": "street", 
+    "name": "Rua Bar\u00e3o de S\u00e3o F\u00e9lix"
+  }, 
+  "monero": {
+    "latlong": [
+      36.9019561, 
+      -106.8553155
+    ], 
+    "type": "neighborhood", 
+    "name": "Moner\u00f3"
+  }, 
+  "avenida_princesa_isabel": {
+    "neighborhood": null, 
+    "latlong": [
+      -13.0037604, 
+      -38.5291102
+    ], 
+    "type": "street", 
+    "name": "Avenida Princesa Isabel"
+  }, 
+  "rua_da_ajuda": {
+    "neighborhood": null, 
+    "latlong": [
+      -12.9757921, 
+      -38.512944
+    ], 
+    "type": "street", 
+    "name": "Rua da Ajuda"
+  }, 
+  "santo_cristo": {
+    "latlong": [
+      -22.9007657, 
+      -43.2033933
+    ], 
+    "type": "neighborhood", 
+    "name": "Santo Cristo"
+  }, 
+  "rua_sao_francisco_da_prainha": {
+    "neighborhood": "Saude", 
+    "latlong": [
+      -22.8978, 
+      -43.1836
+    ], 
+    "type": "street", 
+    "name": "Rua S\u00e3o Francisco da Prainha"
+  }, 
+  "praca_general_tiburcio": {
+    "neighborhood": null, 
+    "latlong": [
+      -3.56652795, 
+      -41.09039916952
+    ], 
+    "type": "street", 
+    "name": "Pra\u00e7a General Tib\u00farcio"
+  }, 
+  "rua_barao_de_sao_francisco": {
+    "neighborhood": null, 
+    "latlong": [
+      -20.735339, 
+      -42.0277613
+    ], 
+    "type": "street", 
+    "name": "Rua Bar\u00e3o de S\u00e3o Francisco"
+  }, 
+  "rua_rodolfo_dantas": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9671752, 
+      -43.1782518
+    ], 
+    "type": "street", 
+    "name": "Rua Rodolfo Dantas"
+  }, 
+  "rua_barao_de_mesquita": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9259237, 
+      -43.2487274
+    ], 
+    "type": "street", 
+    "name": "Rua Bar\u00e3o de Mesquita"
+  }, 
+  "rua_andrade_pertence": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.924572, 
+      -43.1768622
+    ], 
+    "type": "street", 
+    "name": "Rua Andrade Pertence"
+  }, 
+  "rua_vinte_e_quatro_de_maio": {
+    "neighborhood": null, 
+    "latlong": [
+      -7.2546695, 
+      -35.885694
+    ], 
+    "type": "street", 
+    "name": "Rua Vinte e Quatro de Maio"
+  }, 
+  "rua_uniao_da_vitoria": {
+    "neighborhood": null, 
+    "latlong": [
+      -25.5310044, 
+      -49.2152446
+    ], 
+    "type": "street", 
+    "name": "Rua Uni\u00e3o da Vit\u00f3ria"
+  }, 
+  "coelho_neto": {
+    "latlong": [
+      -4.2535154, 
+      -43.0149321
+    ], 
+    "type": "neighborhood", 
+    "name": "Coelho Neto"
+  }, 
+  "guaratiba": {
+    "latlong": [
+      -22.9905839, 
+      -43.584923
+    ], 
+    "type": "neighborhood", 
+    "name": "Guaratiba"
+  }, 
+  "rua_coremas": {
+    "neighborhood": "Cosmos", 
+    "latlong": [
+      -22.8889, 
+      -43.6046
+    ], 
+    "type": "street", 
+    "name": "Rua Coremas"
+  }, 
+  "rua_max_yantok": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.7896874, 
+      -43.1844441
+    ], 
+    "type": "street", 
+    "name": "Rua Max Yantok"
+  }, 
+  "vila_militar": {
+    "latlong": [
+      -22.860348, 
+      -43.4028933
+    ], 
+    "type": "neighborhood", 
+    "name": "Vila Militar"
+  }, 
+  "rua_do_rezende": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9131907, 
+      -43.1860902
+    ], 
+    "type": "street", 
+    "name": "Rua do Rezende"
+  }, 
+  "rua_bento_lisboa": {
+    "neighborhood": "Catete", 
+    "latlong": [
+      -22.9254, 
+      -43.1793
+    ], 
+    "type": "street", 
+    "name": "Rua Bento Lisboa"
+  }, 
+  "fundao": {
+    "latlong": [
+      40.12503595, 
+      -7.51110171721762
+    ], 
+    "type": "neighborhood", 
+    "name": "Fund\u00e3o"
+  }, 
+  "rua_sabogi": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8746326, 
+      -43.4628134
+    ], 
+    "type": "street", 
+    "name": "Rua Sabogi"
+  }, 
+  "rua_andrade_neves": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9330079, 
+      -43.2389625
+    ], 
+    "type": "street", 
+    "name": "Rua Andrade Neves"
+  }, 
+  "rua_uberaba": {
+    "neighborhood": "Grajau", 
+    "latlong": [
+      -22.9244, 
+      -43.2578
+    ], 
+    "type": "street", 
+    "name": "Rua Uberaba"
+  }, 
+  "estrada_do_cortume": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8784142, 
+      -43.6749845
+    ], 
+    "type": "street", 
+    "name": "Estrada do Cortume"
+  }, 
+  "rua_debret": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9073014, 
+      -43.1742932
+    ], 
+    "type": "street", 
+    "name": "Rua Debret"
+  }, 
+  "rua_amaral": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9211654, 
+      -43.2457136
+    ], 
+    "type": "street", 
+    "name": "Rua Amaral"
+  }, 
+  "campo_de_sao_cristovao": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.89836315, 
+      -43.2219084106539
+    ], 
+    "type": "street", 
+    "name": "Campo de S\u00e3o Crist\u00f3v\u00e3o"
+  }, 
+  "rua_caetano_da_silva": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8791316, 
+      -43.3214891
+    ], 
+    "type": "street", 
+    "name": "Rua Caetano da Silva"
+  }, 
+  "estrada_da_ucrania": {
+    "neighborhood": null, 
+    "latlong": null, 
+    "type": "street", 
+    "name": "Estrada da Ucr\u00e2nia"
+  }, 
+  "campo_dos_afonsos": {
+    "latlong": [
+      -22.8795186, 
+      -43.3803636
+    ], 
+    "type": "neighborhood", 
+    "name": "Campo dos Afonsos"
+  }, 
+  "rua_marechal_jofre": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9201698, 
+      -43.2687894
+    ], 
+    "type": "street", 
+    "name": "Rua Marechal Jofre"
+  }, 
+  "praca_miranda_ribeiro": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.86264045, 
+      -43.342286402027
+    ], 
+    "type": "street", 
+    "name": "Pra\u00e7a Miranda Ribeiro"
+  }, 
+  "rua_do_imperador": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8810625, 
+      -43.4367898
+    ], 
+    "type": "street", 
+    "name": "Rua do Imperador"
+  }, 
+  "rua_dona_mariana": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9530169, 
+      -43.1885829
+    ], 
+    "type": "street", 
+    "name": "Rua Dona Mariana"
+  }, 
+  "rua_vitor_costa": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9056963, 
+      -43.5681403
+    ], 
+    "type": "street", 
+    "name": "Rua Vitor Costa"
+  }, 
+  "avenida_jose_luiz_ferraz": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.0217111, 
+      -43.4869678
+    ], 
+    "type": "street", 
+    "name": "Avenida Jos\u00e9 Luiz Ferraz"
+  }, 
+  "rua_enes_de_souza": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9296025, 
+      -43.2320169
+    ], 
+    "type": "street", 
+    "name": "Rua Enes de Souza"
+  }, 
+  "grajau": {
+    "latlong": [
+      -8.3394347, 
+      -42.0652971
+    ], 
+    "type": "neighborhood", 
+    "name": "Graja\u00fa"
+  }, 
+  "rua_farani": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9415522, 
+      -43.1814436
+    ], 
+    "type": "street", 
+    "name": "Rua Farani"
+  }, 
+  "rua_condessa_belmonte": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9094655, 
+      -43.2710218
+    ], 
+    "type": "street", 
+    "name": "Rua Condessa Belmonte"
+  }, 
+  "anil": {
+    "latlong": [
+      -22.9558133, 
+      -43.3384123
+    ], 
+    "type": "neighborhood", 
+    "name": "Anil"
+  }, 
+  "avenida_paulo_de_frontin": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9141016, 
+      -43.2099885
+    ], 
+    "type": "street", 
+    "name": "Avenida Paulo de Frontin"
+  }, 
+  "rua_major_avila": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8988154, 
+      -42.3582903
+    ], 
+    "type": "street", 
+    "name": "Rua Major \u00c1vila"
+  }, 
+  "rua_joaquim_meier": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9070328, 
+      -43.2809013
+    ], 
+    "type": "street", 
+    "name": "Rua Joaquim M\u00e9ier"
+  }, 
+  "rua_general_sezefredo": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8801552, 
+      -43.4350942
+    ], 
+    "type": "street", 
+    "name": "Rua General Sezefredo"
+  }, 
+  "rua_leopoldino_de_oliveira": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8654592, 
+      -43.3364241
+    ], 
+    "type": "street", 
+    "name": "Rua Leopoldino de Oliveira"
+  }, 
+  "rua_voluntarios_da_patria": {
+    "neighborhood": "Botafogo", 
+    "latlong": [
+      -22.9508, 
+      -43.1831
+    ], 
+    "type": "street", 
+    "name": "Rua Volunt\u00e1rios da P\u00e1tria"
+  }, 
+  "rua_engenheiro_morsing": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9287208, 
+      -43.2638385
+    ], 
+    "type": "street", 
+    "name": "Rua Engenheiro Morsing"
+  }, 
+  "rua_vinicius_de_moraes": {
+    "neighborhood": "Ipanema", 
+    "latlong": [
+      -22.9845, 
+      -43.2027
+    ], 
+    "type": "street", 
+    "name": "Rua Vin\u00edcius de Moraes"
+  }, 
+  "rua_muniz_barreto": {
+    "neighborhood": "Botafogo", 
+    "latlong": [
+      -22.9488, 
+      -43.1841
+    ], 
+    "type": "street", 
+    "name": "Rua Muniz Barreto"
+  }, 
+  "rua_da_lapa": {
+    "neighborhood": "Lapa", 
+    "latlong": [
+      -22.9153, 
+      -43.1782
+    ], 
+    "type": "street", 
+    "name": "Rua da Lapa"
+  }, 
+  "rua_marques_de_sao_vicente": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9771137, 
+      -43.2304929
+    ], 
+    "type": "street", 
+    "name": "Rua Marqu\u00eas de S\u00e3o Vicente"
+  }, 
+  "avenida_presidente_vargas": {
+    "neighborhood": "Centro", 
+    "latlong": [
+      -22.9063, 
+      -43.1961
+    ], 
+    "type": "street", 
+    "name": "Avenida Presidente Vargas"
+  }, 
+  "rua_aristides_caire": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8994498, 
+      -43.2786542
+    ], 
+    "type": "street", 
+    "name": "Rua Aristides Caire"
+  }, 
+  "avenida_reporter_nestor_moreira": {
+    "neighborhood": "Botafogo", 
+    "latlong": [
+      -22.9491, 
+      -43.1801
+    ], 
+    "type": "street", 
+    "name": "Avenida Rep\u00f3rter Nestor Moreira"
+  }, 
+  "rua_frei_solano": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9625999, 
+      -43.2039182
+    ], 
+    "type": "street", 
+    "name": "Rua Frei Solano"
+  }, 
+  "gericino_": {
+    "latlong": [
+      -22.8338762, 
+      -43.4742517
+    ], 
+    "type": "neighborhood", 
+    "name": "Gericin\u00f3"
+  }, 
+  "estrada_da_barra_da_tijuca": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9869072, 
+      -43.3025005
+    ], 
+    "type": "street", 
+    "name": "Estrada da Barra da Tijuca"
+  }, 
+  "bonsucesso": {
+    "latlong": [
+      -22.8659317, 
+      -43.253318
+    ], 
+    "type": "neighborhood", 
+    "name": "Bonsucesso"
+  }, 
+  "camorim": {
+    "latlong": [
+      -22.9711394, 
+      -43.4311836
+    ], 
+    "type": "neighborhood", 
+    "name": "Camorim"
+  }, 
+  "rua_amaral_costa": {
+    "neighborhood": "Campo Grande", 
+    "latlong": [
+      -22.9063, 
+      -43.5608
+    ], 
+    "type": "street", 
+    "name": "Rua Amaral Costa"
+  }, 
+  "rua_adolfo_bergamini": {
+    "neighborhood": "Engenho de Dentro", 
+    "latlong": [
+      -22.9019, 
+      -43.2967
+    ], 
+    "type": "street", 
+    "name": "Rua Adolfo Bergamini"
+  }, 
+  "rua_agostinho_barbalho": {
+    "neighborhood": "Madureira", 
+    "latlong": [
+      -22.8746, 
+      -43.342
+    ], 
+    "type": "street", 
+    "name": "Rua Agostinho Barbalho"
+  }, 
+  "rua_senador_correa": {
+    "neighborhood": null, 
+    "latlong": [
+      -32.0397147, 
+      -52.10024
+    ], 
+    "type": "street", 
+    "name": "Rua Senador Corr\u00eaa"
+  }, 
+  "rua_professor_azevedo_marques": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9847365, 
+      -43.2293714
+    ], 
+    "type": "street", 
+    "name": "Rua Professor Azevedo Marques"
+  }, 
+  "rua_manuel_machado": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.857142, 
+      -43.3343325
+    ], 
+    "type": "street", 
+    "name": "Rua Manuel Machado"
+  }, 
+  "vigario_geral": {
+    "latlong": [
+      -22.8095333, 
+      -43.3097039
+    ], 
+    "type": "neighborhood", 
+    "name": "Vig\u00e1rio Geral"
+  }, 
+  "praca_cotegi": {
+    "neighborhood": "Vicente De Carvalho", 
+    "latlong": [
+      -22.8569, 
+      -43.3163
+    ], 
+    "type": "street", 
+    "name": "Pra\u00e7a Cotegi"
+  }, 
+  "estrada_do_tindiba": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9238501, 
+      -43.3718564
+    ], 
+    "type": "street", 
+    "name": "Estrada do Tindiba"
+  }, 
+  "avenida_bras_de_pina": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8380038, 
+      -43.284935
+    ], 
+    "type": "street", 
+    "name": "Avenida Br\u00e1s de Pina"
+  }, 
+  "estrada_do_galeao": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8273354, 
+      -43.2344255
+    ], 
+    "type": "street", 
+    "name": "Estrada do Gale\u00e3o"
+  }, 
+  "rua_fausto_laurindo": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8639041, 
+      -43.3353539
+    ], 
+    "type": "street", 
+    "name": "Rua Fausto Laurindo"
+  }, 
+  "rua_mateus_de_andrade": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8755266, 
+      -43.2989376
+    ], 
+    "type": "street", 
+    "name": "Rua Mateus de Andrade"
+  }, 
+  "avenida_brasil": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8476339, 
+      -43.2480525977645
+    ], 
+    "type": "street", 
+    "name": "Avenida Brasil"
+  }, 
+  "rua_senador_rui_carneiro": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.6802909, 
+      -46.6654539
+    ], 
+    "type": "street", 
+    "name": "Rua Senador Rui Carneiro"
+  }, 
+  "rua_apiacas": {
+    "neighborhood": null, 
+    "latlong": [
+      -21.6843537, 
+      -49.7584274
+    ], 
+    "type": "street", 
+    "name": "Rua Apiac\u00e1s"
+  }, 
+  "ramos": {
+    "latlong": [
+      -22.8519758, 
+      -43.2555693
+    ], 
+    "type": "neighborhood", 
+    "name": "Ramos"
+  }, 
+  "rua_goncalves_dias": {
+    "neighborhood": "Centro", 
+    "latlong": [
+      -22.9048, 
+      -43.179
+    ], 
+    "type": "street", 
+    "name": "Rua Gon\u00e7alves Dias"
+  }, 
+  "rua_barcelos_domingos": {
+    "neighborhood": "Campo Grande", 
+    "latlong": [
+      -22.8977, 
+      -43.5586
+    ], 
+    "type": "street", 
+    "name": "Rua Barcelos Domingos"
+  }, 
+  "avenida_nossa_senhora_de_fatima": {
+    "neighborhood": null, 
+    "latlong": [
+      -29.1522876, 
+      -51.8599835
+    ], 
+    "type": "street", 
+    "name": "Avenida Nossa Senhora de F\u00e1tima"
+  }, 
+  "engenheiro_leal": {
+    "latlong": [
+      -22.8743923, 
+      -43.3255315
+    ], 
+    "type": "neighborhood", 
+    "name": "Engenheiro Leal"
+  }, 
+  "rua_herculano_pena": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8728748, 
+      -43.3131359
+    ], 
+    "type": "street", 
+    "name": "Rua Herculano Pena"
+  }, 
+  "turiacu": {
+    "latlong": [
+      -5.0138986, 
+      -62.9991461
+    ], 
+    "type": "neighborhood", 
+    "name": "Turia\u00e7\u00fa"
+  }, 
+  "rua_xavier_marques": {
+    "neighborhood": "Campo Grande", 
+    "latlong": [
+      -22.9008, 
+      -43.5505
+    ], 
+    "type": "street", 
+    "name": "Rua Xavier Marques"
+  }, 
+  "cidade_de_deus": {
+    "latlong": [
+      -22.94803, 
+      -43.362903
+    ], 
+    "type": "neighborhood", 
+    "name": "Cidade de Deus"
+  }, 
+  "catumbi": {
+    "latlong": [
+      -1.47966, 
+      -48.1577533
+    ], 
+    "type": "neighborhood", 
+    "name": "Catumbi"
+  }, 
+  "avenida_canal_arroio_pavuna": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9590691, 
+      -43.3774359
+    ], 
+    "type": "street", 
+    "name": "Avenida Canal Arroio Pavuna"
+  }, 
+  "rua_aderbal_de_carvalho": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8765798, 
+      -43.3012129
+    ], 
+    "type": "street", 
+    "name": "Rua Aderbal de Carvalho"
+  }, 
+  "mare_": {
+    "latlong": [
+      43.6605077, 
+      3.0650422
+    ], 
+    "type": "neighborhood", 
+    "name": "Mar\u00e9"
+  }, 
+  "estrada_das_furnas": {
+    "neighborhood": "Alto da Boa Vista", 
+    "latlong": [
+      -22.967, 
+      -43.279
+    ], 
+    "type": "street", 
+    "name": "Estrada das Furnas"
+  }, 
+  "praca_edmundo_rego": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9224148, 
+      -43.2640744
+    ], 
+    "type": "street", 
+    "name": "Pra\u00e7a Edmundo Rego"
+  }, 
+  "estrada_dos_tres_rios": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9312318, 
+      -43.3252099
+    ], 
+    "type": "street", 
+    "name": "Estrada dos Tr\u00eas Rios"
+  }, 
+  "manguinhos": {
+    "latlong": [
+      -22.8799736, 
+      -43.2457223
+    ], 
+    "type": "neighborhood", 
+    "name": "Manguinhos"
+  }, 
+  "professor_fioravanti_di_piero": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9084929, 
+      -43.1692772
+    ], 
+    "type": "street", 
+    "name": "Professor Fioravanti Di Piero"
+  }, 
+  "rua_visconde_de_santa_isabel": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9169815, 
+      -43.2565462
+    ], 
+    "type": "street", 
+    "name": "Rua Visconde de Santa Isabel"
+  }, 
+  "rua_silva_gomes": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8786053, 
+      -43.3266279
+    ], 
+    "type": "street", 
+    "name": "Rua Silva Gomes"
+  }, 
+  "rua_arquias_cordeiro": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9039197, 
+      -43.2733079
+    ], 
+    "type": "street", 
+    "name": "Rua Arquias Cordeiro"
+  }, 
+  "honorio_gurgel": {
+    "latlong": [
+      -22.8465751, 
+      -43.3561294
+    ], 
+    "type": "neighborhood", 
+    "name": "Hon\u00f3rio Gurgel"
+  }, 
+  "cidade_universitaria": {
+    "latlong": [
+      -12.0698027, 
+      -45.7978352
+    ], 
+    "type": "neighborhood", 
+    "name": "Cidade Universit\u00e1ria"
+  }, 
+  "estrada_do_rio_grande": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9196617, 
+      -43.3979775
+    ], 
+    "type": "street", 
+    "name": "Estrada do Rio Grande"
+  }, 
+  "penha": {
+    "latlong": [
+      -26.775418, 
+      -48.6465251
+    ], 
+    "type": "neighborhood", 
+    "name": "Penha"
+  }, 
+  "rua_esteves_junior": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9335806, 
+      -43.1799999
+    ], 
+    "type": "street", 
+    "name": "Rua Esteves Junior"
+  }, 
+  "avenida_presidente_wilson": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9115725, 
+      -43.1734686
+    ], 
+    "type": "street", 
+    "name": "Avenida Presidente Wilson"
+  }, 
+  "bancarios": {
+    "latlong": [
+      -12.0622711, 
+      -77.0782069241078
+    ], 
+    "type": "neighborhood", 
+    "name": "Banc\u00e1rios"
+  }, 
+  "jacarepagua": {
+    "latlong": [
+      -22.9665038, 
+      -43.3713193
+    ], 
+    "type": "neighborhood", 
+    "name": "Jacarepagu\u00e1"
+  }, 
+  "jardim_guanabara": {
+    "latlong": [
+      -22.8128362, 
+      -43.2007792
+    ], 
+    "type": "neighborhood", 
+    "name": "Jardim Guanabara"
+  }, 
+  "catete": {
+    "latlong": [
+      -22.9269199, 
+      -43.1802186
+    ], 
+    "type": "neighborhood", 
+    "name": "Catete"
+  }, 
+  "ruas_das_palmeiras": {
+    "neighborhood": null, 
+    "latlong": [
+      -29.4571675, 
+      -52.023207
+    ], 
+    "type": "street", 
+    "name": "Ruas das Palmeiras"
+  }, 
+  "iraja": {
+    "latlong": [
+      -22.8351129, 
+      -43.3233619
+    ], 
+    "type": "neighborhood", 
+    "name": "Iraj\u00e1"
+  }, 
+  "avenida_rui_barbosa": {
+    "neighborhood": "Flamengo", 
+    "latlong": [
+      -22.9418, 
+      -43.1737
+    ], 
+    "type": "street", 
+    "name": "Avenida Rui Barbosa"
+  }, 
+  "guadalupe": {
+    "latlong": [
+      18.0497563, 
+      -98.1549402319954
+    ], 
+    "type": "neighborhood", 
+    "name": "Guadalupe"
+  }, 
+  "rua_ariperana": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9159665, 
+      -43.3769908
+    ], 
+    "type": "street", 
+    "name": "Rua Ariperana"
+  }, 
+  "rocha": {
+    "latlong": [
+      -34.4810095, 
+      -54.3365608
+    ], 
+    "type": "neighborhood", 
+    "name": "Rocha"
+  }, 
+  "ribeira": {
+    "latlong": [
+      42.5564829, 
+      -8.9922065
+    ], 
+    "type": "neighborhood", 
+    "name": "Ribeira"
+  }, 
+  "rua_souza_cerqueira": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8843026, 
+      -43.3080886
+    ], 
+    "type": "street", 
+    "name": "Rua Souza Cerqueira"
+  }, 
+  "anchieta": {
+    "latlong": [
+      -20.8057672, 
+      -40.6454564
+    ], 
+    "type": "neighborhood", 
+    "name": "Anchieta"
+  }, 
+  "rua_reporter_nestor_moreira": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9492893, 
+      -43.1801807
+    ], 
+    "type": "street", 
+    "name": "Rua Reporter Nestor Moreira"
+  }, 
+  "rua_jangadeiros": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9857371, 
+      -43.1967459
+    ], 
+    "type": "street", 
+    "name": "Rua Jangadeiros"
+  }, 
+  "rua_silveira_martins": {
+    "neighborhood": null, 
+    "latlong": [
+      -12.9597046, 
+      -38.4501098
+    ], 
+    "type": "street", 
+    "name": "Rua Silveira Martins"
+  }, 
+  "rua_giocondo_dias": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.0209584, 
+      -43.4837251
+    ], 
+    "type": "street", 
+    "name": "Rua Giocondo Dias"
+  }, 
+  "rua_moises_lilenbaun": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8841134, 
+      -43.3219881
+    ], 
+    "type": "street", 
+    "name": "Rua Mois\u00e9s Lilenbaun"
+  }, 
+  "rua_general_bandeira_de_melo": {
+    "neighborhood": null, 
+    "latlong": [
+      -13.0344307, 
+      -40.8160477
+    ], 
+    "type": "street", 
+    "name": "Rua General Bandeira de Melo"
+  }, 
+  "rua_ferreira_viana": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9273028, 
+      -43.1750781
+    ], 
+    "type": "street", 
+    "name": "Rua Ferreira Viana"
+  }, 
+  "complexo_do_alemao": {
+    "latlong": [
+      -22.8606097, 
+      -43.2737506
+    ], 
+    "type": "neighborhood", 
+    "name": "Complexo do Alem\u00e3o"
+  }, 
+  "rua_capitao_felix": {
+    "neighborhood": "Benfica", 
+    "latlong": [
+      -22.8945, 
+      -43.237
+    ], 
+    "type": "street", 
+    "name": "Rua Capit\u00e3o F\u00e9lix"
+  }, 
+  "rua_ademar_cerpa": {
+    "neighborhood": "Benfica", 
+    "latlong": [
+      -22.8893, 
+      -43.2422
+    ], 
+    "type": "street", 
+    "name": "Rua Ademar Cerpa"
+  }, 
+  "avenida_ministro_ivan_lins": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.0101692, 
+      -43.3021714
+    ], 
+    "type": "street", 
+    "name": "Avenida Ministro Ivan Lins"
+  }, 
+  "agua_santa": {
+    "latlong": [
+      -21.5750529, 
+      -46.0161372
+    ], 
+    "type": "neighborhood", 
+    "name": "\u00c1gua Santa"
+  }, 
+  "vila_da_penha": {
+    "latlong": [
+      -22.8435065, 
+      -43.3100585
+    ], 
+    "type": "neighborhood", 
+    "name": "Vila da Penha"
+  }, 
+  "barros_filho": {
+    "latlong": [
+      -22.8348857, 
+      -43.3631878
+    ], 
+    "type": "neighborhood", 
+    "name": "Barros Filho"
+  }, 
+  "estrada_da_independencia_do_borel": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9385861, 
+      -43.2546619
+    ], 
+    "type": "street", 
+    "name": "Estrada da Independ\u00eancia do Borel"
+  }, 
+  "beco_dos_barbeiros": {
+    "neighborhood": "Centro", 
+    "latlong": [
+      -22.9029, 
+      -43.1758
+    ], 
+    "type": "street", 
+    "name": "Beco dos Barbeiros"
+  }, 
+  "todos_os_santos": {
+    "latlong": [
+      -22.894563, 
+      -43.28506
+    ], 
+    "type": "neighborhood", 
+    "name": "Todos os Santos"
+  }, 
+  "avenida_edson_passos": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.7961877, 
+      -43.4226424
+    ], 
+    "type": "street", 
+    "name": "Avenida Edson Passos"
+  }, 
+  "tijuca": {
+    "latlong": [
+      -22.9332164, 
+      -43.2381453
+    ], 
+    "type": "neighborhood", 
+    "name": "Tijuca"
+  }, 
+  "sao_conrado": {
+    "latlong": [
+      -22.9913592, 
+      -43.2675329
+    ], 
+    "type": "neighborhood", 
+    "name": "S\u00e3o Conrado"
+  }, 
+  "gamboa": {
+    "latlong": [
+      -22.8977491, 
+      -43.1929041
+    ], 
+    "type": "neighborhood", 
+    "name": "Gamboa"
+  }, 
+  "avenida_dos_democraticos": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8673357, 
+      -43.2574064
+    ], 
+    "type": "street", 
+    "name": "Avenida dos Democr\u00e1ticos"
+  }, 
+  "rua_graca_melo": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8754195, 
+      -43.3140891
+    ], 
+    "type": "street", 
+    "name": "Rua Gra\u00e7a Melo"
+  }, 
+  "avenida_rodrigues_alves": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8927904, 
+      -43.1956689
+    ], 
+    "type": "street", 
+    "name": "Avenida Rodrigues Alves"
+  }, 
+  "rua_lopo_saraiva": {
+    "neighborhood": "Pechincha", 
+    "latlong": [
+      -22.9269, 
+      -43.3598
+    ], 
+    "type": "street", 
+    "name": "Rua Lopo Saraiva"
+  }, 
+  "rua_lopes_quintas": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9631893, 
+      -43.2225979
+    ], 
+    "type": "street", 
+    "name": "Rua Lopes Quintas"
+  }, 
+  "ipanema": {
+    "latlong": [
+      -19.7999954, 
+      -41.7138807
+    ], 
+    "type": "neighborhood", 
+    "name": "Ipanema"
+  }, 
+  "rua_benjamin_constant": {
+    "neighborhood": "Gl\u00f3ria", 
+    "latlong": [
+      -22.9209, 
+      -43.1792
+    ], 
+    "type": "street", 
+    "name": "Rua Benjamin Constant"
+  }, 
+  "praca_avai": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8926899, 
+      -43.2770178
+    ], 
+    "type": "street", 
+    "name": "Pra\u00e7a Ava\u00ed"
+  }, 
+  "rua_pao_de_acucar": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8525782, 
+      -43.3425942
+    ], 
+    "type": "street", 
+    "name": "Rua P\u00e3o de A\u00e7\u00facar"
+  }, 
+  "rua_padre_manoel_de_nobrega": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.2778321, 
+      -45.9016336
+    ], 
+    "type": "street", 
+    "name": "Rua Padre Manoel de N\u00f3brega"
+  }, 
+  "rua_jorge_faraj": {
+    "neighborhood": null, 
+    "latlong": [
+      -7.1185323, 
+      -34.840914
+    ], 
+    "type": "street", 
+    "name": "Rua Jorge Faraj"
+  }, 
+  "rua_leopoldo": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.927271, 
+      -43.25157
+    ], 
+    "type": "street", 
+    "name": "Rua Leopoldo"
+  }, 
+  "rua_dias_ferreira": {
+    "neighborhood": "Leblon", 
+    "latlong": [
+      -22.9821, 
+      -43.2245
+    ], 
+    "type": "street", 
+    "name": "Rua Dias Ferreira"
+  }, 
+  "jardim_botanico": {
+    "latlong": [
+      -20.3886932, 
+      -40.3702749
+    ], 
+    "type": "neighborhood", 
+    "name": "Jardim Bot\u00e2nico"
+  }, 
+  "rua_da_reverencia": {
+    "neighborhood": "Curicica", 
+    "latlong": [
+      -22.9553, 
+      -43.3904
+    ], 
+    "type": "street", 
+    "name": "Rua da Rever\u00eancia"
+  }, 
+  "praca_coronel_joao_zani": {
+    "neighborhood": null, 
+    "latlong": null, 
+    "type": "street", 
+    "name": "Pra\u00e7a Coronel Jo\u00e3o Zani"
+  }, 
+  "rua_lagolandia": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9165793, 
+      -43.3882096
+    ], 
+    "type": "street", 
+    "name": "Rua Lagol\u00e2ndia"
+  }, 
+  "rua_luiz_de_matos": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9106489, 
+      -43.2379996
+    ], 
+    "type": "street", 
+    "name": "Rua Luiz de Matos"
+  }, 
+  "rua_beira_rio": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.5940189, 
+      -46.6911152
+    ], 
+    "type": "street", 
+    "name": "Rua Beira Rio"
+  }, 
+  "praca_tiradentes": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.907049, 
+      -43.1829772390619
+    ], 
+    "type": "street", 
+    "name": "Pra\u00e7a Tiradentes"
+  }, 
+  "rua_comandante_rubens_silva": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9375693, 
+      -43.3373353
+    ], 
+    "type": "street", 
+    "name": "Rua Comandante Rubens Silva"
+  }, 
+  "rua_marques_de_abrantes": {
+    "neighborhood": "Flamengo", 
+    "latlong": [
+      -22.9352, 
+      -43.1774
+    ], 
+    "type": "street", 
+    "name": "Rua Marqu\u00eas de Abrantes"
+  }, 
+  "rua_jose_dos_reis": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8814933, 
+      -43.2870269
+    ], 
+    "type": "street", 
+    "name": "Rua Jos\u00e9 dos Reis"
+  }, 
+  "largo_da_penha": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8422543, 
+      -43.2778542
+    ], 
+    "type": "street", 
+    "name": "Largo da Penha"
+  }, 
+  "avenida_salvador_allende": {
+    "neighborhood": null, 
+    "latlong": [
+      43.3298728, 
+      5.3933191
+    ], 
+    "type": "street", 
+    "name": "Avenida Salvador Allende"
+  }, 
+  "rua_general_gustavo_cordeiro_de_farias": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8969819, 
+      -43.2387718
+    ], 
+    "type": "street", 
+    "name": "Rua General Gustavo Cordeiro de Farias"
+  }, 
+  "rua_franklin": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8981266, 
+      -43.5692889
+    ], 
+    "type": "street", 
+    "name": "Rua Franklin"
+  }, 
+  "rua_general_polidoro": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9570131, 
+      -43.1881266
+    ], 
+    "type": "street", 
+    "name": "Rua General Polidoro"
+  }, 
+  "rua_alvaro_ramos": {
+    "neighborhood": null, 
+    "latlong": [
+      -25.4169841, 
+      -49.2670189
+    ], 
+    "type": "street", 
+    "name": "Rua \u00c1lvaro Ramos"
+  }, 
+  "praca_benedito_cerqueira": {
+    "neighborhood": null, 
+    "latlong": null, 
+    "type": "street", 
+    "name": "Pra\u00e7a Benedito Cerqueira"
+  }, 
+  "rua_getulio": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8933243, 
+      -43.2790424
+    ], 
+    "type": "street", 
+    "name": "Rua Get\u00falio"
+  }, 
+  "rua_jorge_rudge": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9114878, 
+      -43.2399934
+    ], 
+    "type": "street", 
+    "name": "Rua Jorge Rudge"
+  }, 
+  "rua_do_ouvidor": {
+    "neighborhood": "Centro", 
+    "latlong": [
+      -22.9031, 
+      -43.177
+    ], 
+    "type": "street", 
+    "name": "Rua do Ouvidor"
+  }, 
+  "avenida_gabriela_prado_maia_ribeiro": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9244782, 
+      -43.231045
+    ], 
+    "type": "street", 
+    "name": "Avenida Gabriela Prado Maia Ribeiro"
+  }, 
+  "avenida_nelson_cardoso": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9189913, 
+      -43.3662559
+    ], 
+    "type": "street", 
+    "name": "Avenida Nelson Cardoso"
+  }, 
+  "rua_candido_gaffree": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9463129, 
+      -43.1618121
+    ], 
+    "type": "street", 
+    "name": "Rua C\u00e2ndido Gaffr\u00e9e"
+  }, 
+  "rua_da_alfandega": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9020579, 
+      -43.1787087
+    ], 
+    "type": "street", 
+    "name": "Rua da Alf\u00e2ndega"
+  }, 
+  "travessa_do_ouvidor": {
+    "neighborhood": "Centro", 
+    "latlong": [
+      -22.9044, 
+      -43.1772
+    ], 
+    "type": "street", 
+    "name": "Travessa do Ouvidor"
+  }, 
+  "rua_amalia": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.5493163, 
+      -46.8848822
+    ], 
+    "type": "street", 
+    "name": "Rua Am\u00e1lia"
+  }, 
+  "rua_dezoito_de_outubro": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9351193, 
+      -43.2419916
+    ], 
+    "type": "street", 
+    "name": "Rua Dezoito de Outubro"
+  }, 
+  "rua_guernica": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.0223309, 
+      -43.4853986
+    ], 
+    "type": "street", 
+    "name": "Rua Guernica"
+  }, 
+  "jardim_sulacap": {
+    "latlong": [
+      -22.8956799, 
+      -43.3929967
+    ], 
+    "type": "neighborhood", 
+    "name": "Jardim Sulacap"
+  }, 
+  "jardim_america": {
+    "latlong": [
+      -22.810005, 
+      -43.323212
+    ], 
+    "type": "neighborhood", 
+    "name": "Jardim Am\u00e9rica"
+  }, 
+  "engenho_novo": {
+    "latlong": [
+      -22.9090942, 
+      -43.2678381
+    ], 
+    "type": "neighborhood", 
+    "name": "Engenho Novo"
+  }, 
+  "rua_carolina_machado": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8617648, 
+      -43.368301
+    ], 
+    "type": "street", 
+    "name": "Rua Carolina Machado"
+  }, 
+  "magalhaes_bastos": {
+    "latlong": [
+      -22.8725117, 
+      -43.4136384
+    ], 
+    "type": "neighborhood", 
+    "name": "Magalh\u00e3es Bastos"
+  }, 
+  "rua_benedito_hipolito": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9083968, 
+      -43.1974868
+    ], 
+    "type": "street", 
+    "name": "Rua Benedito Hip\u00f3lito"
+  }, 
+  "estrada_independencia": {
+    "neighborhood": null, 
+    "latlong": [
+      -29.7003294, 
+      -51.2849171
+    ], 
+    "type": "street", 
+    "name": "Estrada Independ\u00eancia"
+  }, 
+  "rua_general_caldwell": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9090135, 
+      -43.191845
+    ], 
+    "type": "street", 
+    "name": "Rua General Caldwell"
+  }, 
+  "rua_jose_roberto_macedo_soares": {
+    "neighborhood": "G\u00e1vea", 
+    "latlong": [
+      -22.9738, 
+      -43.2276
+    ], 
+    "type": "street", 
+    "name": "Rua Jos\u00e9 Roberto Macedo Soares"
+  }, 
+  "rua_do_carmo": {
+    "neighborhood": "Centro", 
+    "latlong": [
+      -22.9029, 
+      -43.1766
+    ], 
+    "type": "street", 
+    "name": "Rua do Carmo"
+  }, 
+  "zumbi": {
+    "latlong": [
+      -22.8212784, 
+      -43.1758609
+    ], 
+    "type": "neighborhood", 
+    "name": "Zumbi"
+  }, 
+  "vidigal": {
+    "latlong": [
+      -22.9952094, 
+      -43.2408556
+    ], 
+    "type": "neighborhood", 
+    "name": "Vidigal"
+  }, 
+  "avenida_prado_junior": {
+    "neighborhood": "Leme", 
+    "latlong": [
+      -22.9647, 
+      -43.1747
+    ], 
+    "type": "street", 
+    "name": "Avenida Prado Junior"
+  }, 
+  "rua_raul_pompeia": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.5308682, 
+      -46.6882303
+    ], 
+    "type": "street", 
+    "name": "Rua Raul Pomp\u00e9ia"
+  }, 
+  "rua_republica_do_peru": {
+    "neighborhood": null, 
+    "latlong": [
+      -19.4263288, 
+      -44.2299369
+    ], 
+    "type": "street", 
+    "name": "Rua Rep\u00fablica do Peru"
+  }, 
+  "rua_da_relacao": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9104023, 
+      -43.1840864
+    ], 
+    "type": "street", 
+    "name": "Rua da Rela\u00e7\u00e3o"
+  }, 
+  "avenida_teotonio_vilela": {
+    "neighborhood": null, 
+    "latlong": [
+      -14.5257669, 
+      -49.1217346
+    ], 
+    "type": "street", 
+    "name": "Avenida Teot\u00f4nio Vilela"
+  }, 
+  "boulevard_vinte_e_oito_de_setembro": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9150808, 
+      -43.2421562
+    ], 
+    "type": "street", 
+    "name": "Boulevard Vinte e Oito de Setembro"
+  }, 
+  "rua_do_lavradio": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9118851, 
+      -43.1822971
+    ], 
+    "type": "street", 
+    "name": "Rua do Lavradio"
+  }, 
+  "rua_calumbi": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8527673, 
+      -43.3236648
+    ], 
+    "type": "street", 
+    "name": "Rua Calumbi"
+  }, 
+  "engenho_da_rainha": {
+    "latlong": [
+      -22.8626496, 
+      -43.2937874
+    ], 
+    "type": "neighborhood", 
+    "name": "Engenho da Rainha"
+  }, 
+  "avenida_epitacio_pessoa": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9775951, 
+      -43.1983546
+    ], 
+    "type": "street", 
+    "name": "Avenida Epit\u00e1cio Pessoa"
+  }, 
+  "estrada_da_barra_de_guaratiba": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.0500619, 
+      -43.5888853
+    ], 
+    "type": "street", 
+    "name": "Estrada da Barra de Guaratiba"
+  }, 
+  "avenida_monsenhor_ascaneo": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.011684, 
+      -43.3183254
+    ], 
+    "type": "street", 
+    "name": "Avenida Monsenhor Asc\u00e2neo"
+  }, 
+  "rua_boa_vista": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.8344472, 
+      -46.8205187
+    ], 
+    "type": "street", 
+    "name": "Rua Boa Vista"
+  }, 
+  "estrada_curumau": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9158927, 
+      -43.4017253
+    ], 
+    "type": "street", 
+    "name": "Estrada Curumau"
+  }, 
+  "madureira": {
+    "latlong": [
+      40.4682256, 
+      -8.5346518
+    ], 
+    "type": "neighborhood", 
+    "name": "Madureira"
+  }, 
+  "avenida_oscar_niemeyer": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8933357, 
+      -43.1920046
+    ], 
+    "type": "street", 
+    "name": "Avenida Oscar Niemeyer"
+  }, 
+  "estrada_do_pontal": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.033481, 
+      -43.4919527
+    ], 
+    "type": "street", 
+    "name": "Estrada do Pontal"
+  }, 
+  "praca_cristiano_ottoni": {
+    "neighborhood": null, 
+    "latlong": null, 
+    "type": "street", 
+    "name": "Pra\u00e7a Cristiano Ottoni"
+  }, 
+  "rua_da_quitanda": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9055557, 
+      -43.1757547
+    ], 
+    "type": "street", 
+    "name": "Rua da Quitanda"
+  }, 
+  "ilha": {
+    "latlong": [
+      -31.58150455, 
+      -52.9693977743651
+    ], 
+    "type": "neighborhood", 
+    "name": "Ilha"
+  }, 
+  "rua_corimbo": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8548998, 
+      -43.3427023
+    ], 
+    "type": "street", 
+    "name": "Rua Corimbo"
+  }, 
+  "rua_mucio_teixeira": {
+    "neighborhood": null, 
+    "latlong": [
+      -29.6729546, 
+      -53.8255564
+    ], 
+    "type": "street", 
+    "name": "Rua M\u00facio Teixeira"
+  }, 
+  "rua_antonio_mendes_campos": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9226421, 
+      -43.177021
+    ], 
+    "type": "street", 
+    "name": "Rua Ant\u00f4nio Mendes Campos"
+  }, 
+  "rua_artur_rios": {
+    "neighborhood": "Campo Grande", 
+    "latlong": [
+      -22.9018, 
+      -43.544
+    ], 
+    "type": "street", 
+    "name": "Rua Artur Rios"
+  }, 
+  "rua_henrique_novaes": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9550917, 
+      -43.1913734
+    ], 
+    "type": "street", 
+    "name": "Rua Henrique Novaes"
+  }, 
+  "estrada_das_canoas": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9828929, 
+      -43.2765246
+    ], 
+    "type": "street", 
+    "name": "Estrada das Canoas"
+  }, 
+  "vila_isabel": {
+    "latlong": [
+      -22.9152219, 
+      -43.2472627
+    ], 
+    "type": "neighborhood", 
+    "name": "Vila Isabel"
+  }, 
+  "rua_gaspar_magalhaes": {
+    "neighborhood": "Jardim Guanabara", 
+    "latlong": [
+      -22.812, 
+      -43.2082
+    ], 
+    "type": "street", 
+    "name": "Rua Gaspar Magalh\u00e3es"
+  }, 
+  "rua_ernesto_de_souza": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9279693, 
+      -43.2500172
+    ], 
+    "type": "street", 
+    "name": "Rua Ernesto de Souza"
+  }, 
+  "rua_bolivar": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.6323908, 
+      -46.6833396
+    ], 
+    "type": "street", 
+    "name": "Rua Bol\u00edvar"
+  }, 
+  "centro_": {
+    "latlong": [
+      18.0271663, 
+      -92.7747841052769
+    ], 
+    "type": "neighborhood", 
+    "name": "Centro"
+  }, 
+  "beco_do_pinheiro": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9305226, 
+      -43.1758939
+    ], 
+    "type": "street", 
+    "name": "Beco do Pinheiro"
+  }, 
+  "recreio_dos_bandeirantes": {
+    "latlong": [
+      -23.0185151, 
+      -43.4634021
+    ], 
+    "type": "neighborhood", 
+    "name": "Recreio dos Bandeirantes"
+  }, 
+  "rua_adalberto_ferreira": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9798663, 
+      -43.2227728
+    ], 
+    "type": "street", 
+    "name": "Rua Adalberto Ferreira"
+  }, 
+  "vargem_grande": {
+    "latlong": [
+      -22.9707911, 
+      -43.4968914
+    ], 
+    "type": "neighborhood", 
+    "name": "Vargem Grande"
+  }, 
+  "praca_campo_de_marte": {
+    "neighborhood": null, 
+    "latlong": null, 
+    "type": "street", 
+    "name": "Pra\u00e7a Campo de Marte"
+  }, 
+  "rua_dos_araujos": {
+    "neighborhood": "Tijuca", 
+    "latlong": [
+      -22.9268, 
+      -43.227
+    ], 
+    "type": "street", 
+    "name": "Rua dos Ara\u00fajos"
+  }, 
+  "inhoaiba": {
+    "latlong": [
+      -22.9131775, 
+      -43.5932975
+    ], 
+    "type": "neighborhood", 
+    "name": "Inhoa\u00edba"
+  }, 
+  "rua_regina": {
+    "neighborhood": "Senador Vasconcelos", 
+    "latlong": [
+      -22.8987, 
+      -43.5396
+    ], 
+    "type": "street", 
+    "name": "Rua Regina"
+  }, 
+  "praca_15_de_novembro": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8950859, 
+      -47.0582465988462
+    ], 
+    "type": "street", 
+    "name": "Pra\u00e7a 15 de Novembro"
+  }, 
+  "rua_da_gloria": {
+    "neighborhood": null, 
+    "latlong": [
+      38.7173225, 
+      -9.1449438
+    ], 
+    "type": "street", 
+    "name": "Rua da Gl\u00f3ria"
+  }, 
+  "praca_senador_salgado_filho": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9112518, 
+      -43.1675970265914
+    ], 
+    "type": "street", 
+    "name": "Pra\u00e7a Senador Salgado Filho"
+  }, 
+  "rua_ituverava": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9444501, 
+      -43.3353695
+    ], 
+    "type": "street", 
+    "name": "Rua Ituverava"
+  }, 
+  "praca_barao_da_taquara": {
+    "neighborhood": null, 
+    "latlong": null, 
+    "type": "street", 
+    "name": "Pra\u00e7a Bar\u00e3o da Taquara"
+  }, 
+  "rua_sao_pedro_de_alcantara": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.7348651, 
+      -46.710111
+    ], 
+    "type": "street", 
+    "name": "Rua S\u00e3o Pedro de Alc\u00e2ntara"
+  }, 
+  "rua_pereira_nunes": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9188161, 
+      -43.2393127
+    ], 
+    "type": "street", 
+    "name": "Rua Pereira Nunes"
+  }, 
+  "caju": {
+    "latlong": [
+      -22.8803063, 
+      -43.2214936
+    ], 
+    "type": "neighborhood", 
+    "name": "Caju"
+  }, 
+  "avenida_geremario_dantas": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9384134, 
+      -43.3489946
+    ], 
+    "type": "street", 
+    "name": "Avenida Gerem\u00e1rio Dantas"
+  }, 
+  "avenida_bartolomeu_de_gusmao": {
+    "neighborhood": null, 
+    "latlong": [
+      -14.864536, 
+      -40.8459544
+    ], 
+    "type": "street", 
+    "name": "Avenida Bartolomeu de Gusm\u00e3o"
+  }, 
+  "gardenia_azul": {
+    "latlong": [
+      -22.9582866, 
+      -43.3512241
+    ], 
+    "type": "neighborhood", 
+    "name": "Gard\u00eania Azul"
+  }, 
+  "rua_maestro_ernesto_nazare": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9080158, 
+      -43.2429653
+    ], 
+    "type": "street", 
+    "name": "Rua Maestro Ernesto Nazar\u00e9"
+  }, 
+  "rua_ana_neri": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9013558, 
+      -43.2564229
+    ], 
+    "type": "street", 
+    "name": "Rua Ana Neri"
+  }, 
+  "estacio": {
+    "latlong": [
+      14.4774159, 
+      121.2032042
+    ], 
+    "type": "neighborhood", 
+    "name": "Est\u00e1cio"
+  }, 
+  "rua_barao_de_ipanema": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9746064, 
+      -43.1905222
+    ], 
+    "type": "street", 
+    "name": "Rua Bar\u00e3o de Ipanema"
+  }, 
+  "rua_homem_de_melo": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9340208, 
+      -43.2383517
+    ], 
+    "type": "street", 
+    "name": "Rua Homem de Melo"
+  }, 
+  "rua_relvado": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9182713, 
+      -43.3857484
+    ], 
+    "type": "street", 
+    "name": "Rua Relvado"
+  }, 
+  "avenida_vieira_souto": {
+    "neighborhood": "Ipanema", 
+    "latlong": [
+      -22.9863, 
+      -43.2034
+    ], 
+    "type": "street", 
+    "name": "Avenida Vieira Souto"
+  }, 
+  "avenida_pastor_martin_luther_king_junior": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.80583, 
+      -43.3661599
+    ], 
+    "type": "street", 
+    "name": "Avenida Pastor Martin Luther King Junior"
+  }, 
+  "paciencia": {
+    "latlong": [
+      -1.629205, 
+      -47.7399767
+    ], 
+    "type": "neighborhood", 
+    "name": "Paci\u00eancia"
+  }, 
+  "urca": {
+    "latlong": [
+      -22.9504435, 
+      -43.1623454
+    ], 
+    "type": "neighborhood", 
+    "name": "Urca"
+  }, 
+  "rua_cambauba": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.815895, 
+      -43.2059523
+    ], 
+    "type": "street", 
+    "name": "Rua Camba\u00faba"
+  }, 
+  "rua_souza_lima": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9821254, 
+      -43.1922691
+    ], 
+    "type": "street", 
+    "name": "Rua Souza Lima"
+  }, 
+  "botafogo": {
+    "latlong": [
+      -22.94884465, 
+      -43.179829096253
+    ], 
+    "type": "neighborhood", 
+    "name": "Botafogo"
+  }, 
+  "praca_soldado_michel_chaib": {
+    "neighborhood": "Jardim Am\u00e9rica", 
+    "latlong": [
+      -22.8079, 
+      -43.3214
+    ], 
+    "type": "street", 
+    "name": "Pra\u00e7a Soldado Michel Chaib"
+  }, 
+  "rua_riachuelo": {
+    "neighborhood": null, 
+    "latlong": [
+      -7.1190369, 
+      -34.8879143
+    ], 
+    "type": "street", 
+    "name": "Rua Riachuelo"
+  }, 
+  "avenida_genaro_de_carvalho": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.0161777, 
+      -43.457587
+    ], 
+    "type": "street", 
+    "name": "Avenida Genaro de Carvalho"
+  }, 
+  "joa": {
+    "latlong": [
+      -1.375722, 
+      -80.6313903
+    ], 
+    "type": "neighborhood", 
+    "name": "Jo\u00e1"
+  }, 
+  "mangueira": {
+    "latlong": [
+      -0.0683015, 
+      -64.326841
+    ], 
+    "type": "neighborhood", 
+    "name": "Mangueira"
+  }, 
+  "pitangueiras": {
+    "latlong": [
+      -22.8171281, 
+      -43.1799542
+    ], 
+    "type": "neighborhood", 
+    "name": "Pitangueiras"
+  }, 
+  "rua_zumba": {
+    "neighborhood": "Jacarepagu\u00e1", 
+    "latlong": [
+      -22.9517, 
+      -43.3782
+    ], 
+    "type": "street", 
+    "name": "Rua Zumba"
+  }, 
+  "rua_mariz_e_barros": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9112794, 
+      -43.2138643
+    ], 
+    "type": "street", 
+    "name": "Rua Mariz e Barros"
+  }, 
+  "tanque": {
+    "latlong": [
+      -22.9151927, 
+      -43.3557471
+    ], 
+    "type": "neighborhood", 
+    "name": "Tanque"
+  }, 
+  "penha_circular": {
+    "latlong": [
+      -22.8326425, 
+      -43.2842228
+    ], 
+    "type": "neighborhood", 
+    "name": "Penha Circular"
+  }, 
+  "rua_januario_barbosa": {
+    "neighborhood": "Taquara", 
+    "latlong": [
+      -22.9183, 
+      -43.3879
+    ], 
+    "type": "street", 
+    "name": "Rua Janu\u00e1rio Barbosa"
+  }, 
+  "rua_general_canabarro": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9131793, 
+      -43.2251838
+    ], 
+    "type": "street", 
+    "name": "Rua General Canabarro"
+  }, 
+  "rua_santa_engracia": {
+    "neighborhood": "Penha", 
+    "latlong": [
+      -22.8394, 
+      -43.2683
+    ], 
+    "type": "street", 
+    "name": "Rua Santa Engracia"
+  }, 
+  "rua_sacadura_cabral": {
+    "neighborhood": null, 
+    "latlong": [
+      40.208686, 
+      -8.4034592
+    ], 
+    "type": "street", 
+    "name": "Rua Sacadura Cabral"
+  }, 
+  "praia_da_bandeira": {
+    "latlong": [
+      -22.8104077, 
+      -43.179895
+    ], 
+    "type": "neighborhood", 
+    "name": "Praia da Bandeira"
+  }, 
+  "rua_miguel_couto": {
+    "neighborhood": null, 
+    "latlong": [
+      -30.0663512, 
+      -51.2252816
+    ], 
+    "type": "street", 
+    "name": "Rua Miguel Couto"
+  }, 
+  "avenida_marechal_floriano": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9003206, 
+      -43.1809542
+    ], 
+    "type": "street", 
+    "name": "Avenida Marechal Floriano"
+  }, 
+  "rua_sao_clemente": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.5078507, 
+      -44.1972452
+    ], 
+    "type": "street", 
+    "name": "Rua S\u00e3o Clemente"
+  }, 
+  "rua_ebano": {
+    "neighborhood": "Benfica", 
+    "latlong": [
+      -22.8892, 
+      -43.2358
+    ], 
+    "type": "street", 
+    "name": "Rua \u00c9bano"
+  }, 
+  "avenida_dos_mananciais": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9177178, 
+      -43.3941666
+    ], 
+    "type": "street", 
+    "name": "Avenida dos Mananciais"
+  }, 
+  "higienopolis": {
+    "latlong": [
+      -20.8368569, 
+      -49.3881547
+    ], 
+    "type": "neighborhood", 
+    "name": "Higien\u00f3polis"
+  }, 
+  "avenida_monsenhor_felix": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8330697, 
+      -43.3283346
+    ], 
+    "type": "street", 
+    "name": "Avenida Monsenhor Felix"
+  }, 
+  "rua_professor_alvaro_rodrigues": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.951515, 
+      -43.1825274
+    ], 
+    "type": "street", 
+    "name": "Rua Professor \u00c1lvaro Rodrigues"
+  }, 
+  "rua_ipiranga": {
+    "neighborhood": null, 
+    "latlong": [
+      -13.0084076, 
+      -38.4806914
+    ], 
+    "type": "street", 
+    "name": "Rua Ipiranga"
+  }, 
+  "parada_de_lucas": {
+    "latlong": [
+      -22.8167023, 
+      -43.3012102
+    ], 
+    "type": "neighborhood", 
+    "name": "Parada de Lucas"
+  }, 
+  "rua_augusto_franco": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8776146, 
+      -43.3143999
+    ], 
+    "type": "street", 
+    "name": "Rua Augusto Franco"
+  }, 
+  "avenida_general_osvaldo_cordeiro_de_farias": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8647722, 
+      -43.3734494
+    ], 
+    "type": "street", 
+    "name": "Avenida General Osvaldo Cordeiro de Farias"
+  }, 
+  "rua_visconde_da_graca": {
+    "neighborhood": "Jardim Bot\u00e2nico", 
+    "latlong": [
+      -22.964, 
+      -43.2179
+    ], 
+    "type": "street", 
+    "name": "Rua Visconde da Gra\u00e7a"
+  }, 
+  "rua_soriano_de_sousa": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9241242, 
+      -43.2356395
+    ], 
+    "type": "street", 
+    "name": "Rua Soriano de Sousa"
+  }, 
+  "rua_carlos_de_carvalho": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9258043, 
+      -43.6319195
+    ], 
+    "type": "street", 
+    "name": "Rua Carlos de Carvalho"
+  }, 
+  "avenida_francisco_bicalho": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9096643, 
+      -43.2097223
+    ], 
+    "type": "street", 
+    "name": "Avenida Francisco Bicalho"
+  }, 
+  "rua_carneiro_de_mendonca": {
+    "neighborhood": "Vicente de Carvalho", 
+    "latlong": [
+      -22.8603, 
+      -43.3184
+    ], 
+    "type": "street", 
+    "name": "Rua Carneiro de Mendon\u00e7a"
+  }, 
+  "praca_da_cruz_vermelha": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9119322, 
+      -43.1882559807953
+    ], 
+    "type": "street", 
+    "name": "Pra\u00e7a da Cruz Vermelha"
+  }, 
+  "rua_campo_grande": {
+    "neighborhood": null, 
+    "latlong": [
+      -16.6946344, 
+      -49.2279553
+    ], 
+    "type": "street", 
+    "name": "Rua Campo Grande"
+  }, 
+  "rua_barao_da_torre": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9831584, 
+      -43.2050161
+    ], 
+    "type": "street", 
+    "name": "Rua Bar\u00e3o da Torre"
+  }, 
+  "vargem_pequena": {
+    "latlong": [
+      -22.9818187, 
+      -43.4578117
+    ], 
+    "type": "neighborhood", 
+    "name": "Vargem Pequena"
+  }, 
+  "praia_belo_jardim": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8188907, 
+      -43.2209088
+    ], 
+    "type": "street", 
+    "name": "Praia Belo Jardim"
+  }, 
+  "avenida_alexandre_ferreira": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9629759, 
+      -43.2126772
+    ], 
+    "type": "street", 
+    "name": "Avenida Alexandre Ferreira"
+  }, 
+  "estrada_velha_da_tijuca": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.946991, 
+      -43.2569834
+    ], 
+    "type": "street", 
+    "name": "Estrada Velha da Tijuca"
+  }, 
+  "rua_bambina": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9460505, 
+      -43.1855721
+    ], 
+    "type": "street", 
+    "name": "Rua Bambina"
+  }, 
+  "rua_santos_vale": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9307756, 
+      -43.2518861
+    ], 
+    "type": "street", 
+    "name": "Rua Santos Vale"
+  }, 
+  "rua_barata_ribeiro": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9720897, 
+      -43.1900211
+    ], 
+    "type": "street", 
+    "name": "Rua Barata Ribeiro"
+  }, 
+  "cocota": {
+    "latlong": [
+      -15.3308803, 
+      -73.0341325
+    ], 
+    "type": "neighborhood", 
+    "name": "Cocot\u00e1"
+  }, 
+  "rua_alto_da_boa_vista": {
+    "neighborhood": null, 
+    "latlong": [
+      -12.9093056, 
+      -38.3588203
+    ], 
+    "type": "street", 
+    "name": "Rua Alto da Boa Vista"
+  }, 
+  "rua_fortaleza": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.559886, 
+      -46.6458138
+    ], 
+    "type": "street", 
+    "name": "Rua Fortaleza"
+  }, 
+  "rua_athos_bulcao": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.0109891, 
+      -43.4644877
+    ], 
+    "type": "street", 
+    "name": "Rua Athos Bulc\u00e3o"
+  }, 
+  "rua_juiz_jorge_salomao": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9093368, 
+      -43.267629
+    ], 
+    "type": "street", 
+    "name": "Rua Juiz Jorge Salom\u00e3o"
+  }, 
+  "largo_do_machado": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9308513, 
+      -43.1781402
+    ], 
+    "type": "street", 
+    "name": "Largo do Machado"
+  }, 
+  "avenida_atlantica": {
+    "neighborhood": null, 
+    "latlong": [
+      -29.5506986, 
+      -49.8853502
+    ], 
+    "type": "street", 
+    "name": "Avenida Atl\u00e2ntica"
+  }, 
+  "rua_cirne_maia": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8919569, 
+      -43.2800239
+    ], 
+    "type": "street", 
+    "name": "Rua Cirne Maia"
+  }, 
+  "avenida_graca_aranha": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8598773, 
+      -47.0594232
+    ], 
+    "type": "street", 
+    "name": "Avenida Gra\u00e7a Aranha"
+  }, 
+  "praca_marechal_floriano": {
+    "neighborhood": null, 
+    "latlong": [
+      -18.5475982, 
+      -42.5634111489437
+    ], 
+    "type": "street", 
+    "name": "Praca Marechal Floriano"
+  }, 
+  "praca_cardeal_arcoverde": {
+    "neighborhood": null, 
+    "latlong": [
+      -6.8875229, 
+      -38.5575857995441
+    ], 
+    "type": "street", 
+    "name": "Pra\u00e7a Cardeal Arcoverde"
+  }, 
+  "rua_nerval_de_gouveia": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8885125, 
+      -43.3218903
+    ], 
+    "type": "street", 
+    "name": "Rua Nerval de Gouveia"
+  }, 
+  "avenida_guiomar_novaes": {
+    "neighborhood": "Recreio dos Bandeirantes", 
+    "latlong": [
+      -23.0249, 
+      -43.4818
+    ], 
+    "type": "street", 
+    "name": "Avenida Guiomar Novaes"
+  }, 
+  "padre_miguel": {
+    "latlong": [
+      -22.8788135, 
+      -43.4485569
+    ], 
+    "type": "neighborhood", 
+    "name": "Padre Miguel"
+  }, 
+  "rua_dezenove_de_fevereiro": {
+    "neighborhood": "Botafogo", 
+    "latlong": [
+      -22.9542, 
+      -43.1853
+    ], 
+    "type": "street", 
+    "name": "Rua Dezenove de Fevereiro"
+  }, 
+  "rua_visconde_de_inhauma": {
+    "neighborhood": "Centro", 
+    "latlong": [
+      -22.8996, 
+      -43.1782
+    ], 
+    "type": "street", 
+    "name": "Rua Visconde de Inha\u00fama"
+  }, 
+  "rua_conde_de_bonfim": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9453469, 
+      -43.2546197
+    ], 
+    "type": "street", 
+    "name": "Rua Conde de Bonfim"
+  }, 
+  "rua_jornalista_guima": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9651622, 
+      -43.2776703
+    ], 
+    "type": "street", 
+    "name": "Rua Jornalista Guima"
+  }, 
+  "avenida_armando_lombardi": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.0070779, 
+      -43.3079024
+    ], 
+    "type": "street", 
+    "name": "Avenida Armando Lombardi"
+  }, 
+  "estrada_do_itarare": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8604987, 
+      -43.2674415529669
+    ], 
+    "type": "street", 
+    "name": "Estrada do Itarar\u00e9"
+  }, 
+  "avenida_pasteur": {
+    "neighborhood": null, 
+    "latlong": [
+      18.4662886, 
+      -69.8984586
+    ], 
+    "type": "street", 
+    "name": "Avenida Pasteur"
+  }, 
+  "avenida_marechal_rondon": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9067497, 
+      -43.2398157
+    ], 
+    "type": "street", 
+    "name": "Avenida Marechal Rondon"
+  }, 
+  "freguesia": {
+    "latlong": [
+      -22.7850602, 
+      -43.1694534
+    ], 
+    "type": "neighborhood", 
+    "name": "Freguesia"
+  }, 
+  "rua_heraclito_da_graca": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9112223, 
+      -43.2826654
+    ], 
+    "type": "street", 
+    "name": "Rua Her\u00e1clito da Gra\u00e7a"
+  }, 
+  "avenida_erasmo_braga": {
+    "neighborhood": "Centro", 
+    "latlong": [
+      -22.9058, 
+      -43.1747
+    ], 
+    "type": "street", 
+    "name": "Avenida Erasmo Braga"
+  }, 
+  "rua_frederico_silva": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9072284, 
+      -43.193586
+    ], 
+    "type": "street", 
+    "name": "Rua Frederico Silva"
+  }, 
+  "rua_compositor_silas_de_oliveira": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8633015, 
+      -43.3322096
+    ], 
+    "type": "street", 
+    "name": "Rua Compositor Silas de Oliveira"
+  }, 
+  "estrada_da_gavea": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9942083, 
+      -43.2564359
+    ], 
+    "type": "street", 
+    "name": "Estrada da G\u00e1vea"
+  }, 
+  "rua_tenreiro_aranha": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9670299, 
+      -43.1873143
+    ], 
+    "type": "street", 
+    "name": "Rua Tenreiro Aranha"
+  }, 
+  "rua_fonte_da_saudade": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9618633, 
+      -43.2029397
+    ], 
+    "type": "street", 
+    "name": "Rua Fonte da Saudade"
+  }, 
+  "travessa_carlos_de_sa": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9258906, 
+      -43.1785094
+    ], 
+    "type": "street", 
+    "name": "Travessa Carlos de S\u00e1"
+  }, 
+  "avenida_manuel_caldeira_de_alvarenga": {
+    "neighborhood": "Campo Grande", 
+    "latlong": [
+      -22.8995, 
+      -43.5787
+    ], 
+    "type": "street", 
+    "name": "Avenida Manuel Caldeira de Alvarenga"
+  }, 
+  "rua_senhor_dos_passos": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9031444, 
+      -43.1807836
+    ], 
+    "type": "street", 
+    "name": "Rua Senhor dos Passos"
+  }, 
+  "avenida_ministro_edgard_romero": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8566851, 
+      -43.3292472
+    ], 
+    "type": "street", 
+    "name": "Avenida Ministro Edgard Romero"
+  }, 
+  "lins_de_vasconcelos": {
+    "latlong": [
+      -22.9140512, 
+      -43.2843528
+    ], 
+    "type": "neighborhood", 
+    "name": "Lins de Vasconcelos"
+  }, 
+  "rua_teodoro_da_silva": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9169173, 
+      -43.2419126
+    ], 
+    "type": "street", 
+    "name": "Rua Teodoro da Silva"
+  }, 
+  "itanhanga": {
+    "latlong": [
+      -12.2259455, 
+      -56.6462518
+    ], 
+    "type": "neighborhood", 
+    "name": "Itanhang\u00e1"
+  }, 
+  "rua_senador_dantas": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9094034, 
+      -43.1778849
+    ], 
+    "type": "street", 
+    "name": "Rua Senador Dantas"
+  }, 
+  "rua_moacir_de_almeida": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8694038, 
+      -43.3073423
+    ], 
+    "type": "street", 
+    "name": "Rua Moacir de Almeida"
+  }, 
+  "travessa_venancio": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.1513407, 
+      -46.0463569
+    ], 
+    "type": "street", 
+    "name": "Travessa Ven\u00e2ncio"
+  }, 
+  "rua_ibia": {
+    "neighborhood": null, 
+    "latlong": [
+      -19.9388971, 
+      -43.4753202
+    ], 
+    "type": "street", 
+    "name": "Rua Ibi\u00e1"
+  }, 
+  "rua_doutor_joviano": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8669146, 
+      -43.3307473
+    ], 
+    "type": "street", 
+    "name": "Rua Doutor Joviano"
+  }, 
+  "vila_cosmos": {
+    "latlong": [
+      -22.9156938, 
+      -43.6159383
+    ], 
+    "type": "neighborhood", 
+    "name": "Vila Cosmos"
+  }, 
+  "campinho": {
+    "latlong": [
+      -22.8852187, 
+      -43.347738
+    ], 
+    "type": "neighborhood", 
+    "name": "Campinho"
+  }, 
+  "estrada_do_pau_ferro": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9274409, 
+      -43.3421411
+    ], 
+    "type": "street", 
+    "name": "Estrada do Pau Ferro"
+  }, 
+  "rua_araguaia": {
+    "neighborhood": null, 
+    "latlong": [
+      -25.4343912, 
+      -49.205765
+    ], 
+    "type": "street", 
+    "name": "Rua Araguaia"
+  }, 
+  "rua_machado_de_assis": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.581537, 
+      -46.6358813
+    ], 
+    "type": "street", 
+    "name": "Rua Machado de Assis"
+  }, 
+  "praca_ibae": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9122584, 
+      -43.2634065865217
+    ], 
+    "type": "street", 
+    "name": "Pra\u00e7a Iba\u00e9"
+  }, 
+  "rua_conde_de_baependi": {
+    "neighborhood": "Laranjeiras", 
+    "latlong": [
+      -22.9328, 
+      -43.1796
+    ], 
+    "type": "street", 
+    "name": "Rua Conde de Baependi"
+  }, 
+  "avenida_henrique_valadares": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9126115, 
+      -43.1901709
+    ], 
+    "type": "street", 
+    "name": "Avenida Henrique Valadares"
+  }, 
+  "avenida_imperatriz_leopoldina": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9695967, 
+      -43.3810653
+    ], 
+    "type": "street", 
+    "name": "Avenida Imperatriz Leopoldina"
+  }, 
+  "encantado": {
+    "latlong": [
+      -29.2397678, 
+      -51.8762412
+    ], 
+    "type": "neighborhood", 
+    "name": "Encantado"
+  }, 
+  "rua_barao_de_petropolis": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9254767, 
+      -43.2052254
+    ], 
+    "type": "street", 
+    "name": "Rua Bar\u00e3o de Petr\u00f3polis"
+  }, 
+  "rua_morais_e_silva": {
+    "neighborhood": null, 
+    "latlong": [
+      -8.0839263, 
+      -34.9305954
+    ], 
+    "type": "street", 
+    "name": "Rua Morais e Silva"
+  }, 
+  "lagoa": {
+    "latlong": [
+      -6.1136981, 
+      106.910150747509
+    ], 
+    "type": "neighborhood", 
+    "name": "Lagoa"
+  }, 
+  "imperial_de_sao_cristovao_": {
+    "latlong": [
+      -11.01998755, 
+      -37.2064786598598
+    ], 
+    "type": "neighborhood", 
+    "name": "Imperial de S\u00e3o Crist\u00f3v\u00e3o"
+  }, 
+  "calcadao_de_copacabana": {
+    "neighborhood": "Copacabana", 
+    "latlong": [
+      -22.9844, 
+      -43.1892
+    ], 
+    "type": "street", 
+    "name": "Cal\u00e7ad\u00e3o de Copacabana"
+  }, 
+  "rua_andarai": {
+    "neighborhood": null, 
+    "latlong": [
+      -2.511725, 
+      -44.3079951
+    ], 
+    "type": "street", 
+    "name": "Rua Andara\u00ed"
+  }, 
+  "rua_itapua": {
+    "neighborhood": "Vicente De Carvalho", 
+    "latlong": [
+      -22.8564, 
+      -43.3136
+    ], 
+    "type": "street", 
+    "name": "Rua Itapu\u00e3"
+  }, 
+  "inhauma": {
+    "latlong": [
+      -19.490277, 
+      -44.389166
+    ], 
+    "type": "neighborhood", 
+    "name": "Inha\u00fama"
+  }, 
+  "rua_camatia": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9268096, 
+      -43.3427303
+    ], 
+    "type": "street", 
+    "name": "Rua Camati\u00e1"
+  }, 
+  "rua_caiabu": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8527673, 
+      -43.3236648
+    ], 
+    "type": "street", 
+    "name": "Rua Caiabu"
+  }, 
+  "rua_padre_manso": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8789384, 
+      -43.3372858
+    ], 
+    "type": "street", 
+    "name": "Rua Padre Manso"
+  }, 
+  "rua_paulo_cezar_de_andrade": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9301156, 
+      -43.182817
+    ], 
+    "type": "street", 
+    "name": "Rua Paulo Cezar de Andrade"
+  }, 
+  "rua_sa_viana": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9254585, 
+      -43.2593189
+    ], 
+    "type": "street", 
+    "name": "Rua S\u00e1 Viana"
+  }, 
+  "rua_humberto_cozzo": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.018604, 
+      -43.4613202
+    ], 
+    "type": "street", 
+    "name": "Rua Humberto Cozzo"
+  }, 
+  "estrada_da_cacuia": {
+    "neighborhood": "Ilha do Governador", 
+    "latlong": [
+      -22.8107, 
+      -43.1876
+    ], 
+    "type": "street", 
+    "name": "Estrada da Cacuia"
+  }, 
+  "avenida_ayrton_senna": {
+    "neighborhood": "Jacarepagu\u00e1", 
+    "latlong": [
+      -22.9925, 
+      -43.3667
+    ], 
+    "type": "street", 
+    "name": "Avenida Ayrton Senna"
+  }, 
+  "laranjeiras": {
+    "latlong": [
+      -22.9343173, 
+      -43.1878165
+    ], 
+    "type": "neighborhood", 
+    "name": "Laranjeiras"
+  }, 
+  "rua_manoel_vitorino": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8954002, 
+      -43.302955
+    ], 
+    "type": "street", 
+    "name": "Rua Manoel Vitorino"
+  }, 
+  "cavalcanti": {
+    "latlong": [
+      -22.8705266, 
+      -43.3165261
+    ], 
+    "type": "neighborhood", 
+    "name": "Cavalcanti"
+  }, 
+  "colegio": {
+    "latlong": [
+      -2.5435762, 
+      -78.9133172
+    ], 
+    "type": "neighborhood", 
+    "name": "Col\u00e9gio"
+  }, 
+  "praca_sao_salvador": {
+    "neighborhood": null, 
+    "latlong": [
+      -18.16760775, 
+      -42.7662343397999
+    ], 
+    "type": "street", 
+    "name": "Pra\u00e7a S\u00e3o Salvador"
+  }, 
+  "rua_correa_dutra": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9268824, 
+      -43.1791521
+    ], 
+    "type": "street", 
+    "name": "Rua Corr\u00eaa Dutra"
+  }, 
+  "avenida_maracana": {
+    "neighborhood": null, 
+    "latlong": [
+      -16.645233, 
+      -49.2362005
+    ], 
+    "type": "street", 
+    "name": "Avenida Maracan\u00e3"
+  }, 
+  "grumari": {
+    "latlong": [
+      -23.0470388, 
+      -43.5334787
+    ], 
+    "type": "neighborhood", 
+    "name": "Grumari"
+  }, 
+  "rua_vital": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8860044, 
+      -43.3187474
+    ], 
+    "type": "street", 
+    "name": "Rua Vital"
+  }, 
+  "estrada_general_emilio_maurell_filho": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8395619, 
+      -43.4820152
+    ], 
+    "type": "street", 
+    "name": "Estrada General Em\u00edlio Maurell Filho"
+  }, 
+  "vasco_da_gama": {
+    "latlong": [
+      -22.8915219, 
+      -43.2267195
+    ], 
+    "type": "neighborhood", 
+    "name": "Vasco da Gama"
+  }, 
+  "rua_domingos_ferreira": {
+    "neighborhood": "Copacabana", 
+    "latlong": [
+      -22.9732, 
+      -43.1875
+    ], 
+    "type": "street", 
+    "name": "Rua Domingos Ferreira"
+  }, 
+  "rua_ricardo_machado": {
+    "neighborhood": "Vasco da Gama", 
+    "latlong": [
+      -22.8903, 
+      -43.2301
+    ], 
+    "type": "street", 
+    "name": "Rua Ricardo Machado"
+  }, 
+  "avenida_nazare": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8277954, 
+      -43.399878
+    ], 
+    "type": "street", 
+    "name": "Avenida Nazar\u00e9"
+  }, 
+  "rocinha_": {
+    "latlong": [
+      -22.98778975, 
+      -43.2479291365062
+    ], 
+    "type": "neighborhood", 
+    "name": "Rocinha"
+  }, 
+  "rua_bogari": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9141085, 
+      -43.3805327
+    ], 
+    "type": "street", 
+    "name": "Rua Bogari"
+  }, 
+  "rua_tenente_marques_de_souza": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9314343, 
+      -43.2509015
+    ], 
+    "type": "street", 
+    "name": "Rua Tenente Marques de Souza"
+  }, 
+  "avenida_presidente_castelo_branco": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9955616, 
+      -51.1910812
+    ], 
+    "type": "street", 
+    "name": "Avenida Presidente Castelo Branco"
+  }, 
+  "realengo": {
+    "latlong": [
+      -22.8772743, 
+      -43.4301032
+    ], 
+    "type": "neighborhood", 
+    "name": "Realengo"
+  }, 
+  "rua_felipe_camarao": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.5345814, 
+      -46.9025672
+    ], 
+    "type": "street", 
+    "name": "Rua Felipe Camar\u00e3o"
+  }, 
+  "rua_dos_invalidos": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.9493162, 
+      -46.3600134
+    ], 
+    "type": "street", 
+    "name": "Rua dos Inv\u00e1lidos"
+  }, 
+  "rua_evaristo_da_veiga": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9123355, 
+      -43.1790079
+    ], 
+    "type": "street", 
+    "name": "Rua Evaristo da Veiga"
+  }, 
+  "avenida_pastor_martin_luther_king": {
+    "neighborhood": "Vicente de Carvalho", 
+    "latlong": [
+      -22.8588, 
+      -43.3091
+    ], 
+    "type": "street", 
+    "name": "Avenida Pastor Martin Luther King"
+  }, 
+  "auto_estrada_lagoabarra": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.996704, 
+      -43.261308
+    ], 
+    "type": "street", 
+    "name": "Auto Estrada Lagoa-Barra"
+  }, 
+  "rua_general_oswaldo_cordeiro_de_faria": {
+    "neighborhood": null, 
+    "latlong": null, 
+    "type": "street", 
+    "name": "Rua General Oswaldo Cordeiro de Faria"
+  }, 
+  "portuguesa": {
+    "latlong": [
+      9.166667, 
+      -69.25
+    ], 
+    "type": "neighborhood", 
+    "name": "Portuguesa"
+  }, 
+  "rua_lopes_de_moura": {
+    "neighborhood": "Santa Cruz", 
+    "latlong": [
+      -22.9182, 
+      -43.684
+    ], 
+    "type": "street", 
+    "name": "Rua Lopes de Moura"
+  }, 
+  "rua_ubaldino_do_amaral": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9114851, 
+      -43.1867146
+    ], 
+    "type": "street", 
+    "name": "Rua Ubaldino do Amaral"
+  }, 
+  "avenida_das_americas": {
+    "neighborhood": "Recreio dos Bandeirantes", 
+    "latlong": [
+      -23.0131, 
+      -43.4599
+    ], 
+    "type": "street", 
+    "name": "Avenida das Am\u00e9ricas"
+  }, 
+  "rua_emilio_de_meneses": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9312185, 
+      -52.1507385
+    ], 
+    "type": "street", 
+    "name": "Rua Em\u00edlio de Meneses"
+  }, 
+  "rua_pacheco_leao": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9662295, 
+      -43.2199244
+    ], 
+    "type": "street", 
+    "name": "Rua Pacheco Le\u00e3o"
+  }, 
+  "rua_conego_tobias": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9044288, 
+      -43.2805116
+    ], 
+    "type": "street", 
+    "name": "Rua C\u00f4nego Tobias"
+  }, 
+  "sepetiba": {
+    "latlong": [
+      -22.9679803, 
+      -43.6940872
+    ], 
+    "type": "neighborhood", 
+    "name": "Sepetiba"
+  }, 
+  "rua_visconde_de_niteroi": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9083405, 
+      -43.2357818
+    ], 
+    "type": "street", 
+    "name": "Rua Visconde de Niter\u00f3i"
+  }, 
+  "rua_barao_de_iguatemi": {
+    "neighborhood": "Pra\u00e7a da Bandeira", 
+    "latlong": [
+      -22.9136, 
+      -43.2152
+    ], 
+    "type": "street", 
+    "name": "Rua Bar\u00e3o de Iguatemi"
+  }, 
+  "rua_capitao_salomao": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9571371, 
+      -43.1961964
+    ], 
+    "type": "street", 
+    "name": "Rua Capit\u00e3o Salom\u00e3o"
+  }, 
+  "piedade": {
+    "latlong": [
+      -23.7074096, 
+      -47.4252319
+    ], 
+    "type": "neighborhood", 
+    "name": "Piedade"
+  }, 
+  "meier": {
+    "latlong": [
+      48.432506, 
+      12.966444
+    ], 
+    "type": "neighborhood", 
+    "name": "M\u00e9ier"
+  }, 
+  "rua_alvaro_alberto": {
+    "neighborhood": "Santa Cruz", 
+    "latlong": [
+      -22.9138, 
+      -43.6799
+    ], 
+    "type": "street", 
+    "name": "Rua \u00c1lvaro Alberto"
+  }, 
+  "rua_jose_bonifacio": {
+    "neighborhood": "Todos os Santos", 
+    "latlong": [
+      -22.8935, 
+      -43.2829
+    ], 
+    "type": "street", 
+    "name": "Rua Jos\u00e9 Bonif\u00e1cio"
+  }, 
+  "rua_aurelio_de_figueiredo": {
+    "neighborhood": "Campo Grande", 
+    "latlong": [
+      -22.9045, 
+      -43.5565
+    ], 
+    "type": "street", 
+    "name": "Rua Aur\u00e9lio de Figueiredo"
+  }, 
+  "rua_do_bonfim": {
+    "neighborhood": null, 
+    "latlong": [
+      -14.8122599, 
+      -39.0346949
+    ], 
+    "type": "street", 
+    "name": "Rua do Bonfim"
+  }, 
+  "estrada_da_independencia_da_chacara": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9357292, 
+      -43.2543007
+    ], 
+    "type": "street", 
+    "name": "Estrada da Independ\u00eancia da Ch\u00e1cara"
+  }, 
+  "avenida_embaixador_abelardo_bueno": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9731637, 
+      -43.3877799
+    ], 
+    "type": "street", 
+    "name": "Avenida Embaixador Abelardo Bueno"
+  }, 
+  "praca_santos_dumont": {
+    "neighborhood": null, 
+    "latlong": [
+      -29.92170265, 
+      -51.1784568426422
+    ], 
+    "type": "street", 
+    "name": "Pra\u00e7a Santos Dumont"
+  }, 
+  "barra_da_tijuca": {
+    "latlong": [
+      -22.9997404, 
+      -43.3659929
+    ], 
+    "type": "neighborhood", 
+    "name": "Barra da Tijuca"
+  }, 
+  "ladeira_coelho_cintra": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9613755, 
+      -43.1788928
+    ], 
+    "type": "street", 
+    "name": "Ladeira Coelho Cintra"
+  }, 
+  "rua_domingos_lopes": {
+    "neighborhood": "Campinho", 
+    "latlong": [
+      -22.88, 
+      -43.3412
+    ], 
+    "type": "street", 
+    "name": "Rua Domingos Lopes"
+  }, 
+  "parque_poeta_manoel_bandeira": {
+    "neighborhood": null, 
+    "latlong": null, 
+    "type": "street", 
+    "name": "Parque Poeta Manoel Bandeira"
+  }, 
+  "rua_tenente_agenor_de_brito": {
+    "neighborhood": null, 
+    "latlong": null, 
+    "type": "street", 
+    "name": "Rua Tenente Agenor de Brito"
+  }, 
+  "rua_santo_agostinho": {
+    "neighborhood": null, 
+    "latlong": [
+      -12.973054, 
+      -38.4957731
+    ], 
+    "type": "street", 
+    "name": "Rua Santo Agostinho"
+  }, 
+  "rua_santo_apiano": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8514995, 
+      -43.3302194
+    ], 
+    "type": "street", 
+    "name": "Rua Santo Apiano"
+  }, 
+  "senador_vasconcelos": {
+    "latlong": [
+      -22.8953684, 
+      -43.5288566
+    ], 
+    "type": "neighborhood", 
+    "name": "Senador Vasconcelos"
+  }, 
+  "rua_general_gois_monteiro": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.5416719, 
+      -46.6929667
+    ], 
+    "type": "street", 
+    "name": "Rua General G\u00f3is Monteiro"
+  }, 
+  "rua_salinopolis": {
+    "neighborhood": null, 
+    "latlong": [
+      -3.8426318, 
+      -49.6786076
+    ], 
+    "type": "street", 
+    "name": "Rua Salin\u00f3polis"
+  }, 
+  "rua_bittencourt_da_silva": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9072877, 
+      -43.1774434
+    ], 
+    "type": "street", 
+    "name": "Rua Bittencourt da Silva"
+  }, 
+  "rua_nilopolis": {
+    "neighborhood": "Realengo", 
+    "latlong": [
+      -22.8667, 
+      -43.4418
+    ], 
+    "type": "street", 
+    "name": "Rua Nil\u00f3polis"
+  }, 
+  "cidade_nova": {
+    "latlong": [
+      -22.9100508, 
+      -43.201756
+    ], 
+    "type": "neighborhood", 
+    "name": "Cidade Nova"
+  }, 
+  "estrada_do_bananal": {
+    "neighborhood": null, 
+    "latlong": [
+      -20.7128658, 
+      -46.655644
+    ], 
+    "type": "street", 
+    "name": "Estrada do Bananal"
+  }, 
+  "avenida_visconde_de_albuquerque": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9788501, 
+      -43.2266165
+    ], 
+    "type": "street", 
+    "name": "Avenida Visconde de Albuquerque"
+  }, 
+  "praca_jose_benevides": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9949066, 
+      -43.2993218562505
+    ], 
+    "type": "street", 
+    "name": "Pra\u00e7a Jos\u00e9 Benevides"
+  }, 
+  "rua_alice": {
+    "neighborhood": "Laranjeiras", 
+    "latlong": [
+      -22.9354, 
+      -43.1933
+    ], 
+    "type": "street", 
+    "name": "Rua Alice"
+  }, 
+  "campo_grande": {
+    "latlong": [
+      -20.4640173, 
+      -54.6162947
+    ], 
+    "type": "neighborhood", 
+    "name": "Campo Grande"
+  }, 
+  "rua_paulino_fernandes": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9532916, 
+      -43.185387
+    ], 
+    "type": "street", 
+    "name": "Rua Paulino Fernandes"
+  }, 
+  "quintino_bocaiuva": {
+    "latlong": [
+      -6.6658845, 
+      -69.8656007
+    ], 
+    "type": "neighborhood", 
+    "name": "Quintino Bocai\u00fava"
+  }, 
+  "rua_conde_de_iraja": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9526564, 
+      -43.196212
+    ], 
+    "type": "street", 
+    "name": "Rua Conde de Iraj\u00e1"
+  }, 
+  "rua_doutor_xavier_sigaud": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9545499, 
+      -43.173729
+    ], 
+    "type": "street", 
+    "name": "Rua Doutor Xavier Sigaud"
+  }, 
+  "praca_estado_de_israel": {
+    "neighborhood": null, 
+    "latlong": [
+      -30.0528892, 
+      -51.226294919824
+    ], 
+    "type": "street", 
+    "name": "Pra\u00e7a Estado de Israel"
+  }, 
+  "rua_da_matriz": {
+    "neighborhood": null, 
+    "latlong": [
+      -29.6886509, 
+      -53.8216259
+    ], 
+    "type": "street", 
+    "name": "Rua da Matriz"
+  }, 
+  "senador_camara": {
+    "latlong": [
+      -22.8983985, 
+      -43.4891571
+    ], 
+    "type": "neighborhood", 
+    "name": "Senador Camar\u00e1"
+  }, 
+  "rua_senador_vergueiro": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9336915, 
+      -43.1765001
+    ], 
+    "type": "street", 
+    "name": "Rua Senador Vergueiro"
+  }, 
+  "rua_gilberto_freyre": {
+    "neighborhood": "Recreio dos Bandeirantes", 
+    "latlong": [
+      -23.0237, 
+      -43.4912
+    ], 
+    "type": "street", 
+    "name": "Rua Gilberto Freyre"
+  }, 
+  "vicente_de_carvalho": {
+    "latlong": [
+      -23.9523722, 
+      -46.2745371008527
+    ], 
+    "type": "neighborhood", 
+    "name": "Vicente de Carvalho"
+  }, 
+  "r_ten_ronald_santoro": {
+    "neighborhood": null, 
+    "latlong": null, 
+    "type": "street", 
+    "name": "R. Ten. Ronald Santoro"
+  }, 
+  "estrada_governador_chagas_freitas": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.7963907, 
+      -43.2077045
+    ], 
+    "type": "street", 
+    "name": "Estrada Governador Chagas Freitas"
+  }, 
+  "rua_afonso_cavalcanti": {
+    "neighborhood": "Cidade Nova", 
+    "latlong": [
+      -22.9112, 
+      -43.2056
+    ], 
+    "type": "street", 
+    "name": "Rua Afonso Cavalcanti"
+  }, 
+  "ladeira_laureano": {
+    "neighborhood": "Santa Teresa", 
+    "latlong": [
+      -22.9349, 
+      -43.2025
+    ], 
+    "type": "street", 
+    "name": "Ladeira Laureano"
+  }, 
+  "avenida_ailton_henrique_da_costa": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.0233396, 
+      -43.4857059
+    ], 
+    "type": "street", 
+    "name": "Avenida Ailton Henrique da Costa"
+  }, 
+  "rua_francisco_mario": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.0226768, 
+      -43.4867206
+    ], 
+    "type": "street", 
+    "name": "Rua Francisco M\u00e1rio"
+  }, 
+  "rua_nelson_mandela": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9514846, 
+      -43.1840762
+    ], 
+    "type": "street", 
+    "name": "Rua Nelson Mandela"
+  }, 
+  "rua_ferreira_de_andrade": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8899546, 
+      -43.2705312
+    ], 
+    "type": "street", 
+    "name": "Rua Ferreira de Andrade"
+  }, 
+  "pilares": {
+    "latlong": [
+      -22.8790904, 
+      -43.2955477
+    ], 
+    "type": "neighborhood", 
+    "name": "Pilares"
+  }, 
+  "copacabana": {
+    "latlong": [
+      -22.9719642, 
+      -43.1843432
+    ], 
+    "type": "neighborhood", 
+    "name": "Copacabana"
+  }, 
+  "rua_antonio_basilio": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.926922, 
+      -43.2378314
+    ], 
+    "type": "street", 
+    "name": "Rua Antonio Bas\u00edlio"
+  }, 
+  "praca_quinze_de_novembro": {
+    "neighborhood": "Centro", 
+    "latlong": [
+      -22.9023, 
+      -43.1726
+    ], 
+    "type": "street", 
+    "name": "Pra\u00e7a Quinze de Novembro"
+  }, 
+  "leblon": {
+    "latlong": [
+      -22.983556, 
+      -43.2249377
+    ], 
+    "type": "neighborhood", 
+    "name": "Leblon"
+  }, 
+  "rua_professor_alfredo_gomes": {
+    "neighborhood": "Botafogo", 
+    "latlong": [
+      -22.9478, 
+      -43.1847
+    ], 
+    "type": "street", 
+    "name": "Rua Professor Alfredo Gomes"
+  }, 
+  "vila_valqueire": {
+    "latlong": [
+      -22.8886093, 
+      -43.3657758
+    ], 
+    "type": "neighborhood", 
+    "name": "Vila Valqueire"
+  }, 
+  "santa_teresa": {
+    "latlong": [
+      -22.9213991, 
+      -43.1882138
+    ], 
+    "type": "neighborhood", 
+    "name": "Santa Teresa"
+  }, 
+  "rua_mexico": {
+    "neighborhood": null, 
+    "latlong": [
+      -16.6696176, 
+      -49.2125368
+    ], 
+    "type": "street", 
+    "name": "Rua M\u00e9xico"
+  }, 
+  "rua_do_senado": {
+    "neighborhood": "Centro", 
+    "latlong": [
+      -22.9094, 
+      -43.1855
+    ], 
+    "type": "street", 
+    "name": "Rua do Senado"
+  }, 
+  "parque_columbia": {
+    "latlong": [
+      -22.8153445, 
+      -43.3356142107852
+    ], 
+    "type": "neighborhood", 
+    "name": "Parque Col\u00fambia"
+  }, 
+  "rua_bartolomeu_portela": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9511239, 
+      -43.1763423
+    ], 
+    "type": "street", 
+    "name": "Rua Bartolomeu Portela"
+  }, 
+  "avenida_suburbana": {
+    "neighborhood": null, 
+    "latlong": [
+      -7.3384815, 
+      -35.3204562
+    ], 
+    "type": "street", 
+    "name": "Avenida Suburbana"
+  }, 
+  "rua_visconde_de_caravelas": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.95743, 
+      -43.1969041
+    ], 
+    "type": "street", 
+    "name": "Rua Visconde de Caravelas"
+  }, 
+  "rua_oito_de_dezembro": {
+    "neighborhood": "Vila Isabel", 
+    "latlong": [
+      -22.9094, 
+      -43.2399
+    ], 
+    "type": "street", 
+    "name": "Rua Oito de Dezembro"
+  }, 
+  "rua_maria_angelica": {
+    "neighborhood": null, 
+    "latlong": [
+      -2.9842902, 
+      -47.3563477
+    ], 
+    "type": "street", 
+    "name": "Rua Maria Ang\u00e9lica"
+  }, 
+  "praca_barbosa_de_oliveira": {
+    "neighborhood": null, 
+    "latlong": null, 
+    "type": "street", 
+    "name": "Pra\u00e7a Barbosa de Oliveira"
+  }, 
+  "avenida_lucio_costa": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.0140756, 
+      -43.313111
+    ], 
+    "type": "street", 
+    "name": "Avenida L\u00facio Costa"
+  }, 
+  "rua_dos_arcos": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.485554, 
+      -46.5662308
+    ], 
+    "type": "street", 
+    "name": "Rua dos Arcos"
+  }, 
+  "rua_francisco_otaviano": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.986464, 
+      -43.1889617
+    ], 
+    "type": "street", 
+    "name": "Rua Francisco Otaviano"
+  }, 
+  "rua_professor_alvaro_ramos": {
+    "neighborhood": null, 
+    "latlong": null, 
+    "type": "street", 
+    "name": "Rua Professor \u00c1lvaro Ramos"
+  }, 
+  "cordovil": {
+    "latlong": [
+      -22.8194378, 
+      -43.2915908
+    ], 
+    "type": "neighborhood", 
+    "name": "Cordovil"
+  }, 
+  "rua_miguel_antonio_fernandes": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.0131386, 
+      -43.477188
+    ], 
+    "type": "street", 
+    "name": "Rua Miguel Ant\u00f4nio Fernandes"
+  }, 
+  "cosmos": {
+    "latlong": [
+      -22.9078051, 
+      -43.6144915
+    ], 
+    "type": "neighborhood", 
+    "name": "Cosmos"
+  }, 
+  "sao_cristovao_": {
+    "latlong": [
+      -0.8651783, 
+      -48.1171083
+    ], 
+    "type": "neighborhood", 
+    "name": "S\u00e3o Crist\u00f3v\u00e3o"
+  }, 
+  "estrada_do_barro_vermelho": {
+    "neighborhood": "Col\u00e9gio", 
+    "latlong": [
+      -22.8449, 
+      -43.3381
+    ], 
+    "type": "street", 
+    "name": "Estrada do Barro Vermelho"
+  }, 
+  "rua_soares_da_costa": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9261184, 
+      -43.2300578
+    ], 
+    "type": "street", 
+    "name": "Rua Soares da Costa"
+  }, 
+  "ladeira_saint_roman": {
+    "neighborhood": null, 
+    "latlong": null, 
+    "type": "street", 
+    "name": "Ladeira Saint Roman"
+  }, 
+  "rua_senador_ruy_carneiro": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.0199052, 
+      -43.4807236
+    ], 
+    "type": "street", 
+    "name": "Rua Senador Ruy Carneiro"
+  }, 
+  "rua_general_sampaio": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.5795964, 
+      -46.6622459
+    ], 
+    "type": "street", 
+    "name": "Rua General Sampaio"
+  }, 
+  "rua_victor_alves": {
+    "neighborhood": "Campo Grande", 
+    "latlong": [
+      -22.9005, 
+      -43.5628
+    ], 
+    "type": "street", 
+    "name": "Rua Victor Alves"
+  }, 
+  "avenida_treze_de_maio": {
+    "neighborhood": "Centro", 
+    "latlong": [
+      -22.9086, 
+      -43.1779
+    ], 
+    "type": "street", 
+    "name": "Avenida Treze de Maio"
+  }, 
+  "rua_frei_caneca": {
+    "neighborhood": null, 
+    "latlong": [
+      -9.6483541, 
+      -35.7339163
+    ], 
+    "type": "street", 
+    "name": "Rua Frei Caneca"
+  }, 
+  "deodoro": {
+    "latlong": [
+      -22.851201, 
+      -43.3870315
+    ], 
+    "type": "neighborhood", 
+    "name": "Deodoro"
+  }, 
+  "estrada_do_campinho": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8918578, 
+      -43.5903858
+    ], 
+    "type": "street", 
+    "name": "Estrada do Campinho"
+  }, 
+  "vaz_lobo": {
+    "latlong": [
+      -22.8589721, 
+      -43.3278646
+    ], 
+    "type": "neighborhood", 
+    "name": "Vaz Lobo"
+  }, 
+  "avenida_joao_ribeiro": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8697515, 
+      -43.3021576
+    ], 
+    "type": "street", 
+    "name": "Avenida Jo\u00e3o Ribeiro"
+  }, 
+  "costa_barros": {
+    "latlong": [
+      -22.8246995, 
+      -43.3698395
+    ], 
+    "type": "neighborhood", 
+    "name": "Costa Barros"
+  }, 
+  "avenida_rio_branco": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9036858, 
+      -43.1782012
+    ], 
+    "type": "street", 
+    "name": "Avenida Rio Branco"
+  }, 
+  "avenida_13_de_maio": {
+    "neighborhood": null, 
+    "latlong": [
+      -20.242677, 
+      -42.0352361
+    ], 
+    "type": "street", 
+    "name": "Avenida 13 de Maio"
+  }, 
+  "rua_sao_miguel": {
+    "neighborhood": null, 
+    "latlong": [
+      -27.5633497, 
+      -48.5147904
+    ], 
+    "type": "street", 
+    "name": "Rua S\u00e3o Miguel"
+  }, 
+  "humaita": {
+    "latlong": [
+      -8.2816722, 
+      -63.9366917
+    ], 
+    "type": "neighborhood", 
+    "name": "Humait\u00e1"
+  }, 
+  "praca_zuinara": {
+    "neighborhood": "Col\u00e9gio", 
+    "latlong": [
+      -22.8383, 
+      -43.343
+    ], 
+    "type": "street", 
+    "name": "Pra\u00e7a Zuinara"
+  }, 
+  "avenida_itaoca": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.868869, 
+      -43.2681098
+    ], 
+    "type": "street", 
+    "name": "Avenida Ita\u00f3ca"
+  }, 
+  "rua_odilon_duarte_braga": {
+    "neighborhood": "Recreio dos Bandeirantes", 
+    "latlong": [
+      -23.0125, 
+      -43.4463
+    ], 
+    "type": "street", 
+    "name": "Rua Odilon Duarte Braga"
+  }, 
+  "jacare": {
+    "latlong": [
+      -22.8931174, 
+      -43.2571998
+    ], 
+    "type": "neighborhood", 
+    "name": "Jacar\u00e9"
+  }, 
+  "jacarezinho_": {
+    "latlong": [
+      -23.159115, 
+      -49.973889
+    ], 
+    "type": "neighborhood", 
+    "name": "Jacarezinho"
+  }, 
+  "rua_dias_da_cruz": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.9051438, 
+      -43.2907124
+    ], 
+    "type": "street", 
+    "name": "Rua Dias da Cruz"
+  }, 
+  "avenida_duque_de_caxias": {
+    "neighborhood": null, 
+    "latlong": [
+      -21.2584999, 
+      -48.3157907
+    ], 
+    "type": "street", 
+    "name": "Avenida Duque de Caxias"
+  }, 
+  "bras_de_pina": {
+    "latlong": [
+      -22.831888, 
+      -43.2977309
+    ], 
+    "type": "neighborhood", 
+    "name": "Br\u00e1s de Pina"
+  }, 
+  "rio_comprido": {
+    "latlong": [
+      -22.9279449, 
+      -43.2088566
+    ], 
+    "type": "neighborhood", 
+    "name": "Rio Comprido"
+  }, 
+  "andarai": {
+    "latlong": [
+      11.87540745, 
+      4.40351724819545
+    ], 
+    "type": "neighborhood", 
+    "name": "Andara\u00ed"
+  }, 
+  "avenida_gomes_freire": {
+    "neighborhood": "Centro", 
+    "latlong": [
+      -22.9092, 
+      -43.1846
+    ], 
+    "type": "street", 
+    "name": "Avenida Gomes Freire"
+  }, 
+  "pechincha": {
+    "latlong": [
+      -22.928988, 
+      -43.3534191
+    ], 
+    "type": "neighborhood", 
+    "name": "Pechincha"
+  }, 
+  "rua_do_catete": {
+    "neighborhood": "Catete", 
+    "latlong": [
+      -22.9257, 
+      -43.1765
+    ], 
+    "type": "street", 
+    "name": "Rua do Catete"
+  }, 
+  "rua_goias": {
+    "neighborhood": null, 
+    "latlong": [
+      -16.6927274, 
+      -49.1890879
+    ], 
+    "type": "street", 
+    "name": "Rua Goi\u00e1s"
+  }, 
+  "vista_alegre": {
+    "latlong": [
+      -22.8296244, 
+      -43.3151276
+    ], 
+    "type": "neighborhood", 
+    "name": "Vista Alegre"
+  }, 
+  "rua_hilario_de_gouveia": {
+    "neighborhood": null, 
+    "latlong": [
+      -16.7791793, 
+      -49.3309838
+    ], 
+    "type": "street", 
+    "name": "Rua Hil\u00e1rio de Gouveia"
+  }, 
+  "rua_humaita": {
+    "neighborhood": "Botafogo", 
+    "latlong": [
+      -22.96, 
+      -43.2035
+    ], 
+    "type": "street", 
+    "name": "Rua Humait\u00e1"
+  }, 
+  "rua_santa_camila_pia": {
+    "neighborhood": "Penha", 
+    "latlong": [
+      -22.8376, 
+      -43.2666
+    ], 
+    "type": "street", 
+    "name": "Rua Santa Camila Pia"
+  }, 
+  "del_castilho": {
+    "latlong": [
+      -22.8795618, 
+      -43.2724202
+    ], 
+    "type": "neighborhood", 
+    "name": "Del Castilho"
+  }, 
+  "rua_joao_vicente": {
+    "neighborhood": null, 
+    "latlong": [
+      -22.8647843, 
+      -43.3606963
+    ], 
+    "type": "street", 
+    "name": "Rua Jo\u00e3o Vicente"
+  }, 
+  "maria_da_graca": {
+    "latlong": [
+      -22.8830403, 
+      -43.2638849
+    ], 
+    "type": "neighborhood", 
+    "name": "Maria da Gra\u00e7a"
+  }, 
+  "rodovia_presidente_dutra": {
+    "neighborhood": null, 
+    "latlong": [
+      -23.4598648, 
+      -46.4885574
+    ], 
+    "type": "street", 
+    "name": "Rodovia Presidente Dutra"
+  }, 
+  "parque_anchieta": {
+    "latlong": [
+      -22.8351687, 
+      -43.4155827
+    ], 
+    "type": "neighborhood", 
+    "name": "Parque Anchieta"
+  }
+}
