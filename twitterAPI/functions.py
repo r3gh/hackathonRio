@@ -14,8 +14,20 @@ from xml.etree import ElementTree
 '''
     Variables
 '''
-twitterTrackings = ['AlertaAssaltoRJ','alertario24hrs','UNIDOSPORJPA']
+twitterTrackings = ['AlertaAssaltoRJ','alertario24hrs','UNIDOSPORJPA','RJ_OTT','CaosNoRio','InformeRJO','OperacoesRio','AndeSeguroApp']
 
+def readLocality(locality_path = "../dataset/locality_ds.json" ):
+    with open(locality_path, encoding='utf-8') as json_file:
+        text = json_file.read()
+        locality_map = json.loads(text)
+
+    return locality_map
+
+def comparelocality(locality,text):
+    if(locality in text):
+        return True
+    else:
+        return False
 
 
 def getLatLong(address):
@@ -60,7 +72,7 @@ def readNeighborhoods(locality_path = "../dataset/localidades.csv" ):
             locality_ds[key]["type"] = "neighborhood"
             locality_ds[key]["latlong"] = getLatLong(locality.strip())
             locality_ds[key]["name"] = locality.strip()
-    
+
     return locality_ds
 
 def readStreets(locality_ds,locality_path="../dataset/LinkedGeoData.csv"):
@@ -92,7 +104,35 @@ def readStreets(locality_ds,locality_path="../dataset/LinkedGeoData.csv"):
             else:
                 locality_ds[key]["latlong"] = getLatLong(row[2].strip())
 
+def stemmingArray_keep_original(words):
+    stemmer = nltk.stem.RSLPStemmer()
+    stemWords = {}
 
+    for word in words:
+        word = norm(word.replace("\n","").lower())
+
+        try:
+            if(word != ""):
+                stemWords[stemmer.stem(word)] = word
+        except:
+            print("Error in word = %s"%(word))
+
+    return stemWords
+
+def stemmingArray(words):
+    stemmer = nltk.stem.RSLPStemmer()
+    stemWords = []
+
+    for word in words:
+        word = norm(word.replace("\n","").lower())
+
+        try:
+            if(word != ""):
+                stemWords.append(stemmer.stem(word))
+        except:
+            print("Error in word = %s"%(word))
+
+    return stemWords
 
 
 class StreamTwitter(tweepy.StreamListener):
@@ -106,22 +146,22 @@ class StreamTwitter(tweepy.StreamListener):
                 #print("%s = %s"%(word,stealKeywords))
                 #print(tweet.text)
                 for locality in localitys:
-                    
+
                     if(comparelocality(locality, tweet.text)):
                         try:
                             results[locality]
                         except:
-                            results[locality] = {}                                
-                        try:                                    
+                            results[locality] = {}
+                        try:
                             results[locality]["size"] = results[locality]["size"] + 1
                         except:
                             results[locality]["size"]  = 1
-                       
-                        try:                                    
-                            results[locality]["tweet"].append({"date":tweet.created_at,"text":tweet.text}) 
+
+                        try:
+                            results[locality]["tweet"].append({"date":tweet.created_at,"text":tweet.text})
                         except:
                             results[locality]["tweet"] = []
-                            
-                                                       
+
+
                         break
                 break
