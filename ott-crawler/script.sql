@@ -21,5 +21,6 @@ CREATE TABLE violence_data(
   bulletin_occurrence varchar(255),
   damage_value numeric,
   neighborhood varchar(255),
-  UNIQUE (event_data)
+  sex varchar(40),
+  source varchar(40)
 );

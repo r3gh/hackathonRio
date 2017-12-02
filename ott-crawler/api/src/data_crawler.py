@@ -11,6 +11,8 @@ class DataCrawler:
     postgre = Postgres()
     postgre.open()
     postgre.insertOndeFoiRoubado(jsonOndeFoiRoubado)
+    postgre.insertOndeTemTiro(jsonOndeTemTiro)
+    postgre.close()
 
   def getJsonFromOndeFoiRoubado(self):
     http = urllib3.PoolManager()
@@ -32,5 +34,5 @@ class DataCrawler:
     http = urllib3.PoolManager()
     r = http.request('GET', 'https://www.googleapis.com/fusiontables/v1/query?sql=SELECT%20*%20FROM%201HaQhL95pS0XhFQcifZ6fzKifuCXVdFxl-caH0zDf&key=AIzaSyC1CNeSPJOm5mPzk3kTrXuHJgG5vJP9Tgo');
     htmlData = str(r.data.decode('utf8'))
-    htmlData = htmlData.replace("\\n","")
+    htmlData = htmlData.replace("\\n","#")
     return json.loads(htmlData)
