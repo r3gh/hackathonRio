@@ -15,12 +15,9 @@ locality_ds = {}
 def getLatLong(address):
     try:
         convertedAdress = address.replace(" ","+")
-        convertedAdress = norm(convertedAdress)
+        convertedAdress = norm(convertedAdress + "+Rio+de+Janeiro")
         http = urllib3.PoolManager()
-
-
         r = http.request('GET', 'http://nominatim.openstreetmap.org/search?q=%s&format=xml&polygon=1&addressdetails=1'%(convertedAdress));
-
         htmlData = str(r.data)
         addressXmls = ElementTree.fromstring(htmlData)
         lat = float(addressXmls[0].attrib["lat"]) #Recover latitude from first address  XML response
@@ -30,7 +27,7 @@ def getLatLong(address):
     except:
         print ("### ERROR : " + address)
         return None
-    
+
 
 def norm(s):
     try:
@@ -55,7 +52,7 @@ def readNeighborhoods(locality_path = "../dataset/localidades.csv" ):
             locality_ds[key] = dict()
             locality_ds[key]["type"] = "neighborhood"
             locality_ds[key]["latlong"] = getLatLong(locality.strip())
-            locality_ds[key]["neighborhood_name"] = locality.strip()
+            locality_ds[key]["name"] = locality.strip()
 
 def readStreets(locality_path="../dataset/LinkedGeoData.csv"):
     file = io.open(locality_path, "r")
@@ -75,11 +72,11 @@ def readStreets(locality_path="../dataset/LinkedGeoData.csv"):
         if key not in locality_ds:
             locality_ds[key] = dict()
             locality_ds[key]["type"] = "street"
-            locality_ds[key]["street_name"] = row[2].strip()
+            locality_ds[key]["name"] = row[2].strip()
             if row[1] == '':
-                locality_ds[key]["neighborhood_name"] = None
+                locality_ds[key]["neighborhood"] = None
             else:
-                locality_ds[key]["neighborhood_name"] = row[1].strip()
+                locality_ds[key]["neighborhood"] = row[1].strip()
 
             if len(row) > 3:
                 locality_ds[key]["latlong"] = [float(row[3]), float(row[4])]
