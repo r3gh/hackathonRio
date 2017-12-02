@@ -14,6 +14,8 @@ auth.set_access_token(access_token, access_secret)
  
 api = tweepy.API(auth)
 
-stuff = api.user_timeline(screen_name = 'AlertaAssaltoRJ', count = 1000, include_rts = True)
-with open("alertaAssaltoRJ.pkl",'wb') as f:
-    pickle.dump(stuff, f)
+fnames = ['AlertaAssaltoRJ','alertario24hrs','UNIDOSPORJPA']
+for fname in fnames:
+    stuff = api.user_timeline(screen_name = fname, count = 2000, include_rts = True)
+    with open(fname,'wb') as f:
+        pickle.dump(stuff, f)

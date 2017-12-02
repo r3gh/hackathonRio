@@ -23,11 +23,25 @@ def stemmingArray(words):
         
     return stemWords
 
+def comparelocality(locality,text):
+    if(locality in text):
+        return True
+    else:
+        return False
+    
+
+
 if __name__ == "__main__":
     
-    filesToRead = ['alertaAssaltoRJ.pkl']
     
+    '''
+        Variables
+    '''
+    filesToRead = ['AlertaAssaltoRJ','alertario24hrs','UNIDOSPORJPA']    
     stealKeywords= stemmingArray(['Roubo', 'Assalto'])
+    
+    
+    
     results = {}
     
     for fname in filesToRead:
@@ -42,14 +56,22 @@ if __name__ == "__main__":
                         #print(tweet.text)
                         for locality in localitys:
                             
-                            if(locality in tweet.text):
+                            if(comparelocality(locality, tweet.text)):
                                 try:
-                                    results[locality] = results[locality] + 1
+                                    results[locality]
                                 except:
-                                    results[locality] = 1
-                        
-
-                                
+                                    results[locality] = {}                                
+                                try:                                    
+                                    results[locality]["size"] = results[locality]["size"] + 1
+                                except:
+                                    results[locality]["size"]  = 1
+                               
+                                try:                                    
+                                    results[locality]["tweet"].append({"date":tweet.created_at,"text":tweet.text}) 
+                                except:
+                                    results[locality]["tweet"] = []
+                                    
+                                                               
                                 break
                         break
                     
