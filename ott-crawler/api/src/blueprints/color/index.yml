@@ -1,0 +1,29 @@
+Retorna uma lista de cores de acordo com o sistema de cores
+---
+tags:
+  - Sistema de Cor
+parameters:
+  - name: palette
+    description: informar o sistema de cores escolhido, podendo ser all, rgb ou cymk
+    in: path
+    type: string
+    enum: ['all', 'rgb', 'cmyk']
+    required: true
+    default: all
+definitions:
+  Palette:
+    type: object
+    properties:
+      palette_name:
+        type: array
+        items:
+          $ref: '#/definitions/Color'
+  Color:
+    type: string
+responses:
+  200:
+    description: Uma lista de cores
+    schema:
+      $ref: '#/definitions/Palette'
+    examples:
+      rgb: ['red', 'green', 'blue']
