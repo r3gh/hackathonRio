@@ -7,12 +7,44 @@ import json
 import io
 import codecs
 from unicodedata import normalize
-
-def clean_str(s):
-    s = normalize('NFKD', s).encode('ASCII','ignore').decode('ASCII')
-    return re.sub('\W+','', s.lower() )
+import urllib3
+from xml.etree import ElementTree
 
 locality_ds = {}
+
+def getLatLong(address):
+    try:
+        convertedAdress = address.replace(" ","+")
+        convertedAdress = norm(convertedAdress)
+        http = urllib3.PoolManager()
+
+
+        r = http.request('GET', 'http://nominatim.openstreetmap.org/search?q=%s&format=xml&polygon=1&addressdetails=1'%(convertedAdress));
+
+        htmlData = str(r.data)
+        addressXmls = ElementTree.fromstring(htmlData)
+        lat = float(addressXmls[0].attrib["lat"]) #Recover latitude from first address  XML response
+        lon = float(addressXmls[0].attrib["lon"]) #Recover latitude from first address  XML response
+        print (convertedAdress + " " + str([lat,lon]))
+        return [lat,lon]
+    except:
+        print ("### ERROR : " + address)
+        return None
+    
+
+def norm(s):
+    try:
+        s = normalize('NFKD', s).encode('ASCII','ignore').decode('ASCII')
+    except:
+        s = s.decode('utf-8')
+        s = normalize('NFKD', s).encode('ASCII','ignore').decode('ASCII')
+    return s
+
+def clean_str(s):
+    s = norm(s)
+    s = re.sub(' ','_', s.lower() )
+    s = re.sub('\W+','', s )
+    return s
 
 def readNeighborhoods(locality_path = "../dataset/localidades.csv" ):
     file = io.open(locality_path, "r")
@@ -22,9 +54,8 @@ def readNeighborhoods(locality_path = "../dataset/localidades.csv" ):
         if key not in locality_ds:
             locality_ds[key] = dict()
             locality_ds[key]["type"] = "neighborhood"
-            locality_ds[key]["latlong"] = None
+            locality_ds[key]["latlong"] = getLatLong(locality.strip())
             locality_ds[key]["neighborhood_name"] = locality.strip()
-
 
 def readStreets(locality_path="../dataset/LinkedGeoData.csv"):
     file = io.open(locality_path, "r")
@@ -53,7 +84,7 @@ def readStreets(locality_path="../dataset/LinkedGeoData.csv"):
             if len(row) > 3:
                 locality_ds[key]["latlong"] = [float(row[3]), float(row[4])]
             else:
-                locality_ds[key]["latlong"] = None
+                locality_ds[key]["latlong"] = getLatLong(row[2].strip())
 
 
 
