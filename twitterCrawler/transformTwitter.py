@@ -1,6 +1,9 @@
 import numpy as np
 import pickle
 import nltk
+import urllib3
+import json
+from xml.etree import ElementTree
 
 def readLocality(locality_path = "../dataset/localidades.csv" ):
     file = open(locality_path, "r")
@@ -29,11 +32,24 @@ def comparelocality(locality,text):
     else:
         return False
     
-
+def getLatLong(address):
+    http = urllib3.PoolManager()
+    convertedAdress = address.replace(" ","+")
+    r = http.request('GET', 'http://nominatim.openstreetmap.org/search?q=%s&format=xml&polygon=1&addressdetails=1'%(convertedAdress));
+    htmlData = str(r.data.decode('utf8'))
+    
+    addressXmls = ElementTree.fromstring(htmlData)
+    lat = float(addressXmls[0].attrib["lat"]) #Recover latitude from first address  XML response
+    lon = float(addressXmls[0].attrib["lon"]) #Recover latitude from first address  XML response
+    
+    return {"lat":lat,"lon":lon}
+    
+    
 
 if __name__ == "__main__":
     
     
+    print(getLatLong("praia de cocota"))    
     '''
         Variables
     '''
