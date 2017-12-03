@@ -11,14 +11,15 @@
   <link rel="stylesheet" href="https://www.patrick-wied.at/static/heatmapjs/assets/css/commons.css"/>
   <link rel="stylesheet" href="https://www.patrick-wied.at/static/heatmapjs/assets/css/example-commons.css"/>
   <link rel="stylesheet" href="https://www.patrick-wied.at/static/heatmapjs/assets/third-party/prism/prism.css"/>
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css"/>
+  <!--<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css"/>-->
+  <link rel="stylesheet" href="leaflet/dist/leaflet.css"/>
   <link rel="stylesheet" href="css/bootstrap-grid.min.css"/>
   <link rel="stylesheet" href="css/bootstrap-reboot.min.css"/>
   <link rel="stylesheet" href="css/bootstrap.min.css"/>
   <link rel="stylesheet" href="css/font-awesome.css"/>
   <link rel="stylesheet" href="css/main.css"/>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
+  <!--<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>-->
+  <script src="leaflet/dist/leaflet.js"></script>
   <style>#share{display:none;float:right;font-size:14px;line-height:170%}.symbol{display:inline!important;float:right}</style>
 </head>
 <body>
@@ -29,7 +30,22 @@
   <script src="bootstrap.min.js"></script>
   
   <script>
-      
+     function radar(locations) {
+        var inRange = [], latlng_a = new L.LatLng(-22.8797876, -43.5631799), latlng_b;
+        //console.log(locations.length);
+        for (var i=0; i<locations.length; i++){
+            var lat = locations[i].lat;
+            var lng = locations[i].lng;
+            
+            latlng_b = new L.LatLng(lat, lng);
+            if (latlng_a.distanceTo(latlng_b) < 100) {
+                inRange.push(locations[i]);
+                console.log(latlng_a.distanceTo(latlng_b))
+            }
+            //console.log(inRange);
+            
+        }
+      } 
     
     function carregaPontosMapa(response, type) {
         //console.log(response);
@@ -53,7 +69,8 @@
               };
               count+=3;
           }
-          console.log(localities.length);
+          //console.log(localities);
+          radar(localities);
           var baseLayer = L.tileLayer(
             'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
               maxZoom: 18
@@ -113,6 +130,7 @@
 
     enviaDadosPython("kde");
     enviaDadosPython("ml");
+
   </script>
   <script src="https://www.patrick-wied.at/static/heatmapjs/assets/third-party/prism/prism.js"></script>
   <!-- Gráficos por tipo de violência, por tempo de ocorrência, ocorrência por gênero, 
