@@ -30,20 +30,25 @@
   <script src="bootstrap.min.js"></script>
   
   <script>
-     function radar(locations) {
-        var inRange = [], latlng_a = new L.LatLng(-22.8797876, -43.5631799), latlng_b;
-        //console.log(locations.length);
-        for (var i=0; i<locations.length; i++){
-            var lat = locations[i].lat;
-            var lng = locations[i].lng;
-            
-            latlng_b = new L.LatLng(lat, lng);
-            if (latlng_a.distanceTo(latlng_b) < 100) {
-                inRange.push(locations[i]);
-                console.log(latlng_a.distanceTo(latlng_b))
-            }
-            //console.log(inRange);
-            
+     function radar(locations, map) {
+        var inRange = [], latlng_b;
+        arrayGM = [];
+        arrayGM.push(new L.LatLng(-22.8797876, -43.5631799));
+        arrayGM.push(new L.LatLng(-21.8797876, -43.5631799));
+
+        for (var k=0; k<arrayGM.length; k++){
+          L.marker(arrayGM[k]).addTo(map).bindPopup("<b>Guarda Municipal ID: "+k+"</b>").openPopup();
+          for (var i=0; i<locations.length; i++){
+              var lat = locations[i].lat;
+              var lng = locations[i].lng;
+              
+              latlng_b = new L.LatLng(lat, lng);
+              if (arrayGM[k].distanceTo(latlng_b) < 100) {
+                  inRange.push(locations[i]);
+                  alert("O guarda municipal "+k+" pode ser deslocado para o ponto "+latlng_b);
+              }
+              //console.log(inRange);
+          }
         }
       } 
     
@@ -70,7 +75,7 @@
               count+=3;
           }
           //console.log(localities);
-          radar(localities);
+          
           var baseLayer = L.tileLayer(
             'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
               maxZoom: 18
@@ -108,7 +113,9 @@
             layers: [baseLayer, heatmapLayer]
           });
 
-          heatmapLayer.setData(testData);  
+          heatmapLayer.setData(testData);
+
+          radar(localities, map);  
         }
         else{
           console.log(response);
