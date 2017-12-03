@@ -41,8 +41,98 @@
             //async: false,                 
             data: "",
             success: function(response) {
-              var d = document.getElementById("demo");
-              console.log(response)
+              var d = document.getElementById("hack-chart-1");
+              d.innerHTML = "<div class='title'> <span class='chart-title'>Perdas Acumuladas</span><br /><span class='negrito'>Valor:</span> <span>"+response['amount']+"</span></div>"
+            }
+        });  
+
+        $.ajax({                 
+            type: 'GET',                                  
+            url: 'http://localhost:8080/violence/lost/gender',                 
+            //async: false,                 
+            data: "",
+            success: function(response) {
+              var d = document.getElementById("genderChart");
+              data = {
+                  datasets: [{
+                      data: [response['feminino'],response['masculino']],
+                      backgroundColor: [
+                        'rgba(255, 99, 132,0.5)',
+                        'rgba(54, 162, 235,0.5)',
+                      ],
+                      borderColor: [
+                        'rgba(255,99,132,0.5)',
+                        'rgba(54, 162, 235,0.5)'
+                      ],
+                      borderWidth: 1
+                  }],
+
+                  // These labels appear in the legend and in the tooltips when hovering different arcs
+                  labels: [
+                      'Feminino',
+                      'Masculino'
+                  ]
+              };
+              var myChart = new Chart(d,{
+                  type: 'doughnut',
+                  data: data
+              })
+            }
+        });  
+
+        $.ajax({                 
+            type: 'GET',                                  
+            url: 'http://localhost:8080/violence/by/type',                 
+            //async: false,                 
+            data: "",
+            success: function(response) {
+              var d = document.getElementById("borderChart");
+              data = {
+                  datasets: [{
+                      data: [ response[0]['amount'],
+                              response[1]['amount'],
+                              response[2]['amount'],
+                              response[3]['amount'],
+                              response[4]['amount'],
+                              response[5]['amount'],
+                              response[6]['amount'],
+                              response[7]['amount'],
+                              response[8]['amount']],
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(255, 159, 64, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(255,99,132,1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(255, 159, 64, 1)'
+                    ],
+                  }],
+
+                  // These labels appear in the legend and in the tooltips when hovering different arcs
+                  labels: [
+                    response[0]['name'],
+                    response[1]['name'],
+                    response[2]['name'],
+                    response[3]['name'],
+                    response[4]['name'],
+                    response[5]['name'],
+                    response[6]['name'],
+                    response[7]['name'],
+                    response[8]['name']
+                  ]
+              };
+              var myChart = new Chart(d,{
+                  type: 'bar',
+                  data: data
+              })
             }
         });  
     }
@@ -77,8 +167,13 @@
           <div id="hack-chart-1">
             
           </div>
-          <div id="hack-chart-2"></div>
-          <div id="hack-chart-3"></div>
+          <div id="hack-chart-2">
+            <canvas id="genderChart" width="100" height="100"></canvas>
+          </div>
+
+          <div id="hack-chart-3">
+            <canvas id="borderChart" width="100" height="100"></canvas>
+          </div>
           <div id="hack-chart-4"></div>
         </div>
       </div>
