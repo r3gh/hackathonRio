@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"/>
-  <title>Leaflet Heatmap Plugin Example</title>
+  <title>Mancha Criminal</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index, follow"/>
   <meta name="description" content="This example shows a leaflet heatmap layer example for the heatmap.js leaflet plugin"/>
@@ -12,24 +12,21 @@
   <link rel="stylesheet" href="https://www.patrick-wied.at/static/heatmapjs/assets/css/example-commons.css"/>
   <link rel="stylesheet" href="https://www.patrick-wied.at/static/heatmapjs/assets/third-party/prism/prism.css"/>
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css"/>
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css"/>
+  <link rel="stylesheet" href="css/bootstrap-reboot.min.css"/>
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="css/font-awesome.css"/>
+  <link rel="stylesheet" href="css/main.css"/>
   <script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
-    <style>#share{display:none;float:right;font-size:14px;line-height:170%}.symbol{display:inline!important;float:right}</style>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
+  <style>#share{display:none;float:right;font-size:14px;line-height:170%}.symbol{display:inline!important;float:right}</style>
 </head>
 <body>
-  <div class="wrapper">
-    
-      <br style="clear:both"/>
-    <h2>Demo</h2>
-    <div class="demo-wrapper">
-      <div class="heatmap" id="map-canvas">
-
-      </div>
-    </div>
-    
-  </div>
   <script src="https://www.patrick-wied.at/static/heatmapjs/assets/js/heatmap.min.js"></script>
   <script src="https://www.patrick-wied.at/static/heatmapjs/assets/js/leaflet-heatmap.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="bootstrap.bundle.min.js"></script>
+  <script src="bootstrap.min.js"></script>
   <script src="teste.js"></script>
   <script src="sendData.js"></script>
   <script>
@@ -115,7 +112,28 @@
   damage_value numeric,
   neighborhood varchar(255),
   sex varchar(40) -->
-  <div id="pontos"></div>
-<div id="pdfs"></div>
-</body>
+  <!-- <div id="pontos"></div>
+  <div id="pdfs"></div> -->
+    <div class="hack">
+      <div class="hack-menu">
+          <div class="hack-cor-logo">
+              <img src="./img/logo_centrodeoperacoesdorio.png">
+          </div>
+          <div class="btn-group-vertical" role="toolbar">
+            <div class="btn-group" role="group">
+                <i class="fa fa-line-chart" aria-hidden="true"></i>
+                <span class='text'>Gráficos</span> 
+            </div>
+            <div class="btn-group" role="group">
+              <i class="fa fa-map" aria-hidden="true"></i>
+              <span class='text'>Mapa</span>
+            </div>
+          </div>
+      </div>
+      <div class="hack-content">
+        <div class="heatmap" id="map-canvas">
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

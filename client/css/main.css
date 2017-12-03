@@ -1,0 +1,70 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.hack{
+  width: 100vw;
+  height: 100vh;
+}
+
+.hack-menu{
+  width: 15vw;
+  height: 100vh;
+  background: black;
+  float: left;
+  border-right: 2px solid rgba(231, 36, 71, 0.8);
+}
+
+.hack-content{
+  width:   85vw;
+  height: 100vh;
+  float:  left;
+}
+
+.hack-cor-logo img{
+  width: 12vw;
+  margin-left: 1.5vw;
+}
+
+.hack-logo img{
+  width: 13vw;
+  margin-top: 28vh;
+  margin-left: 1vw;
+}
+
+.btn-group-vertical{
+  color: rgb(231, 36, 71);
+  width: 100%;
+  margin-top: 40vh;
+}
+
+.btn-group{
+  width: 100%;
+}
+
+.btn-group:hover{
+  color: white
+}
+
+.btn-group{
+  width: 100%;
+  cursor: pointer;
+}
+
+.fa{
+  margin-left: 2px;
+}
+.text{
+  margin-left: 20px;
+}
+
+.demo-wrapper{
+  border: none;
+}
+
+.heatmap{
+  width: 84vw;
+  height: 100vh;
+  margin-left: 1vw;
+}
