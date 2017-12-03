@@ -1,3 +1,7 @@
+import psycopg2
+from datetime import datetime
+from datetime import date
+import calendar
 import tweepy
 import numpy as np
 import pickle
@@ -10,16 +14,55 @@ import codecs
 from unicodedata import normalize
 import urllib3
 from xml.etree import ElementTree
+import traceback
 
 '''
     Variables
 '''
 twitterTrackings = ['AlertaAssaltoRJ','alertario24hrs','UNIDOSPORJPA','RJ_OTT','CaosNoRio','InformeRJO','OperacoesRio','AndeSeguroApp']
 
+
+def db_open():
+    try:
+       db_conn = psycopg2.connect("dbname='hackathon' user='postgres' host='10.20.3.181' password='123456'")
+       return db_conn
+    except:
+       print ("I am unable to connect to the database")
+       return false
+
+
+def db_close(db_conn):
+    db_conn.close()
+
+def shift(hour):
+    if hour > 0 and hour < 6:
+      return 'dawn'
+    elif hour >=6  and hour < 12:
+      return 'morning'
+    elif hour >= 12 and hour < 18:
+      return 'afternoon'
+    else:
+      return 'night'
+
+def insert_violence(db_conn,violence):
+    cur = db_conn.cursor()
+    # event_data, source, lat_long
+    queryStr = "INSERT INTO violence_data(latitude, longitude, event_data, neighborhood, username, type, description, address, source, day_of_week, shift) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"
+    print (queryStr)
+
+    try:
+        print (violence['latitude'],violence["longitude"],violence["event_data"],violence["neighborhood"], violence["username"], violence["type"], violence['description'], violence['address'], violence['source'], violence['day_of_week'], violence['shift'])
+        cur.execute(queryStr,(violence['latitude'],violence["longitude"],violence["event_data"],violence["neighborhood"], violence["username"], violence["type"], violence['description'], violence['address'], violence['source'], violence['day_of_week'], violence['shift']))
+        db_conn.commit()
+    except psycopg2.Error as e:
+        print(e)
+        print "Skiping (may be because it's unique)" + violence['latitude'],violence["longitude"],violence["event_data"]
+    cur.close()
+
 def readLocality(locality_path = "../dataset/locality_ds.json" ):
-    with open(locality_path, encoding='utf-8') as json_file:
-        text = json_file.read()
-        locality_map = json.loads(text)
+    file = io.open(locality_path, "r")
+    text = file.read()
+    locality_map = json.loads(text)
 
     return locality_map
 
@@ -29,20 +72,20 @@ def comparelocality(locality,text):
     else:
         return False
 
-
 def getLatLong(address):
     try:
         convertedAdress = address.replace(" ","+")
         convertedAdress = norm(convertedAdress + "+Rio+de+Janeiro")
         http = urllib3.PoolManager()
         r = http.request('GET', 'http://nominatim.openstreetmap.org/search?q=%s&format=xml&polygon=1&addressdetails=1'%(convertedAdress));
-        htmlData = str(r.data)
+        htmlData = str(r.data.decode('utf-8'))
         addressXmls = ElementTree.fromstring(htmlData)
         lat = float(addressXmls[0].attrib["lat"]) #Recover latitude from first address  XML response
         lon = float(addressXmls[0].attrib["lon"]) #Recover latitude from first address  XML response
         print (convertedAdress + " " + str([lat,lon]))
         return [lat,lon]
     except:
+        traceback.print_exc()
         print ("### ERROR : " + address)
         return None
 
@@ -133,6 +176,7 @@ def stemmingArray(words):
             print("Error in word = %s"%(word))
 
     return stemWords
+
 
 
 class StreamTwitter(tweepy.StreamListener):
