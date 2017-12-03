@@ -74,9 +74,17 @@ class Postgres:
         print(e)
     cur.close()
   
+  def getType(self):
+    cur = self.conn.cursor()
+    cur.execute("select id, name from type_violence order by id asc");
+    results = cur.fetchall()
+    cur.close()
+    return results;
+
   def getVeolance(self, size):
     cur = self.conn.cursor()
     strLimit = ("" if size == 0 else " limit " + str(size))
+    print(strLimit)
     cur.execute("select title, latitude, longitude, event_data, bulletin_occurrence,damage_value, neighborhood, county,name,type,description,sex,address,source,day_of_week,shift,source from violence_data order by event_data desc"+ strLimit);
     results = cur.fetchall()
     cur.close()

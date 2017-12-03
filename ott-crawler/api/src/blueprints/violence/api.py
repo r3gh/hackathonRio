@@ -36,6 +36,17 @@ def list(quantidade):
                       status=200, mimetype='application/json')
 
 
+@violence_blueprint.route("/type/", methods=['GET'])
+@swag_from('get_type.yml')
+def type():
+  postgre = Postgres()
+  postgre.open()
+  results = postgre.getType();
+  postgre.close()
+  types = fromResultsToType(results)
+  return Response(json.dumps(types),
+                      status=200, mimetype='application/json')
+
 def fromResultsToJson(results):
   violences = []
   for result in results: 
@@ -61,3 +72,12 @@ def fromResultsToJson(results):
     violences.append(violence)
   return violences
   
+def fromResultsToType(results):
+  types = []
+  for result in results: 
+    type = {
+      'id': str(result[0]),
+      'name': result[1]
+    }
+    types.append(type)
+  return types
