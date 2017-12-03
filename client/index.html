@@ -64,7 +64,7 @@
         }
       } 
     
-    function carregaPontosMapa(response, isMapInitialized) {
+    function carregaPontosMapa(response) {
         //console.log(response);
         //console.log(response.length);
         
@@ -118,28 +118,27 @@
 
 
           var heatmapLayer = new HeatmapOverlay(cfg);
-          if(isMapInitialized==false){
-            isMapInitialized=true;
-            map = new L.Map('map-canvas', {
-              center: new L.LatLng(-22.8797876, -43.5631799),
-              zoom: 10,
-              layers: [baseLayer, heatmapLayer]
-            });
-          }
+          $("#hack-content").html("")
+          $("#hack-content").html('<div class="heatmap" id="map-canvas">');
+          var map = new L.Map('map-canvas', {
+            center: new L.LatLng(-22.8797876, -43.5631799),
+            zoom: 10,
+            layers: [baseLayer, heatmapLayer]
+          });
 
           heatmapLayer.setData(testData);
 
           radar(localities, map);  
     }
     
-    function enviaDadosPython(val, isMapInitialized){
+    function enviaDadosPython(val){
         $.ajax({                 
             type: 'GET',                                  
             url: 'http://10.20.3.181:8080/algo/kde/'+val,                 
             //async: false,                 
             data: "",
             success: function(response) {
-          		carregaPontosMapa(response, isMapInitialized);
+          		carregaPontosMapa(response);
             }
         });  
     }
@@ -156,10 +155,10 @@
         });  
     }
 
-    function fireViolenceType(isMapInitialized){
+    function fireViolenceType(){
       $("#violence").on('change', function(){
           var val = $(this).val();    
-          enviaDadosPython(val, isMapInitialized);
+          enviaDadosPython(val);
           enviaDadosPython2(val);
       });
     }
@@ -173,15 +172,16 @@
             success: function(data) {
               var options = '';
               for (var x = 0; x < data.length; x++) {
-                options += '<option value="' + data[x]['id'] + '">' + data[x]['name'] + '</option>';
+                if((data[x]['id']!=6) && (data[x]['id']!=4))
+                  options += '<option value="' + data[x]['id'] + '">' + data[x]['name'] + '</option>';
               }
               $('#violence').html(options);
-              fireViolenceType(true);
+              fireViolenceType();
             }
         });
     }
 
-    enviaDadosPython(2, false);
+    enviaDadosPython(2);
     enviaDadosPython2(2);
     pegaTipoViolencia();
 
@@ -210,7 +210,7 @@
           </div>
       </div>
       <div id="sideBox"><p>Accurácia da IA:</p><p id="ml"></p><select id="violence"></select></div>
-      <div class="hack-content">
+      <div id="hack-content">
         <div class="heatmap" id="map-canvas">
         </div>
       </div>
