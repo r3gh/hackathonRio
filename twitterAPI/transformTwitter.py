@@ -14,7 +14,7 @@ if __name__ == "__main__":
         "tiroteio":["tiroteio", "tiro", "bomba", "baleado", "bala", "pipoco", "perdida", "disparo"],
         "roubo": ["roubo","assalto","furto","carga","bater carteira","grupo", "tentativa","arrombamento"],
         "arrastao":["arrastao"],
-        "sequestro relampago":["sequestro"],        
+        "sequestro":["sequestro"],        
         "homicidio": ["homicidio","morte", "morreu", "assassinato"],
         "outro": ["agressao","terror","trombadinha","pivete","suspeito","crime"]
     }
@@ -52,13 +52,13 @@ if __name__ == "__main__":
                             
                             stemmer = nltk.stem.RSLPStemmer()
                             id_type_violence = 13
-                            for type_violence_db in getTypeViolence():                                
-                                try:
-                                    if stemmer.stem(violence_type) in stemmingArray(steal_words_syns.keys()):
-                                        if(stemmer.stem(violence_type) in stemmingArray(steal_words_syns[ norm(type_violence_db[0]) ])):
-                                            id_type_violence = type_violence_db[1].__int__()
-                                except:
-                                    id_type_violence = 13
+                            for type_violence_db in getTypeViolence():
+                                if type_violence_db[0] in steal_words_syns.keys():
+                                    if(violence_type in steal_words_syns[type_violence_db[0]]):
+                                        id_type_violence = type_violence_db[1].__int__()
+                                        break
+
+                               
                                     
 
                             print ("\n####")

@@ -183,7 +183,7 @@ def stemmingArray(words):
 def getTypeViolence():
     
     cur = conn.cursor()
-    cur.execute("select name,id from type_violence");
+    cur.execute("select name_search,id from type_violence");
     results = cur.fetchall()
     cur.close()
     return results;
