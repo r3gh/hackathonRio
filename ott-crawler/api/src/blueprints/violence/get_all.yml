@@ -1,7 +1,0 @@
-Retorna uma lista com todas ocorrências 
----
-tags:
-  - Ocorrências 
-responses:
-  200:
-    description: Uma lista de ocorrências

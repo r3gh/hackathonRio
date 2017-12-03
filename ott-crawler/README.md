@@ -1,7 +1,6 @@
-SECCIM API
+Hackathon API
 ============
  
- Código mostrado como exemplo na seccim
  
 ***
 
