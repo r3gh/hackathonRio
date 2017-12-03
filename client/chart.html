@@ -82,7 +82,7 @@
 
         $.ajax({                 
             type: 'GET',                                  
-            url: 'http://localhost:8080/violence/by/type',                 
+            url: 'http://10.20.3.181:8080/violence/by/type',                 
             //async: false,                 
             data: "",
             success: function(response) {
@@ -183,17 +183,19 @@
         </ul>
       </nav>
         <div class="hack-chart-content">
-          <div id="hack-chart-1">
-            
-          </div>
+                    <div id="hack-chart-1">
+              
+            </div>
           <div id="hack-chart-2">
-            <canvas id="genderChart" width="100" height="100"></canvas>
+            <div class='title'><span class='chart-title'>Crime por gênenro</span></span>
+            <canvas id="genderChart"></canvas>
           </div>
 
-          <div id="hack-chart-3">
-            <canvas id="borderChart" width="100" height="100"></canvas>
-          </div>
-          <div id="hack-chart-4"></div>
+            <div id="hack-chart-3">
+                <div class='title'><span class='chart-title'>Tipo de Crime</span></span>
+                <canvas id="borderChart"></canvas>
+              </div>
+          
         </div>
       </div>
     </div>

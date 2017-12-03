@@ -82,7 +82,7 @@ body{
   grid-template-rows: 40vh;
   grid-template-areas:
     "chart1 chart2"
-    "chart3 chart4";
+    "chart3 chart3 ";
   display: grid;
 }
 
@@ -96,10 +96,6 @@ body{
 
 #hack-chart-3{
   grid-area: chart3;
-}
-
-#hack-chart-4{
-  grid-area: chart4;
 }
 
 .title{
@@ -117,7 +113,12 @@ body{
   font-weight: bold;
 }
 
-#genderChart{
-  width: 80vh!important;
-  height: 80vh  !important;
+.genderChart{
+  height: 48vh !important;
+  width:  48vh!important;
+}
+
+.borderChart{
+  height: 48vh !important;
+  width:  48vh!important;
 }
