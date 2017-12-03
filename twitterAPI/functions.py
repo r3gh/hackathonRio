@@ -56,7 +56,7 @@ def insert_violence(db_conn,violence):
         db_conn.commit()
     except psycopg2.Error as e:
         print(e)
-        print "Skiping (may be because it's unique)" + violence['latitude'],violence["longitude"],violence["event_data"]
+        print ("Skiping (may be because it's unique)" + violence['latitude'],violence["longitude"],violence["event_data"])
     cur.close()
 
 def readLocality(locality_path = "../dataset/locality_ds.json" ):
