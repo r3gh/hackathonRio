@@ -20,7 +20,17 @@
   <link rel="stylesheet" href="css/main.css"/>
   <!--<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>-->
   <script src="leaflet/dist/leaflet.js"></script>
-  <style>#share{display:none;float:right;font-size:14px;line-height:170%}.symbol{display:inline!important;float:right}</style>
+  <style>#share{display:none;float:right;font-size:14px;line-height:170%}.symbol{display:inline!important;float:right}
+  #borderChart{
+    width: 100px;
+    height: 100px;
+    }
+    #hack-chart-2, #hack-chart-3{
+      width:600px!important; 
+      height:600px!important;
+      float: left;
+    } 
+    </style>
 </head>
 <body>
   <script src="heatmap/heatmap.min.js"></script>
@@ -190,8 +200,8 @@
             <canvas id="genderChart" width="100" height="100"></canvas>
           </div>
 
-          <div id="hack-chart-3">
-            <canvas id="borderChart" width="100" height="100"></canvas>
+          <div id="hack-chart-3" width="100px" height="100px">
+            <canvas id="borderChart" width="100px" height="100px"></canvas>
           </div>
           <div id="hack-chart-4"></div>
         </div>
