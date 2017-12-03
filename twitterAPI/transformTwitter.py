@@ -14,11 +14,9 @@ if __name__ == "__main__":
         "tiroteio":["tiroteio", "tiro", "bomba", "baleado", "bala", "pipoco", "perdida", "disparo"],
         "roubo": ["roubo","assalto","furto","carga","bater carteira","grupo", "tentativa","arrombamento"],
         "arrastao":["arrastao"],
-        "sequestro":["sequestro", "relampago"],
-        "estupro":["estupro"],
-        "agressao":["agressao","insulto"],
+        "sequestro relampago":["sequestro"],        
         "homicidio": ["homicidio","morte", "morreu", "assassinato"],
-        "outro": ["terror","trombadinha","pivete","suspeito","crime","violencia","trombadinha"]
+        "outro": ["agressao","terror","trombadinha","pivete","suspeito","crime"]
     }
 
 
@@ -51,13 +49,24 @@ if __name__ == "__main__":
                         if(comparelocality(locality_map[locality]["name"], tweet.text)):
                             woriginal = norm(stealKeywords[word])
                             violence_type = reverse_map[woriginal]
+                            
+                            stemmer = nltk.stem.RSLPStemmer()
+                            id_type_violence = 13
+                            for type_violence_db in getTypeViolence():                                
+                                try:
+                                    if stemmer.stem(violence_type) in stemmingArray(steal_words_syns.keys()):
+                                        if(stemmer.stem(violence_type) in stemmingArray(steal_words_syns[ norm(type_violence_db[0]) ])):
+                                            id_type_violence = type_violence_db[1].__int__()
+                                except:
+                                    id_type_violence = 13
+                                    
 
                             print ("\n####")
                             print ("Tweet: " + tweet.text)
                             print ("User: " + tweet.user.screen_name)
                             print ("Lat-long: " + str(locality_map[locality]["latlong"]))
                             print ("Detected locality: " + locality_map[locality]["name"])
-                            print ("Violence Type: " + violence_type)
+                            print ("Violence Type: " + str(violence_type))
                             print ("#####\n")
 
                             if locality_map[locality]["type"] == "neighborhood":
@@ -77,7 +86,7 @@ if __name__ == "__main__":
                                 "longitude": locality_map[locality]["latlong"][1],
                                 "event_data": tweet.created_at.strftime('%Y-%m-%d %H:%M:%S'),
                                 "description": tweet.text,
-                                "type": 1,
+                                "type": id_type_violence,
                                 "neighborhood": neighborhood,
                                 "username": tweet.user.screen_name,
                                 "address":address,

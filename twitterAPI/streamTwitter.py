@@ -20,6 +20,7 @@ auth.set_access_token(access_token, access_secret)
  
 api = tweepy.API(auth)
 
+
 stream_listener = StreamTwitter()
 stream = tweepy.Stream(auth=api.auth, listener=stream_listener)
 print("Initializing ...")
