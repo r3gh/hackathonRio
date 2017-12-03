@@ -145,23 +145,38 @@ class StreamTwitter(tweepy.StreamListener):
             if(word in stealKeywords):
                 #print("%s = %s"%(word,stealKeywords))
                 #print(tweet.text)
-                for locality in localitys:
+                for locality in locality_map:
+                    if(comparelocality(locality_map[locality]["name"], tweet.text)):
+                        woriginal = norm(stealKeywords[word])
+                        violence_type = reverse_map[woriginal]
 
-                    if(comparelocality(locality, tweet.text)):
+                        print ("\n####")
+                        print ("Tweet: " + tweet.text)
+                        print ("User: " + tweet.user.screen_name)
+                        print ("Lat-long: " + str(locality_map[locality]["latlong"]))
+                        print ("Detected locality: " + locality_map[locality]["name"])
+                        print ("Violence Type: " + violence_type)
+                        print ("#####\n")
+
                         try:
                             results[locality]
                         except:
                             results[locality] = {}
                         try:
-                            results[locality]["size"] = results[locality]["size"] + 1
+                            results[locality]["size"] += 1
                         except:
                             results[locality]["size"]  = 1
 
-                        try:
-                            results[locality]["tweet"].append({"date":tweet.created_at,"text":tweet.text})
-                        except:
-                            results[locality]["tweet"] = []
 
+
+                        try:
+                            results[locality]["tweet"].append({"username":tweet.user.screen_name, "date":tweet.created_at,"text":tweet.text, "type_violence": violence_type})
+                        except:
+                            print(word)
+                            results[locality]["tweet"] = []
+                            results[locality]["tweet"].append({"username":tweet.user.screen_name,"date":tweet.created_at,"text":tweet.text, "type_violence": violence_type})
+
+                        results[locality]["latlong"] = locality_map[locality]["latlong"]
 
                         break
                 break
