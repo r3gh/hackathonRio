@@ -138,8 +138,30 @@ def stemmingArray(words):
 class StreamTwitter(tweepy.StreamListener):
 
     def on_status(self, tweet):
+        steal_words_syns = {
+        "tiroteio":["tiroteio", "tiro", "bomba", "baleado", "bala", "pipoco", "perdida", "disparo"],
+        "roubo": ["roubo","assalto","furto","carga","bater carteira","grupo", "tentativa","arrombamento"],
+        "arrastao":["arrastao"],
+        "sequestro":["sequestro", "relampago"],
+        "estupro":["estupro"],
+        "agressao":["agressao","insulto"],
+        "homicidio": ["homicidio","morte", "morreu", "assassinato"],
+        "outro": ["terror","trombadinha","pivete","suspeito","crime","violencia","trombadinha"]
+    }
+        
+        results = {}
+        reverse_map = {}
+        stemming_words = []
+        for key in steal_words_syns:
+            for word in steal_words_syns[key]:
+                stemming_words.append(word)
+                reverse_map[word] = key
+    
+    
+        stealKeywords = stemmingArray_keep_original(stemming_words)
+        locality_map = readLocality()
         print(tweet.text)
-        stealKeywords= stemmingArray(['Roubo', 'Assalto'])
+        
         words = stemmingArray(tweet.text.split(' '))
         for word in words:
             if(word in stealKeywords):
