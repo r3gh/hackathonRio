@@ -12,3 +12,4 @@ pytz
 scikit-image
 scipy
 psycopg2
+sklearn

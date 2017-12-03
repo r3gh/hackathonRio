@@ -80,6 +80,27 @@ def amount():
   return Response(json.dumps({'amount': str(results[0][0])}),
                       status=200, mimetype='application/json')
 
+@violence_blueprint.route("/by/neighborhood", methods=['GET'])
+@swag_from('get_neighborhood.yml')
+def neighborhood():
+  postgre = Postgres()
+  postgre.open()
+  results = postgre.getViolenceGroupByNeighborhood();
+  postgre.close()
+  neighborhoods = fromResultsToNeighborhood(results)
+  return Response(json.dumps(neighborhoods),status=200, mimetype='application/json')
+
+@violence_blueprint.route("/by/type", methods=['GET'])
+@swag_from('get_by_type.yml')
+def agregaPorTipo():
+  postgre = Postgres()
+  postgre.open()
+  results = postgre.getViolenceGroupByType();
+  postgre.close()
+  types = fromResultsToNeighborhood(results)
+  return Response(json.dumps(types),
+                      status=200, mimetype='application/json')
+
 
 @violence_blueprint.route("/lost/gender", methods=['GET'])
 @swag_from('get_gender.yml')
@@ -128,3 +149,13 @@ def fromResultsToType(results):
     }
     types.append(type)
   return types
+
+def fromResultsToNeighborhood(results):
+  neighborhood = []
+  for result in results: 
+    n = {      
+      'name': result[0],
+      'amount': str(result[1]),
+    }
+    neighborhood.append(n)
+  return neighborhood

@@ -1,0 +1,7 @@
+Retorna a quantidade de ocorrência de crime de acordo com o tipo;
+---
+tags:
+  - Métricas
+responses:
+  200:
+    description: Retorna a quantidade de ocorrência de crime de acordo com o tipo;

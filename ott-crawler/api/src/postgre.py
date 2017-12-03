@@ -105,6 +105,19 @@ class Postgres:
     cur.close()
     return results;
     
+  def getViolenceGroupByType(self):
+    cur = self.conn.cursor()
+    cur.execute("select t.name, count(t.name) from violence_data v join type_violence t on v.type = t.id group by t.name");
+    results = cur.fetchall()
+    cur.close()
+    return results;
+
+  def getViolenceGroupByNeighborhood(self):
+    cur = self.conn.cursor()
+    cur.execute("select neighborhood, count(neighborhood) as qtd from violence_data where neighborhood != 'Rio de Janeiro'  group by neighborhood order by qtd desc;");
+    results = cur.fetchall()
+    cur.close()
+    return results;
 
   def getVeolance(self, size):
     cur = self.conn.cursor()
@@ -135,5 +148,3 @@ class Postgres:
       self.conn.close()
     except:
       print ("I am unable to connect to the database")
-
-
