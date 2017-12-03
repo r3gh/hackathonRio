@@ -23,8 +23,8 @@
   <style>#share{display:none;float:right;font-size:14px;line-height:170%}.symbol{display:inline!important;float:right}</style>
 </head>
 <body>
-  <script src="https://www.patrick-wied.at/static/heatmapjs/assets/js/heatmap.min.js"></script>
-  <script src="https://www.patrick-wied.at/static/heatmapjs/assets/js/leaflet-heatmap.js"></script>
+  <script src="heatmap/heatmap.min.js"></script>
+  <script src="heatmap/leaflet-heatmap.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="bootstrap.bundle.min.js"></script>
   <script src="bootstrap.min.js"></script>
@@ -56,11 +56,11 @@
         //console.log(response);
         //console.log(response.length);
         if(type=="kde"){
-          response = JSON.parse(response);
+          //response = JSON.parse(response);
           //response = JSON.parse(response[0]);
           //console.log(response[0]);
-          response = response[0];
-          response = response.replace("[","").replace("]","").split(',')
+          //response = response[0];
+          //response = response.replace("[","").replace("]","").split(',')
           count=0;
           var localities = new Array(response.length/3);
           //console.log(response);
@@ -125,12 +125,13 @@
     function enviaDadosPython(type){
         
         $.ajax({                 
-            type: 'POST',                                  
-            url: 'source.php',                 
+            type: 'GET',                                  
+            url: 'http://10.20.3.181:8080/algo/'+type,                 
             //async: false,                 
-            data: "type="+type,
+            data: "",
             success: function(response) {
-                carregaPontosMapa(response, type);
+		if(type=="kde")  carregaPontosMapa(response, type);
+		if(type=="ml") $("#ml p").text(response);
             }
         });  
     }
@@ -139,7 +140,7 @@
     enviaDadosPython("ml");
 
   </script>
-  <script src="https://www.patrick-wied.at/static/heatmapjs/assets/third-party/prism/prism.js"></script>
+  <script src="heatmap/prism.js"></script>
   <!-- Gráficos por tipo de violência, por tempo de ocorrência, ocorrência por gênero, 
   quanto de valores foi perdido -->
     <div class="hack">
@@ -160,7 +161,8 @@
                 Gráfico
               </a>
             </div>
-          </div>    
+	<div id="ml"><p></p></div>
+          </div>
       </div>
       <div class="hack-content">
         <div class="heatmap" id="map-canvas">
