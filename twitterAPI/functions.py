@@ -228,12 +228,10 @@ class StreamTwitter(tweepy.StreamListener):
                         stemmer = nltk.stem.RSLPStemmer()
                         id_type_violence = 13
                         for type_violence_db in getTypeViolence():                                
-                            try:
-                                if stemmer.stem(violence_type) in stemmingArray(steal_words_syns.keys()):
-                                    if(stemmer.stem(violence_type) in stemmingArray(steal_words_syns[ norm(type_violence_db[0]) ])):
-                                        id_type_violence = type_violence_db[1].__int__()
-                            except:
-                                id_type_violence = 13
+                            if type_violence_db[0] in steal_words_syns.keys():
+                                if(violence_type in steal_words_syns[type_violence_db[0]]):
+                                    id_type_violence = type_violence_db[1].__int__()
+                                    break
                                 
 
                         print ("\n####")
