@@ -45,9 +45,8 @@ class MachineLearnning:
     data = []
     labels = []
     for a in arrData:
-      if a["type"] == '2':
-        data.append([a["neighborhood"],a["day_of_week"]])
-        labels.append(a["shift"])
+      data.append([a["neighborhood"],a["day_of_week"]])
+      labels.append(a["shift"])
 
 
     qtyTrain = int(len(labels)*0.8)
