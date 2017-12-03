@@ -1,0 +1,7 @@
+Retorna a quantidade de violência para o tipo de gênero
+---
+tags:
+  - Métricas
+responses:
+  200:
+    description: quantidade por gênenro.

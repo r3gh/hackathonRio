@@ -1,0 +1,13 @@
+Retorna uma lista com todas ocorrências, filtrando por um tipo de violência
+---
+tags:
+  - Ocorrências 
+parameters:
+  - name: type
+    in: path
+    type: integer
+    required: true
+    description: tipo de violência
+responses:
+  200:
+    description: Uma lista de ocorrências

@@ -81,10 +81,34 @@ class Postgres:
     cur.close()
     return results;
 
+  def getViolenceByType(self, type, size):
+    cur = self.conn.cursor()
+    strLimit = ("" if size == 0 else " limit " + str(size))
+    cur.execute("select title, latitude, longitude, event_data, bulletin_occurrence,damage_value,"\
+  " neighborhood, county,name,type,description,sex,address,source,day_of_week,shift,source"\
+  " from violence_data where type="+type+" order by event_data desc"+ strLimit);
+    results = cur.fetchall()
+    cur.close()
+    return results;
+    
+  def getAmountOfLost(self):
+    cur = self.conn.cursor()
+    cur.execute("select sum(damage_value) from violence_data");
+    results = cur.fetchall()
+    cur.close()
+    return results;
+
+  def getLostBySex(self):
+    cur = self.conn.cursor()
+    cur.execute("select sex, count(sex) from violence_data where sex='1' or sex='0' group by sex");
+    results = cur.fetchall()
+    cur.close()
+    return results;
+    
+
   def getVeolance(self, size):
     cur = self.conn.cursor()
     strLimit = ("" if size == 0 else " limit " + str(size))
-    print(strLimit)
     cur.execute("select title, latitude, longitude, event_data, bulletin_occurrence,damage_value, neighborhood, county,name,type,description,sex,address,source,day_of_week,shift,source from violence_data order by event_data desc"+ strLimit);
     results = cur.fetchall()
     cur.close()

@@ -1,0 +1,7 @@
+Retorna o quanto foi o prejuízo até o momento
+---
+tags:
+  - Métricas
+responses:
+  200:
+    description: Prejuízo até a presente data.

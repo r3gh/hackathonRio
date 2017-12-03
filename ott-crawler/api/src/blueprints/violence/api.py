@@ -35,6 +35,29 @@ def list(quantidade):
   return Response(json.dumps(violences),
                       status=200, mimetype='application/json')
 
+@violence_blueprint.route("/get/by/type/<type>", methods=['GET'])
+@swag_from('get_type_all.yml')
+def list_type_all(type):
+  postgre = Postgres()
+  postgre.open()
+  results = postgre.getViolenceByType(type, 0);
+  postgre.close()
+  violences = fromResultsToJson(results)
+  return Response(json.dumps(violences),
+                      status=200, mimetype='application/json')
+
+
+@violence_blueprint.route("/get/by/type/<type>/<quantidade>", methods=['GET'])
+@swag_from('get_type_size.yml')
+def list_type(type, quantidade):
+  postgre = Postgres()
+  postgre.open()
+  results = postgre.getViolenceByType(type, quantidade);
+  postgre.close()
+  violences = fromResultsToJson(results)
+  return Response(json.dumps(violences),
+                      status=200, mimetype='application/json')
+
 
 @violence_blueprint.route("/type/", methods=['GET'])
 @swag_from('get_type.yml')
@@ -45,6 +68,30 @@ def type():
   postgre.close()
   types = fromResultsToType(results)
   return Response(json.dumps(types),
+                      status=200, mimetype='application/json')
+
+@violence_blueprint.route("/amount/lost", methods=['GET'])
+@swag_from('get_amount.yml')
+def amount():
+  postgre = Postgres()
+  postgre.open()
+  results = postgre.getAmountOfLost();
+  postgre.close()
+  return Response(json.dumps({'amount': str(results[0][0])}),
+                      status=200, mimetype='application/json')
+
+
+@violence_blueprint.route("/lost/gender", methods=['GET'])
+@swag_from('get_gender.yml')
+def gender():
+  postgre = Postgres()
+  postgre.open()
+  results = postgre.getLostBySex();
+  print(results)
+  masc = results[0][1] /(results[0][1] + results[1][1])
+  fem  = results[1][1] / (results[0][1] + results[1][1])
+  postgre.close()
+  return Response(json.dumps({'masculino': masc,'feminino': fem}),
                       status=200, mimetype='application/json')
 
 def fromResultsToJson(results):
