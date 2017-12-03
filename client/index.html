@@ -23,6 +23,17 @@
   <style>#share{display:none;float:right;font-size:14px;line-height:170%}.symbol{display:inline!important;float:right}</style>
 </head>
 <body>
+<style type="text/css">
+  #sideBox{
+        width: 250px;
+        margin-top: 175px;
+        /* clear: both; */
+        position: absolute;
+        font-size: 16px;
+        background-color: #ffffff;
+        opacity: 0.7;
+  }
+</style>
   <script src="heatmap/heatmap.min.js"></script>
   <script src="heatmap/leaflet-heatmap.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -122,22 +133,58 @@
         }
     }
     
-    function enviaDadosPython(type){
-        
+    function enviaDadosPython(val){
         $.ajax({                 
             type: 'GET',                                  
-            url: 'http://10.20.3.181:8080/algo/'+type,                 
+            url: 'http://10.20.3.181:8080/algo/kde/'+val,                 
             //async: false,                 
             data: "",
             success: function(response) {
-		if(type=="kde")  carregaPontosMapa(response, type);
-		if(type=="ml") $("#ml p").text(response);
+          		carregaPontosMapa(response, type);
             }
         });  
     }
 
-    enviaDadosPython("kde");
-    enviaDadosPython("ml");
+    function enviaDadosPython2(val){
+        $.ajax({                 
+            type: 'GET',                                  
+            url: 'http://10.20.3.181:8080/algo/ml/'+val,                 
+            //async: false,                 
+            data: "",
+            success: function(response) {
+              $("#ml p").text(response);
+            }
+        });  
+    }
+
+    function fireViolenceType(){
+      $("#violence").on('change', function(){
+          var val = $(this).val();    
+          enviaDadosPython(val);
+          enviaDadosPython2(val);
+      });
+    }
+
+    function pegaTipoViolencia(){
+      $.ajax({                 
+            type: 'GET',                                  
+            url: 'http://10.20.3.181:8080/violence/type/',                 
+            //async: false,                 
+            data: "",
+            success: function(data) {
+              var options = '';
+              for (var x = 0; x < data.length; x++) {
+                options += '<option value="' + data[x]['id'] + '">' + data[x]['name'] + '</option>';
+              }
+              $('#violence').html(options);
+              fireViolenceType();
+            }
+        });
+    }
+
+    enviaDadosPython(2);
+    enviaDadosPython2(2);
+    pegaTipoViolencia();
 
   </script>
   <script src="heatmap/prism.js"></script>
@@ -161,9 +208,9 @@
                 Gráfico
               </a>
             </div>
-	<div id="ml"><p></p></div>
           </div>
       </div>
+      <div id="sideBox"><p>Accurácia da IA:</p><p id="ml"></p><select id="violence"></select></div>
       <div class="hack-content">
         <div class="heatmap" id="map-canvas">
         </div>
