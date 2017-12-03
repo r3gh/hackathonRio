@@ -31,67 +31,83 @@
   <script src="sendData.js"></script>
   <script>
       
-      function enviaDadosPython(){
+    
+    function carregaPontosMapa(response) {
+        //console.log(response);
+        //console.log(response.length);
+        response = JSON.parse(response);
+        //response = JSON.parse(response[0]);
+        //console.log(response[0]);
+        response = response[0];
+        response = response.replace("[","").replace("]","").split(',')
+        count=0;
+        var localities = new Array(response.length/3);
+        //console.log(response);
+        
+        for(i=0;i<response.length/3; i++){
+            
+            localities[i]={
+                "lat" : parseFloat(response[count].replace('\'','')),
+                "lng" : parseFloat(response[count+1].replace('\'','')),
+                "count" : parseFloat(response[count+2])
+            };
+            count+=3;
+        }
+        console.log(localities);
+        var baseLayer = L.tileLayer(
+          'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+            maxZoom: 18
+          }
+        );
+        var testData = {
+            max: 8,
+            data: localities//[{"lat": 24.6408, "lng":46.7728, "count": 3},{"lat": 50.75, "lng":-1.55, "count": 1}]
+        };
+        var cfg = {
+          // radius should be small ONLY if scaleRadius is true (or small radius is intended)
+          // if scaleRadius is false it will be the constant radius used in pixels
+          "radius": 20,
+          "maxOpacity": 1, 
+          // scales the radius based on map zoom
+          //"scaleRadius": true, 
+          // if set to false the heatmap uses the global maximum for colorization
+          // if activated: uses the data maximum within the current map boundaries 
+          //   (there will always be a red spot with useLocalExtremas true)
+          //"useLocalExtrema": true,
+          // which field name in your data represents the latitude - default "lat"
+          latField: 'lat',
+          // which field name in your data represents the longitude - default "lng"
+          lngField: 'lng',
+          // which field name in your data represents the data value - default "value"
+          valueField: 'count'
+        };
+
+
+        var heatmapLayer = new HeatmapOverlay(cfg);
+
+        var map = new L.Map('map-canvas', {
+          center: new L.LatLng(-22.8797876, -43.5631799),
+          zoom: 10,
+          layers: [baseLayer, heatmapLayer]
+        });
+
+        heatmapLayer.setData(testData);
+    }
+    
+    function enviaDadosPython(){
         
         $.ajax({                 
             type: 'POST',                                  
             url: 'source.php',                 
-            async: false,                 
+            //async: false,                 
             data: "tipoProcessamento=python2",
             success: function(response) {
-                //console.log(response);
-                //console.log(response.length);
-                response = JSON.parse(response);
-                response = JSON.parse(response[0]);
-                //$("#pdfs").attr('value',response);
-                for(i=0;i<response.length; i++){
-                    localities[i].count = response[i];
-                }
-                //console.log(localities[0].count);
-                //carregaPontosMapa();
-            }             
+                carregaPontosMapa(response);
+            }
         });  
     }
+
     enviaDadosPython();
-    
-    var baseLayer = L.tileLayer(
-      'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
-        maxZoom: 18
-      }
-    );
-    var testData = {
-        max: 8,
-        data: localities//[{"lat": 24.6408, "lng":46.7728, "count": 3},{"lat": 50.75, "lng":-1.55, "count": 1}]
-    };
-    var cfg = {
-      // radius should be small ONLY if scaleRadius is true (or small radius is intended)
-      // if scaleRadius is false it will be the constant radius used in pixels
-      "radius": 20,
-      "maxOpacity": 1, 
-      // scales the radius based on map zoom
-      //"scaleRadius": true, 
-      // if set to false the heatmap uses the global maximum for colorization
-      // if activated: uses the data maximum within the current map boundaries 
-      //   (there will always be a red spot with useLocalExtremas true)
-      //"useLocalExtrema": true,
-      // which field name in your data represents the latitude - default "lat"
-      latField: 'lat',
-      // which field name in your data represents the longitude - default "lng"
-      lngField: 'lng',
-      // which field name in your data represents the data value - default "value"
-      valueField: 'count'
-    };
-
-
-    var heatmapLayer = new HeatmapOverlay(cfg);
-
-    var map = new L.Map('map-canvas', {
-      center: new L.LatLng(-22.8797876, -43.5631799),
-      zoom: 10,
-      layers: [baseLayer, heatmapLayer]
-    });
-
-    heatmapLayer.setData(testData);
   </script>
   <script src="https://www.patrick-wied.at/static/heatmapjs/assets/third-party/prism/prism.js"></script>
   <!-- Gráficos por tipo de violência, por tempo de ocorrência, ocorrência por gênero, 
