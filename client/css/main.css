@@ -9,22 +9,25 @@ body{
 }
 
 .hack-menu{
-  width: 15vw;
-  height: 100vh;
-  background: black;
+  width: 100vw;
+  height: 11vh;
+  line-height: 12vh;
+  background:#09222a;
   float: left;
-  border-right: 2px solid rgba(231, 36, 71, 0.8);
+  border-bottom: 1vh solid #5f7f97;
 }
 
 .hack-content{
-  width:   85vw;
-  height: 100vh;
-  float:  left;
+  width: 100vw;
+  height: 88vh;
+  float: left;
 }
 
 .hack-cor-logo img{
   width: 12vw;
+  margin-top: 2vh;
   margin-left: 1.5vw;
+  float: left;
 }
 
 .hack-logo img{
@@ -33,23 +36,28 @@ body{
   margin-left: 1vw;
 }
 
-.btn-group-vertical{
-  color: rgb(231, 36, 71);
-  width: 100%;
-  margin-top: 40vh;
+.hack-btn-group{
+  margin-right: 4vw;
+  float: right;
 }
 
-.btn-group{
-  width: 100%;
+.hack-btn {
+  float: left;
+  padding-left: 10px;
 }
 
-.btn-group:hover{
-  color: white
-}
-
-.btn-group{
-  width: 100%;
+.hack-link{
+  color: white !important;
   cursor: pointer;
+}
+
+.hack-link:hover{
+  color: #5f7f97!important;
+}
+
+.btn.btn-default{
+  height: 8vh;
+  line-height: 8vh;
 }
 
 .fa{
@@ -64,7 +72,6 @@ body{
 }
 
 .heatmap{
-  width: 84vw;
-  height: 100vh;
-  margin-left: 1vw;
+  width: 100vw;
+  height: 80vh;
 }
