@@ -30,8 +30,9 @@
         /* clear: both; */
         position: absolute;
         font-size: 16px;
-        background-color: #ffffff;
+        background-color: transparent;
         opacity: 0.7;
+        z-index: 1000;
   }
 </style>
   <script src="heatmap/heatmap.min.js"></script>
@@ -63,10 +64,10 @@
         }
       } 
     
-    function carregaPontosMapa(response, type) {
+    function carregaPontosMapa(response, isMapInitialized) {
         //console.log(response);
         //console.log(response.length);
-        if(type=="kde"){
+        
           //response = JSON.parse(response);
           //response = JSON.parse(response[0]);
           //console.log(response[0]);
@@ -117,30 +118,28 @@
 
 
           var heatmapLayer = new HeatmapOverlay(cfg);
-
-          var map = new L.Map('map-canvas', {
-            center: new L.LatLng(-22.8797876, -43.5631799),
-            zoom: 10,
-            layers: [baseLayer, heatmapLayer]
-          });
+          if(isMapInitialized==false){
+            isMapInitialized=true;
+            map = new L.Map('map-canvas', {
+              center: new L.LatLng(-22.8797876, -43.5631799),
+              zoom: 10,
+              layers: [baseLayer, heatmapLayer]
+            });
+          }
 
           heatmapLayer.setData(testData);
 
           radar(localities, map);  
-        }
-        else{
-          console.log(response);
-        }
     }
     
-    function enviaDadosPython(val){
+    function enviaDadosPython(val, isMapInitialized){
         $.ajax({                 
             type: 'GET',                                  
             url: 'http://10.20.3.181:8080/algo/kde/'+val,                 
             //async: false,                 
             data: "",
             success: function(response) {
-          		carregaPontosMapa(response, type);
+          		carregaPontosMapa(response, isMapInitialized);
             }
         });  
     }
@@ -157,10 +156,10 @@
         });  
     }
 
-    function fireViolenceType(){
+    function fireViolenceType(isMapInitialized){
       $("#violence").on('change', function(){
           var val = $(this).val();    
-          enviaDadosPython(val);
+          enviaDadosPython(val, isMapInitialized);
           enviaDadosPython2(val);
       });
     }
@@ -177,12 +176,12 @@
                 options += '<option value="' + data[x]['id'] + '">' + data[x]['name'] + '</option>';
               }
               $('#violence').html(options);
-              fireViolenceType();
+              fireViolenceType(true);
             }
         });
     }
 
-    enviaDadosPython(2);
+    enviaDadosPython(2, false);
     enviaDadosPython2(2);
     pegaTipoViolencia();
 
