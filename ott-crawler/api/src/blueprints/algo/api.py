@@ -40,6 +40,33 @@ def run_ml():
                       status=200, mimetype='application/json')
 
 
+@algo_blueprint.route("/kde/<tipo>", methods=['GET'])
+@swag_from('get_type_kde.yml')
+def run_kde_filtered(tipo):
+  postgre = Postgres()
+  postgre.open()
+  results = postgre.getVeolanceFilterByType(1000, tipo);
+  postgre.close()
+  violences = fromResultsToJson(results)
+  kde = KDE()
+  result = kde.run(violences)
+  return Response(json.dumps(result),
+                      status=200, mimetype='application/json')
+
+
+@algo_blueprint.route("/ml/<tipo>", methods=['GET'])
+@swag_from('get_type_ml.yml')
+def run_ml_filtered(tipo):
+  postgre = Postgres()
+  postgre.open()
+  results = postgre.getVeolanceFilterByType(3000, tipo);
+  postgre.close()
+  violences = fromResultsToJson(results)
+  ml = MachineLearnning()
+  result = ml.run(violences)
+  return Response(json.dumps(result),
+                      status=200, mimetype='application/json')
+
 def fromResultsToJson(results):
   violences = []
   for result in results: 

@@ -127,6 +127,15 @@ class Postgres:
     cur.close()
     return results;
 
+  def getVeolanceFilterByType(self, size, tipo):
+    cur = self.conn.cursor()
+    print(tipo)
+    strLimit = ("" if size == 0 else " limit " + str(size))
+    cur.execute("select title, latitude, longitude, event_data, bulletin_occurrence,damage_value, neighborhood, county,name,type,description,sex,address,source,day_of_week,shift,source from violence_data where type="+tipo+" order by event_data desc"+ strLimit);
+    results = cur.fetchall()
+    cur.close()
+    return results;
+
   def shift(self, hour):
     if hour > 0 and hour < 6:
       return 'dawn'
