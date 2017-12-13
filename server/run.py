@@ -12,11 +12,11 @@ from tweets_grabber import TweetsGrabber
 dataCrawler = DataCrawler()
 
 def getData():
-  threading.Timer(60.0, getData).start()
+  threading.Timer(120.0, getData).start()
   dataCrawler.getData()
 
-# getData()
 TweetsGrabber()
+getData()
 
 app = create_app()
 babel = Babel(app)
