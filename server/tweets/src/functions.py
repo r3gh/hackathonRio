@@ -21,7 +21,6 @@ import traceback
     Variables
 '''
 
-
 twitterTrackings = ['AlertaAssaltoRJ','alertario24hrs','UNIDOSPORJPA','RJ_OTT','CaosNoRio','InformeRJO','OperacoesRio','AndeSeguroApp']
 
 
@@ -62,8 +61,9 @@ def insert_violence(db_conn,violence):
         print ("Skiping (may be because it's unique)" + violence['latitude'],violence["longitude"],violence["event_data"])
     cur.close()
 
-def readLocality(locality_path = "../dataset/locality_ds.json" ):
+def readLocality(locality_path = "./tweets/dataset/locality_ds.json" ):
     file = io.open(locality_path, "r")
+    print(file)
     text = file.read()
     locality_map = json.loads(text)
 
@@ -107,7 +107,7 @@ def clean_str(s):
     s = re.sub('\W+','', s )
     return s
 
-def readNeighborhoods(locality_path = "../dataset/localidades.csv" ):
+def readNeighborhoods(locality_path = "./tweets/dataset/localidades.csv" ):
     locality_ds = {}
     file = io.open(locality_path, "r")
     localitys = file.readlines()
@@ -121,7 +121,7 @@ def readNeighborhoods(locality_path = "../dataset/localidades.csv" ):
 
     return locality_ds
 
-def readStreets(locality_ds,locality_path="../dataset/LinkedGeoData.csv"):
+def readStreets(locality_ds,locality_path="./tweets/dataset/LinkedGeoData.csv"):
     file = io.open(locality_path, "r")
     lines = file.readlines()
     for line in lines:
@@ -149,6 +149,7 @@ def readStreets(locality_ds,locality_path="../dataset/LinkedGeoData.csv"):
                 locality_ds[key]["latlong"] = [float(row[3]), float(row[4])]
             else:
                 locality_ds[key]["latlong"] = getLatLong(row[2].strip())
+    return locality_ds
 
 def stemmingArray_keep_original(words):
     stemmer = nltk.stem.RSLPStemmer()

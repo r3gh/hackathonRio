@@ -7,13 +7,15 @@ from flask_babel import Babel
 import threading
 from api.src.config.create_app import create_app
 from api.src.data_crawler import DataCrawler
+from tweets_grabber import TweetsGrabber
 
 dataCrawler = DataCrawler()
 
 def getData():
-  threading.Timer(60.0, getData).start()
+  threading.Timer(120.0, getData).start()
   dataCrawler.getData()
 
+TweetsGrabber()
 getData()
 
 app = create_app()
