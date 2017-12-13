@@ -62,7 +62,7 @@ def insert_violence(db_conn,violence):
     cur.close()
 
 def readLocality(locality_path = "./tweets/dataset/locality_ds.json" ):
-    file = io.open(locality_path, "r")
+    file = codecs.open(locality_path, mode="r", encoding="utf-8")
     print(file)
     text = file.read()
     locality_map = json.loads(text)
@@ -109,7 +109,7 @@ def clean_str(s):
 
 def readNeighborhoods(locality_path = "./tweets/dataset/localidades.csv" ):
     locality_ds = {}
-    file = io.open(locality_path, "r")
+    file = codecs.open(locality_path, mode="r", encoding="utf-8")
     localitys = file.readlines()
     for locality in localitys:
         key = clean_str(locality)
@@ -122,7 +122,7 @@ def readNeighborhoods(locality_path = "./tweets/dataset/localidades.csv" ):
     return locality_ds
 
 def readStreets(locality_ds,locality_path="./tweets/dataset/LinkedGeoData.csv"):
-    file = io.open(locality_path, "r")
+    file = codecs.open(locality_path, mode="r", encoding="utf-8")
     lines = file.readlines()
     for line in lines:
         row = line.split('\t')
