@@ -77,7 +77,8 @@ def comparelocality(locality,text):
 
 def getLatLong(address):
     try:
-        convertedAdress = address.replace(" ","+")
+        address = address.encode('utf-8')
+        convertedAdress = address.decode('utf-8').replace(" ","+")
         convertedAdress = norm(convertedAdress + "+Rio+de+Janeiro")
         http = urllib3.PoolManager()
         r = http.request('GET', 'http://nominatim.openstreetmap.org/search?q=%s&format=xml&polygon=1&addressdetails=1'%(convertedAdress));
@@ -89,7 +90,7 @@ def getLatLong(address):
         return [lat,lon]
     except:
         traceback.print_exc()
-        print ("### ERROR : " + address)
+        print ("### ERROR : " + address.decode('utf-8'))
         return None
 
 
