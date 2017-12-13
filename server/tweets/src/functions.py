@@ -21,13 +21,13 @@ import traceback
     Variables
 '''
 
-conn = psycopg2.connect("dbname='hackathon' user='postgres' host='10.20.3.181' password='123456'")
+conn = psycopg2.connect("dbname='hackathon' user='postgres' host='localhost' password='123456'")
 twitterTrackings = ['AlertaAssaltoRJ','alertario24hrs','UNIDOSPORJPA','RJ_OTT','CaosNoRio','InformeRJO','OperacoesRio','AndeSeguroApp']
 
 
 def db_open():
     try:
-       db_conn = psycopg2.connect("dbname='hackathon' user='postgres' host='10.20.3.181' password='123456'")
+       db_conn = psycopg2.connect("dbname='hackathon' user='postgres' host='localhost' password='123456'")
        return db_conn
     except:
        print ("I am unable to connect to the database")
@@ -62,7 +62,7 @@ def insert_violence(db_conn,violence):
         print ("Skiping (may be because it's unique)" + violence['latitude'],violence["longitude"],violence["event_data"])
     cur.close()
 
-def readLocality(locality_path = "../dataset/locality_ds.json" ):
+def readLocality(locality_path = "./tweets/dataset/locality_ds.json" ):
     file = io.open(locality_path, "r")
     text = file.read()
     locality_map = json.loads(text)
@@ -107,7 +107,7 @@ def clean_str(s):
     s = re.sub('\W+','', s )
     return s
 
-def readNeighborhoods(locality_path = "../dataset/localidades.csv" ):
+def readNeighborhoods(locality_path = "./tweets/dataset/localidades.csv" ):
     locality_ds = {}
     file = io.open(locality_path, "r")
     localitys = file.readlines()
@@ -121,7 +121,7 @@ def readNeighborhoods(locality_path = "../dataset/localidades.csv" ):
 
     return locality_ds
 
-def readStreets(locality_ds,locality_path="../dataset/LinkedGeoData.csv"):
+def readStreets(locality_ds,locality_path="./tweets/dataset/LinkedGeoData.csv"):
     file = io.open(locality_path, "r")
     lines = file.readlines()
     for line in lines:
