@@ -17,7 +17,7 @@ data = cgi.FieldStorage()
 
 #test
 #text = np.genfromtxt('modified_result.csv', delimiter="\t", dtype=None, skip_header=1)
-r = urllib.request.urlopen("http://10.20.3.181:8080/violence/get/3000")
+r = urllib.request.urlopen("http://localhost:8080/violence/get/3000")
 arrData = json.loads(r.read().decode(r.info().get_param('charset') or 'utf-8'))
 #print(text)
 #arrData = []

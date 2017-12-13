@@ -21,13 +21,13 @@ import traceback
     Variables
 '''
 
-conn = psycopg2.connect("dbname='hackathon' user='postgres' host='10.20.3.181' password='123456'")
+
 twitterTrackings = ['AlertaAssaltoRJ','alertario24hrs','UNIDOSPORJPA','RJ_OTT','CaosNoRio','InformeRJO','OperacoesRio','AndeSeguroApp']
 
 
 def db_open():
     try:
-       db_conn = psycopg2.connect("dbname='hackathon' user='postgres' host='10.20.3.181' password='123456'")
+       db_conn = psycopg2.connect("dbname='hackathon' user='postgres' host='localhost' password='postgres' port=5433")
        return db_conn
     except:
        print ("I am unable to connect to the database")
@@ -181,7 +181,7 @@ def stemmingArray(words):
     return stemWords
 
 def getTypeViolence():
-    
+    conn = db_open()
     cur = conn.cursor()
     cur.execute("select name_search,id from type_violence");
     results = cur.fetchall()
