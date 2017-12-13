@@ -138,7 +138,7 @@
     function enviaDadosPython(val){
         $.ajax({                 
             type: 'GET',                                  
-            url: 'http://10.20.3.181:8080/algo/kde/'+val,                 
+            url: 'http://localhost:8080/algo/kde/'+val,                 
             //async: false,                 
             data: "",
             success: function(response) {
@@ -150,7 +150,7 @@
     function enviaDadosPython2(val){
         $.ajax({                 
             type: 'GET',                                  
-            url: 'http://10.20.3.181:8080/algo/ml/'+val,                 
+            url: 'http://localhost:8080/algo/ml/'+val,                 
             //async: false,                 
             data: "",
             success: function(response) {
@@ -170,7 +170,7 @@
     function pegaTipoViolencia(){
       $.ajax({                 
             type: 'GET',                                  
-            url: 'http://10.20.3.181:8080/violence/type/',                 
+            url: 'http://localhost:8080/violence/type/',                 
             //async: false,                 
             data: "",
             success: function(data) {
