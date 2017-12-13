@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"/>
-  <title>Mancha Criminal</title>
+  <title>Rio Heatmap</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index, follow"/>
   <meta name="description" content="This example shows a leaflet heatmap layer example for the heatmap.js leaflet plugin"/>
@@ -134,7 +134,7 @@
     function enviaDadosPython(val){
         $.ajax({                 
             type: 'GET',                                  
-            url: 'http://10.20.3.181:8080/algo/kde/'+val,                 
+            url: 'http://45.33.117.245:8080/algo/kde/'+val,                 
             //async: false,                 
             data: "",
             success: function(response) {
@@ -146,7 +146,7 @@
     function enviaDadosPython2(val){
         $.ajax({                 
             type: 'GET',                                  
-            url: 'http://10.20.3.181:8080/algo/ml/'+val,                 
+            url: 'http://45.33.117.245:8080/algo/ml/'+val,                 
             //async: false,                 
             data: "",
             success: function(response) {
@@ -166,7 +166,7 @@
     function pegaTipoViolencia(){
       $.ajax({                 
             type: 'GET',                                  
-            url: 'http://10.20.3.181:8080/violence/type/',                 
+            url: 'http://45.33.117.245:8080/violence/type/',                 
             //async: false,                 
             data: "",
             success: function(data) {

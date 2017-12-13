@@ -37,7 +37,7 @@
         
         $.ajax({                 
             type: 'GET',                                  
-            url: 'http://10.20.3.181:8080/violence/by/neighborhood',                 
+            url: 'http://45.33.117.245:8080/violence/by/neighborhood',                 
             //async: false,                 
             data: "",
             success: function(response) {
@@ -46,7 +46,7 @@
                 {
                   print(a[amount])
                 }
-              data = {
+                data = {
                   datasets: [{
                       data: [response['feminino'],response['masculino']],
                       backgroundColor: [
