@@ -21,7 +21,6 @@ import traceback
     Variables
 '''
 
-conn = psycopg2.connect("dbname='hackathon' user='postgres' host='localhost' password='123456'")
 twitterTrackings = ['AlertaAssaltoRJ','alertario24hrs','UNIDOSPORJPA','RJ_OTT','CaosNoRio','InformeRJO','OperacoesRio','AndeSeguroApp']
 
 
@@ -64,6 +63,7 @@ def insert_violence(db_conn,violence):
 
 def readLocality(locality_path = "./tweets/dataset/locality_ds.json" ):
     file = io.open(locality_path, "r")
+    print(file)
     text = file.read()
     locality_map = json.loads(text)
 
@@ -149,6 +149,7 @@ def readStreets(locality_ds,locality_path="./tweets/dataset/LinkedGeoData.csv"):
                 locality_ds[key]["latlong"] = [float(row[3]), float(row[4])]
             else:
                 locality_ds[key]["latlong"] = getLatLong(row[2].strip())
+    return locality_ds
 
 def stemmingArray_keep_original(words):
     stemmer = nltk.stem.RSLPStemmer()
@@ -181,7 +182,7 @@ def stemmingArray(words):
     return stemWords
 
 def getTypeViolence():
-    
+    conn = db_open()
     cur = conn.cursor()
     cur.execute("select name_search,id from type_violence");
     results = cur.fetchall()

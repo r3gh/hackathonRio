@@ -6,7 +6,7 @@ from tweets.src.transform_twitter import TransformTweets
 class TweetsGrabber:
 
   def __init__(self):
-    CrawlerTwitter()
+    #CrawlerTwitter()
     BuildLocalityDataset()
-    StreamTwitterGenerator()
-    TransformTweets()
+    #StreamTwitterGenerator()
+    #TransformTweets()
