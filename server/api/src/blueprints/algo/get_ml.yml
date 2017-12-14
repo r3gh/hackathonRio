@@ -4,4 +4,4 @@ tags:
   - Algoritmos 
 responses:
   200:
-    description: Reposta da execução do Algoritmo de Machine Learnning
+    description: Reposta da execucao do Algoritmo de Machine Learnning
