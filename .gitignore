@@ -27,3 +27,4 @@ venv.bak/
 
 tokens
 server/tweets/files/*.tweets
+server/tweets/files/*.json
