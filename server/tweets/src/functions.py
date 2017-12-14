@@ -214,7 +214,7 @@ class StreamTwitter(tweepy.StreamListener):
     
         stealKeywords = stemmingArray_keep_original(stemming_words)
         locality_map = readLocality()
-        print(tweet.text)
+        # print(tweet.text)
         
         words = stemmingArray(tweet.text.split(' '))
         for word in words:
