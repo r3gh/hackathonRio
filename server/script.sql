@@ -41,6 +41,5 @@ CREATE TABLE violence_data(
   sex varchar(40),
   source varchar(40),
   day_of_week varchar(40),
-  shift varchar(40),
-  unique(title)
+  shift varchar(40)
 );

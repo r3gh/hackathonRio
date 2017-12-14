@@ -17,7 +17,7 @@ class DataCrawler:
   def getJsonFromOndeFoiRoubado(self):
     http = urllib3.PoolManager()
     r = http.request('GET', 'http://www.ondefuiroubado.com.br/rio-de-janeiro/RJ');
-    htmlData = str(r.data.decode('utf8'))
+    htmlData = str(r.data.decode('utf-8'))
     idxStart = htmlData.find('OndeFuiRoubado.Views.CrimesIndexView.initialize')
     idxEnd = htmlData.find('OndeFuiRoubado.PoliceStations')
     htmlData = htmlData[idxStart:idxEnd]
@@ -33,6 +33,6 @@ class DataCrawler:
   def getJsonFromOnteTemTiro(self):
     http = urllib3.PoolManager()
     r = http.request('GET', 'https://www.googleapis.com/fusiontables/v1/query?sql=SELECT%20*%20FROM%201HaQhL95pS0XhFQcifZ6fzKifuCXVdFxl-caH0zDf&key=AIzaSyC1CNeSPJOm5mPzk3kTrXuHJgG5vJP9Tgo');
-    htmlData = str(r.data.decode('utf8'))
+    htmlData = str(r.data.decode('utf-8'))
     htmlData = htmlData.replace("\\n","#")
     return json.loads(htmlData)

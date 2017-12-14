@@ -16,7 +16,7 @@ def getData():
   dataCrawler.getData()
 
 tweetsGrabber = TweetsGrabber()
-tweetsGrabber.start()
+# tweetsGrabber.start()
 getData()
 
 app = create_app()
