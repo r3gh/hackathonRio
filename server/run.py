@@ -15,7 +15,8 @@ def getData():
   threading.Timer(120.0, getData).start()
   dataCrawler.getData()
 
-TweetsGrabber()
+tweetsGrabber = TweetsGrabber()
+tweetsGrabber.start()
 getData()
 
 app = create_app()

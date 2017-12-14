@@ -42,5 +42,5 @@ CREATE TABLE violence_data(
   source varchar(40),
   day_of_week varchar(40),
   shift varchar(40),
-  unique(event_data,source)
+  unique(title)
 );

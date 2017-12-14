@@ -193,14 +193,15 @@ def getTypeViolence():
 class StreamTwitter(tweepy.StreamListener):
 
     def on_status(self, tweet):
+        
         steal_words_syns = {
-        "tiroteio":["tiroteio", "tiro", "bomba", "baleado", "bala", "pipoco", "perdida", "disparo"],
-        "roubo": ["roubo","assalto","furto","carga","bater carteira","grupo", "tentativa","arrombamento"],
-        "arrastao":["arrastao"],
-        "sequestro":["sequestro"],        
-        "homicidio": ["homicidio","morte", "morreu", "assassinato"],
-        "outro": ["agressao","terror","trombadinha","pivete","suspeito","crime"]
-    }
+            "tiroteio":["tiroteio", "tiro", "bomba", "baleado", "bala", "pipoco", "perdida", "disparo"],
+            "roubo": ["roubo","assalto","furto","carga","bater carteira","grupo", "tentativa","arrombamento"],
+            "arrastao":["arrastao"],
+            "sequestro":["sequestro"],        
+            "homicidio": ["homicidio","morte", "morreu", "assassinato"],
+            "outro": ["agressao","terror","trombadinha","pivete","suspeito","crime"]
+        }
 
         
         results = {}
@@ -223,7 +224,6 @@ class StreamTwitter(tweepy.StreamListener):
                 #print(tweet.text)
                 for locality in locality_map:
                     if(comparelocality(locality_map[locality]["name"], tweet.text)):
-                        
                         woriginal = norm(stealKeywords[word])
                         violence_type = reverse_map[woriginal]
                         stemmer = nltk.stem.RSLPStemmer()
