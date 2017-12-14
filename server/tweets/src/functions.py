@@ -89,8 +89,7 @@ def getLatLong(address):
         print (convertedAdress + " " + str([lat,lon]))
         return [lat,lon]
     except:
-        traceback.print_exc()
-        print ("### ERROR : " + address.decode('utf-8'))
+        print ("### ERROR ##")
         return None
 
 
