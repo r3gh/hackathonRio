@@ -1,13 +1,13 @@
-Retorna uma lista com todas ocorrências, filtrando por um tipo de violência
+Retorna uma lista com todas ocorrencias, filtrando por um tipo de violencia
 ---
 tags:
-  - Ocorrências 
+  - Ocorrencias 
 parameters:
   - name: type
     in: path
     type: integer
     required: true
-    description: tipo de violência
+    description: tipo de violencia
 responses:
   200:
-    description: Uma lista de ocorrências
+    description: Uma lista de ocorrencias

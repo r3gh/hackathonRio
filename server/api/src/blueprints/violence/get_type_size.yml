@@ -1,4 +1,4 @@
-Realiza uma requisição na tabela de ocorrências e retorna uma quantidade, além disso, filtrando por um tipo. 
+Realiza uma requisicao na tabela de ocorrencias e retorna uma quantidade, alem disso, filtrando por um tipo. 
 ---
 tags:
   - Ocorrências
@@ -7,12 +7,12 @@ parameters:
     in: path
     type: integer
     required: true
-    description: quantidade à ser retornado
+    description: quantidade a ser retornado
   - name: type
     in: path
     type: integer
     required: true
-    description: tipo de violência
+    description: tipo de violencia
 responses:
   200:
-    description: Uma lista de ocorrências de acordo com uma quantidade
+    description: Uma lista de ocorrencias de acordo com uma quantidade

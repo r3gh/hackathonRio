@@ -1,13 +1,13 @@
-Realiza uma requisição na tabela de ocorrências e retorna uma quantidade
+Realiza uma requisição na tabela de ocorrencias e retorna uma quantidade
 ---
 tags:
-  - Ocorrências
+  - Ocorrencias
 parameters:
   - name: quantidade
     in: path
     type: integer
     required: true
-    description: quantidade à ser retornado
+    description: quantidade a ser retornado
 responses:
   200:
-    description: Uma lista de ocorrências de acordo com uma quantidade
+    description: Uma lista de ocorrencias de acordo com uma quantidade

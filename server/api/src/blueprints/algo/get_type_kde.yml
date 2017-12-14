@@ -10,4 +10,4 @@ parameters:
     description: tipo de crime
 responses:
   200:
-    description: Reposta da execução do KDE
+    description: Reposta da execucao do KDE

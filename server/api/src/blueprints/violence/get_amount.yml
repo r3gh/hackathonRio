@@ -1,7 +1,7 @@
-Retorna o quanto foi o prejuízo até o momento
+Retorna o quanto foi o prejuizo ate o momento
 ---
 tags:
-  - Métricas
+  - Metricas
 responses:
   200:
-    description: Prejuízo até a presente data.
+    description: Prejuizo ate a presente data.

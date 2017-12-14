@@ -1,7 +1,7 @@
-Retorna uma lista com todas ocorrências 
+Retorna uma lista com todas ocorrencias 
 ---
 tags:
-  - Ocorrências 
+  - Ocorrencias 
 responses:
   200:
-    description: Uma lista de ocorrências
+    description: Uma lista de ocorrencias
