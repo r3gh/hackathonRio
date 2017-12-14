@@ -1,7 +1,7 @@
 Realiza uma requisicao na tabela de ocorrencias e retorna uma quantidade, alem disso, filtrando por um tipo. 
 ---
 tags:
-  - Ocorrências
+  - Ocorrencias
 parameters:
   - name: quantidade
     in: path
